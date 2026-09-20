@@ -1550,8 +1550,6 @@ i.e. it breaks the initiative order in the round.
 | Drive | Vehicle | Mobility |
 | Use item | Varies | Varies |
 
->>>
-
 # MOVEMENT
 
 To move during combat, you can spend a fast action to move
@@ -1560,8 +1558,7 @@ Engaged range from an enemy or PC in the same zone you
 are already in. No roll is required to move, unless it’s into a
 Cluttered zone.
 
-CRAWLING: Moving while prone, i.e. crawling, is a slow ac-
-tion. That means you can’t crawl twice in the same round. In a
+CRAWLING: Moving while prone, i.e. crawling, is a slow action. That means you can’t crawl twice in the same round. In a
 Cramped zone, crawling is the only movement possible.
 
 CLOSE COMBAT: If you have an active enemy at Engaged
@@ -1569,8 +1566,7 @@ range, you can’t just walk away from them. Instead, you must
 retreat (page 17).
 
 DOORS & HATCHES: You can open an unlocked door or
-hatch with a fast action. A locked door or hatch can be bro-
-ken down. A typical wooden door or hatch can take 5 points
+hatch with a fast action. A locked door or hatch can be broken down. A typical wooden door or hatch can take 5 points
 of damage before it gives in. More sturdy doors require more
 force, and also have an armor rating (page 21).
 
@@ -1580,7 +1576,8 @@ managed differently. See page 27.
 VEHICLES: Movement for vehicles is handled with special
 rules. Read more on page 26.
 
-RETREAT
+## RETREAT
+
 If you have an active enemy at Engaged range and there is
 no barrier between you, you must make a Mobility roll to
 move away from your adversary. If you fail, you still move
@@ -1589,7 +1586,8 @@ against you. The free attack occurs out of turn order and it
 doesn’t count toward their actions in the round. You cannot
 block it.
 
-AMBUSHES & SNEAK ATTACKS
+# AMBUSHES & SNEAK ATTACKS
+
 The key to winning a conflict is often attacking when your enemy
 least expects it. You can achieve this in several different ways.
 
@@ -1613,7 +1611,8 @@ with a −2 modifier if the attackers are well prepared. All those
 who fail get the bottom cards (counting from #10 and up),
 randomly drawn.
 
-CLOSE COMBAT
+# CLOSE COMBAT
+
 When you attack in close combat, use the Melee skill. Close
 combat happens at Engaged range from your target. There
 can be no barrier between you and your target. If there is, you
@@ -1632,18 +1631,16 @@ DEFENSELESS TARGET: If you attack a defenseless or unaware
 target, you get a +3 modifier. This is not further increased if
 the target is prone.
 
-SPECIAL ATTACKS
+## SPECIAL ATTACKS
+
 In close combat, you might want to achieve a different result
 than simply hurting your opponent. This must be declared
 before you roll any dice, and it can only be done if you fight
 unarmed.
- ✦ You wrestle a hand-held item from your opponent’s grasp.
-You can keep the item or throw it into an adjacent zone as
-part of the attack.
-
- ✦ You trip your opponent to the ground.
- ✦ You push your opponent to Short range.
- ✦ You pin your enemy in a tight clinch. See Grappling, below.
+- ✦ You wrestle a hand-held item from your opponent’s grasp. You can keep the item or throw it into an adjacent zone as part of the attack.
+- ✦ You trip your opponent to the ground.
+- ✦ You push your opponent to Short range.
+- ✦ You pin your enemy in a tight clinch. See Grappling, below.
 
 GRAPPLING: If you successfully grapple your opponent, both
 you and your opponent fall to the ground. The opponent
@@ -1651,25 +1648,21 @@ drops any weapon they were holding, and cannot move. The
 only action they can perform is an attempt to break free –
 which is a slow action that succeeds if the opponent wins an
 opposed Melee roll against you. While you are grappling, the
-only action you can perform (apart from releasing your op-
-ponent) is a grapple attack. This works as a normal unarmed
+only action you can perform (apart from releasing your opponent) is a grapple attack. This works as a normal unarmed
 attack, but is a fast action and cannot be blocked.
 
 DIVING BLOW: If you, in a single round, first move into
-Engaged range of an enemy and then attack them with an un-
-armed blow, you get a +2 modifier to the attack. This is called
+Engaged range of an enemy and then attack them with an unarmed blow, you get a +2 modifier to the attack. This is called
 a diving blow. If the attack hits, you inflict damage normally,
 and both you and the target fall prone. If the attack fails, only
 you fall to the ground.
 
-17
+## BLOCKING
 
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0BLOCKING
 When an enemy attacks you in close combat, you can roll for
 Melee to block their attack to avoid being hit. This is a fast
 action. You must declare that you are attempting to block the
-attack before the attacker rolls for their strike. This effective-
-ly turns the attack into an opposed roll (page 11). Every
+attack before the attacker rolls for their strike. This effectively turns the attack into an opposed roll (page 11). Every
 success you roll eliminates one from the attacker’s roll. Excess
 successes have no effect.
 
@@ -1687,32 +1680,20 @@ further attacks. All actions are refreshed at the beginning of
 each new round. You can save unused actions to block later in
 the round, but never from one round to the next.
 
-C LOS E COMB AT MODIFIERS
+### CLOSE COMBAT MODIFIERS
 
-FACTOR
 
-MODIFIER
+|FACTOR|MODIFIER|
+|---|---|
+|Attacker prone|−2|
+|Target prone|+2|
+|Defenseless target|+3|
+|Diving blow|+2|
 
-Attacker prone
+# RANGED COMBAT
 
-Target prone
-
-Defenseless target
-
-Diving blow
-
-−2
-
-+2
-
-+3
-
-+2
-
-RANGED COMBAT
 To attack someone with a hand-held ranged weapon, roll for
-Marksmanship, except for thrown weapons, which use Mobil-
-ity. To draw a weapon is a fast action, while firing a weapon is
+Marksmanship, except for thrown weapons, which use Mobility. To draw a weapon is a fast action, while firing a weapon is
 a slow action.
 
 DAMAGE: If your attack succeeds, you hit your target and
@@ -1748,62 +1729,32 @@ you can aim as a slow action and get a further +1 bonus (for
 a total of +3). Note that you cannot slow aim and fire in the
 same round.
 
-RANGED FIRE MODIFIERS
+| RANGED FIRE MODIFIERS ||
+| --- | --- |
+| **FACTOR** | **MODIFIER** |
+| Aimed shot | +2 |
+| Target Engaged | -2/+3 |
+| Short range | − |
+| Medium range| −1 |
+| Medium range | −1 |
+| Long range | −2 |
+| Extreme range | −3 |
+| Large target | +2 |
+| Small target | −2 |
+| Dim light | −1 |
+| Darkness | −2 |
 
-FACTOR
+## AMMUNITION
 
-MODIFIER
-
-Aimed shot
-
-+2
-
-Target Engaged
-
-−3/+3
-
-Short range
-
-Medium range
-
-Long range
-
-Extreme range
-
-Large target
-
-Small target
-
-Dim light
-
-Darkness
-
-—
-
-−1
-
-−2
-
-−3
-
-+2
-
-−2
-
-−1
-
-−2
-
-AMMUNITION
 Ammunition for firearms can be handled in different ways,
 depending on the technological level of the game setting and
-level of complexity you want in your game. You can count ev-
-ery bullet, handle ammunition via supply rolls (page 7), or
+level of complexity you want in your game. You can count every bullet, handle ammunition via supply rolls (page 7), or
 use the more extensive ammo dice system (see the sidebar on
 page 19). Simple single-shot weapons need to be reloaded
 after each shot. Reloading a firearm is a slow action.
 
-BOWS & SLINGSHOTS
+## BOWS & SLINGSHOTS
+
 Bows and slingshots cannot be “reloaded” as such – instead,
 you need to spend a fast action to prepare the weapon by
 nocking an arrow or placing a stone in your sling. Once you
@@ -1813,10 +1764,8 @@ weapon again before you can shoot. Crossbows don’t need to
 be prepared in this manner. They can be carried loaded as a
 firearm, and loading it is a slow action.
 
-18
+## FULL-AUTO FIRE
 
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0
-FULL-AUTO FIRE
 Some weapons are capable of full automatic fire. The rules to use
 for this, or even whether to have specific rules for it at all, depend
 on the level of complexity you want. A basic version follows
@@ -1829,59 +1778,41 @@ hit again, you may make a third attack. Even if this also hits,
 you don’t get more attacks. After all attacks are resolved, you
 must make a supply roll (page 7) for ammunition.
 
-AMMO DIC E
+```
+AMMO DICE
 
 If you want more detail and complexity for managing firearms,
-
 you can use the ammo dice system. Ammo dice are always D6s,
-
 and should have a separate color from base dice. In this system,
-
 all firearms have a rate of fire (RoF) rating, from 2 for a typical
-
 pistol to 5 or 6 for full-auto weapons.
 
 You can add as many ammo dice to your attack as you like,
-
 from zero up to RoF or the number of rounds left in the magazine
-
 minus one, whichever is lower. For example, if you have three
-
 rounds left, you can add up to two ammo dice. If you have only
-
 one round left, you cannot add any ammo dice to our roll. In this
-
 case, or if you choose to use no ammo dice, only one (1) round of
-
 ammunition is used in the attack.
 
 Rolling a 6 on an ammo die is a success just like with a D6
-
 base die, but successes on ammo dice do not contribute to hitting
-
 your target. Instead, if your attack hits (checking only the base
-
 dice), each success your ammo dice can be used to either in-
-
 crease the damage by one step or to trigger an additional hit on
-
 the same target or on a secondary target in the same zone. Each
-
 additional hit inflicts base damage and the damage is increased
-
 by one for each further success you spend on it.
 
 After your roll, you sum up the D6 digits on all of your ammo
-
 dice, then add one (1) to the result. This sum is the total amount
-
 of ammunition you have spent on the attack. If the sum on your
-
 ammo dice is equal to or more than the number of rounds you
-
 have left in the magazine, your magazine is completely emptied.
+```
 
-OVERWATCH
+## OVERWATCH
+
 As a fast action, you can assume an overwatch position in a specified
 direction, as long as you have a ranged weapon and no enemies
 within Engaged range. This means that you aim in the specified
@@ -1891,26 +1822,24 @@ fire your weapon against a target in the chosen direction.
 
 You can fire whenever you want in the turn order, and
 your shot is resolved before all other actions – even if they
-are already declared. For example, if an enemy in the direc-
-tion you are aiming declares that they want to fire a weapon,
+are already declared. For example, if an enemy in the direction you are aiming declares that they want to fire a weapon,
 you can shoot first. The enemy is not allowed to change their
 attack after your overwatch attack.
 
 Firing when in overwatch position counts as a normal
-attack (a slow action). Therefore, you must save your slow ac-
-tion in the round for any overwatch attack you want to make.
+attack (a slow action). Therefore, you must save your slow action in the round for any overwatch attack you want to make.
 If both you and an enemy assume overwatch positions
 against each other, and both choose to fire against each other,
 then an opposed Marksmanship roll determines which attack
 goes first. This roll does not count as an action for either of you.
 
-LOSING OVERWATCH: You keep your overwatch position
-until you break it, or any of the following occurs:
- ✦ You perform any action other than overwatch fire.
- ✦ You are attacked in close combat.
- ✦ You suffer damage.
+LOSING OVERWATCH: You keep your overwatch position until you break it, or any of the following occurs:
+- ✦ You perform any action other than overwatch fire.
+- ✦ You are attacked in close combat.
+- ✦ You suffer damage.
 
-WEAPONS
+# WEAPONS
+
 Using a weapon will greatly improve your effectiveness in
 combat. The table below describes a few typical weapons of
 various types. Which exact weapons to include in your game
@@ -1928,8 +1857,7 @@ rolls (page 9). If the bonus is reduced to zero, the weapon
 breaks and needs to be repaired using the Crafting skill.
 
 DAMAGE: Indicates your base damage rating, i.e. how many
-points of damage your opponent suffers if your attack is suc-
-cessful. If you roll extra successes, you deal additional damage.
+points of damage your opponent suffers if your attack is successful. If you roll extra successes, you deal additional damage.
 
 RANGE: Indicates the maximum range category at which the
 weapon can be used.
@@ -1937,185 +1865,34 @@ weapon can be used.
 WEIGHT: Indicates how many regular items the weapon
 counts as in the inventory list.
 
-OTH ER RATING S
+```
+OTHER RATINGS
 
 In some YZE games, weapons have additional ratings. Examples
-
 are listed below:
- ✦ CRIT THRESHOLD: If you inflict damage equal to or in excess of
-the Crit threshold in a single attack, you inflict a critical injury
+ ✦ CRIT THRESHOLD: If you inflict damage equal to or in excess of the Crit threshold in a single attack, you inflict a critical injury (page 21) on the target, even if they are not broken by the damage.
+ ✦ CRIT DIE: In some YZE systems, the weapon indicates which die roll to roll to determine which critical injury is inflicted.
+ ✦ RATE OF FIRE: This rating is used for the ammo dice rules for firearms (page 19).
+```
+
+|WEAPONS||||||
+|---|---|---|---|---|---|
+|WEAPON|GRIP|BONUS|DAMAGE|RANGE|WEIGHT|
+|Unarmed|—|—|1|Engaged|—|
+|Blunt instrument|1H|+1|1|Engaged|1|
+|Knife|1H|+1|2|Engaged|½|
+|Club|1H|+2|1|Engaged|1|
+|Sword|1H|+2|2|Engaged|1|
+|Battleaxe|2H|+2|3|Engaged|2|
+|Spear|1H|+1|2|Short|1|
+|Rock|1H|—|1|Medium|¼|
+|Sling|1H|+1|1|Medium|½|
+|Bow|2H|+1|1|Long|1|
+|Pistol|1H|+2|2|Medium|½|
+|Rifle|2H|+2|2|Long|1|
+
+# DAMAGE & STRESS
 
-(page 21) on the target, even if they are not broken by the
-
-damage.
-
- ✦ CRIT DIE: In some YZE systems, the weapon indicates which
-die roll to roll to determine which critical injury is inflicted.
- ✦ RATE OF FIRE: This rating is used for the ammo dice rules for
-
-firearms (page 19).
-
-19
-
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0WEAP ON S
-
-WEAPON
-
-Unarmed
-
-Blunt instrument
-
-Knife
-
-Club
-
-Sword
-
-Battleaxe
-
-Spear
-
-Rock
-
-Sling
-
-Bow
-
-Pistol
-
-Rifle
-
-GRIP
-
-BONUS
-
-DAMAGE
-
-—
-
-1H
-
-1H
-
-1H
-
-1H
-
-2H
-
-1H
-
-1H
-
-1H
-
-2H
-
-1H
-
-2H
-
-—
-
-+1
-
-+1
-
-+2
-
-+2
-
-+2
-
-+1
-
-—
-
-+1
-
-+1
-
-+2
-
-+2
-
-1
-
-1
-
-2
-
-1
-
-2
-
-3
-
-2
-
-1
-
-1
-
-1
-
-2
-
-2
-
-RANGE
-
-Engaged
-
-Engaged
-
-Engaged
-
-Engaged
-
-Engaged
-
-Engaged
-
-Short
-
-Medium
-
-Medium
-
-Long
-
-Medium
-
-Long
-
-WEIGHT
-
-—
-
-1
-
-½
-
-1
-
-1
-
-2
-
-1
-
-¼
-
-½
-
-1
-
-½
-
-1
-
-DAMAGE & STRESS
 Damage and stress to characters is managed differently in
 different versions of the YZE. It can reduce your Health and
 Resolve scores, directly reduce your attributes, or give you
@@ -2124,90 +1901,38 @@ conditions (page 21).
 SUFFERING DAMAGE & STRESS
 You can suffer damage in many ways. These are the most
 common:
- ✦ PUSHING: How pushing rolls can inflict damage and stress
+- ✦ PUSHING: How pushing rolls can inflict damage and stress is described on page 9. Armor has no effect against damage from pushing.
+- ✦ ATTACKS: Whenever you attack someone in combat, you inflict damage equal to the base damage rating of the
+weapon, plus one additional point of damage for each extra success rolled beyond the first. The same goes for damage from explosions, fire, etc.
+- ✦ STRESSFUL SITUATIONS: When your PC is subjected to fear or a stressful situation, the GM determines the potential stress inflicted (see the table on page 20). You then make an Insight roll (not an action) – each success rolled eliminates one point of potential stress. You can push the roll, but at the risk of suffering even more stress if you get any on the re-roll.
 
-is described on page 9. Armor has no effect against
-damage from pushing.
+```
+ATTRIBUTE DAMAGE
 
- ✦ ATTACKS: Whenever you attack someone in combat, you
-inflict damage equal to the base damage rating of the
-weapon, plus one additional point of damage for each
-extra success rolled beyond the first. The same goes for
-damage from explosions, fire, etc.
+In some YZE games, damage is inflicted directly on your core attributes. When pushing a roll, you suffer damage to the attribute rolled for. Only base dice from the attribute count, not from skills.
 
- ✦ STRESSFUL SITUATIONS: When your PC is subjected to fear
-or a stressful situation, the GM determines the potential stress
-inflicted (see the table on page 20). You then make an In-
-sight roll (not an action) – each success rolled eliminates one
-point of potential stress. You can push the roll, but at the risk
-of suffering even more stress if you get any on the re-roll.
+Physical attacks typically reduce your Strength, but some phenomena can target the other attributes as well. In a game using attribute damage, “damage” means damage to Strength unless otherwise specified.
 
-AT TR IB UT E DAMAGE
+Games with attribute damage don’t use the term “stress” – instead, stressful situations inflict damage to your Wits.
+```
 
-In some YZE games, damage is inflicted directly on your core at-
+|STRESSFUL SITUATIONS||
+|---|---|
+| FACTOR  | STRESS |
+| Being threatened with violence | 1 |
+| Seeing a friendly character suffer a lethal critical injury | 1 |
+| Seeing something unnatural | 1 |
+| Seeing a friendly character die  | 2 |
+| Being interrogated| 2 |
+| Facing a frightening supernatural being | 2 |
+| Witnessing a massacre | 3 |
+| Being tortured| 3 |
+| Witnessing a horrible supernatural event | 3 |
 
-tributes. When pushing a roll, you suffer damage to the attribute
+## BODY ARMOR
 
-rolled for. Only base dice from the attribute count, not from skills.
-
-Physical attacks typically reduce your Strength, but some
-
-phenomena can target the other attributes as well. In a game
-
-using attribute damage, “damage” means damage to Strength
-
-unless otherwise specified.
-
-Games with attribute damage don’t use the term “stress” –
-
-instead, stressful situations inflict damage to your Wits.
-
-STRE SSFUL SITUATIONS
-
-FACTOR
-
-Being threatened with violence
-
-Seeing a friendly character suffer a lethal critical injury
-
-Seeing something unnatural
-
-Seeing a friendly character die
-
-Being interrogated
-
-Facing a frightening supernatural being
-
-Witnessing a massacre
-
-Being tortured
-
-Witnessing a horrible supernatural event
-
-STRESS
-
-1
-
-1
-
-1
-
-2
-
-2
-
-2
-
-3
-
-3
-
-3
-
-BODY ARMOR
 Body armor can protect you from damage. Armor doesn’t
-provide protection from other kinds of damage, or from dam-
-age you inflict on yourself when you push a roll. The effect of
+provide protection from other kinds of damage, or from damage you inflict on yourself when you push a roll. The effect of
 armor is determined by its armor rating. In a dice pool YZE
 game, this is a numerical value. In a step dice system, this is a
 rating from A to D just like attributes and skills (page 5).
@@ -2224,9 +1949,8 @@ the armor rating by one step. If the armor absorbs all the dam-
 age, any banes rolled have no effect. Armor can be repaired by
 using the Crafting skill.
 
-20
+## COVER
 
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0COVER
 When enemies are shooting at you, hunkering down behind
 cover – preferably something solid – can save your life. Taking
 cover in the zone you’re in counts as a fast action. Cover has an
@@ -2234,33 +1958,22 @@ armor rating and works exactly like armor – but only against
 ranged attacks. Cover can be degraded just like armor. Cover
 can be combined with armor – roll for cover first, then armor.
 
-C OVER
-
+>>> COVER
 BARRIER
-
 Furniture
-
 Wooden Door
-
 Tree Trunk
-
 Wooden Wall
-
 Stone Wall
-
 ARMOR RATING
-
 3/D
-
 4/C
-
 5/C
-
 6/B
-
 8/A
 
-CONDITIONS
+# CONDITIONS
+
 Some YZE games manage damage and trauma via conditions.
 Typically, these are divided into the three physical conditions
 and three mental conditions:
