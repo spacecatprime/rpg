@@ -178,12 +178,12 @@ Your attributes determine how much damage and stress you can take before being b
 ##### VARIATIONS
 
 There are other ways to manage damage and trauma within the Year Zero Engine, which don’t require Health or Resolve scores at all. Two variants are described below: ✦ **JUST HEALTH:** Some YZE games have only a Health rating, not Resolve. ✦ **ATTRIBUTE DAMAGE:** You suffer damage directly on your attributes, reducing your effectiveness. You are broken if
+any attribute is reduced to zero. ✦ **CONDITIONS:** Each point of damage gives you a condition
 
 |SKILL LEVEL|DIE TYPE|DIE SIZE|DESCRIPTION|
 |---|---|---|---|
 |A|D12|12|Elite|
 
-any attribute is reduced to zero. ✦ **CONDITIONS:** Each point of damage gives you a condition
 
 |B|D10|10|Veteran|
 |---|---|---|---|
