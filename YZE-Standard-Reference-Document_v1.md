@@ -8,8 +8,9 @@ You should read the FTL and understand its terms before using this material.
 
 Not for resale. Permission granted to print or photocopy this document for personal use only. Standard Reference Document v1.0
 
->>><<<
+```
 https://www.tablesgenerator.com/markdown_tables
+```
 
 # CONTENTS
 
@@ -19,6 +20,12 @@ https://www.tablesgenerator.com/markdown_tables
 4. COMBAT & DAMAGE
 5. MAGIC
 6. TRAVEL
+
+<style>
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+</style>
 
 # [1] INTRODUCTION
 
@@ -711,8 +718,6 @@ CUSTOM DICE
 Several YZE games have sets of custom dice available. These often have special symbols on the 1 and 6 sides, to make it easier to identify successes and banes.
 ```
 
->>>
-
 ## DIFFERENT COLORS
 
 Whether a certain die you have rolled originates from your
@@ -832,7 +837,7 @@ push the roll.
 You can only push a skill roll once. If you don’t succeed on
 your second try, you are stuck dealing with the consequences.
 
-```
+```text
 WHAT PUSHING MEANS
 
 How a pushed roll plays out in story terms depends on what skill you are using. It can take the form of a great physical exertion, total mental focus, or emotional strain.
@@ -893,35 +898,16 @@ sometimes, the GM might want to underscore that external
 factors either help or hinder an action. Use the adjacent table
 for guidance.
 
-DIFFICULTY MODIFIER
 
-Trivial
-
-Simple
-
-Easy
-
-Average
-
-Demanding
-
-Hard
-
-Formidable
-
-+3
-
-+2
-
-+1
-
-  0
-
-−1
-
-−2
-
-−3
+| DIFFICULTY  |  MODIFIER | 
+| :---        |  :---     |
+| Trivial     | +3        |
+| Simple | +2  |
+| Easy  | +1  |
+| Average | 0|
+| Demanding | −1  |
+| Hard  | −2 |
+| Formidable  | −3 |
 
 SPECIFIC MODIFIERS: There are also cases when modifications
 are imposed by the rules, like when you aim carefully with a
@@ -930,7 +916,7 @@ negotiation position when you attempt to Persuade someone.
 Some specialties also give you a positive modifier in certain
 situations.
 
- ADVANTAGE/DISADVANTAGE
+## ADVANTAGE/DISADVANTAGE
 
 In the step dice version of YZE, you can use an advantage/
 disadvantage rule instead of numerical modifiers to a skill roll.
@@ -959,11 +945,11 @@ as per above, you can never roll for more than one advantage
 or disadvantage – if you have several, it still counts as just a
 single one.
 
-HELP FROM OTHERS
+# HELP FROM OTHERS
+
 Other PCs or NPCs can help you succeed at a skill roll. This
 must be declared before you roll your dice. It must also make
-sense in the story – the individuals helping you must be phys-
-ically present and have the capacity to support your action.
+sense in the story – the individuals helping you must be physically present and have the capacity to support your action.
 The GM has final say.
 
 For each person helping you, you get a +1 modifier.
@@ -972,12 +958,10 @@ meaning your maximum modifier from getting help is +3. In
 combat, helping counts as the same type of action as the one
 you are supporting (fast or slow).
 
-NPCs can help each other in the same way as player char-
+NPCs can help each other in the same way as player char acters. Letting NPCs act in groups instead of individually is often an easy way to manage large numbers of NPCs in combat.
 
-acters. Letting NPCs act in groups instead of individually is of-
-ten an easy way to manage large numbers of NPCs in combat.
+## OPPOSED ROLLS
 
-OPPOSED ROLLS
 Sometimes, rolling a success isn’t enough to succeed with your
 skill roll. In some cases, you must beat your opponent in an
 opposed roll. To win an opposed roll, you must roll more
@@ -987,14 +971,12 @@ active party) can push your roll – and you can decide to do so
 even after your opponent rolls.
 
 Sometimes you and your adversary roll for different skills,
-
 sometimes the same. Opposed can be used when you roll
 Persuasion versus Insight to influence someone who is actively
 trying to resist you, or Stealth versus Observation to move
 undetected past a vigilant guard.
 
 The GM can also use opposed rolls in any case when they
-
 deem it appropriate.
 
 TIES: If you and your opponent roll the same number of suc-
@@ -1003,33 +985,21 @@ roll a tie as the active party in an opposed roll, but in some
 cases, ties have specific effects. If a tie needs to be broken, re-
 roll the opposed roll to determine the outcome.
 
-NPC S AND SKILLS
+```
+NPCS AND SKILLS
 
-Non-Player Characters use skills in the same way as player
+Non-Player Characters use skills in the same way as player characters. The GM rolls dice for them, and they can push their rolls just like PCs can. But the GM only has to roll for actions that affect a PC directly – for example, if the NPC is attacking a player character or is attempting to save them. When an NPC performs an action that does not directly affect a PC, the GM can simply decide what happens, without rolling dice.
+```
 
-characters. The GM rolls dice for them, and they can push their
+# GEAR
 
-rolls just like PCs can. But the GM only has to roll for actions
-
-that affect a PC directly – for example, if the NPC is attacking a
-
-player character or is attempting to save them. When an NPC
-
-performs an action that does not directly affect a PC, the GM can
-
-simply decide what happens, without rolling dice.
-
-GEAR
 Gear can take many different forms depending on the setting
 of the game, and often includes weapons. Some example
 weapons are listed on page 20. Useful gear can give you a
 positive modifier to skill rolls. This is called a gear bonus. Not
 all YZE games have this.
 
-11
-
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0
-DEGRADING GEAR BONUS
+## DEGRADING GEAR BONUS (DICE POOL)
 
 In dice pool YZE games with attribute damage (page 20),
 the gear bonus works like an attribute for the gear, and can
@@ -1040,7 +1010,7 @@ anymore. If the gear bonus reaches zero, the item is broken
 and cannot be used. The gear bonus of an item can be reduced
 by external damage as well.
 
- GEAR RELIABILITY
+## GEAR RELIABILITY (STEP DICE)
 
 In step dice YZE games, gear can have reliability ratings. Each
 point of damage from pushing rolls or outside force reduces
@@ -1049,7 +1019,8 @@ broken and can no longer be used. A typical piece of sturdy,
 mechanical gear in good condition has a reliability rating of 5,
 but delicate or badly built gear can start with a lower rating.
 
-REPAIRING GEAR
+## REPAIRING GEAR
+
 Damaged gear can be repaired. It takes a Shift of work and
 a successful Crafting skill roll. If the roll is successful, the
 gear bonus / reliability is recovered by one point for every
@@ -1060,15 +1031,15 @@ the attempt at repair fails, the item is permanently destroyed.
 Some items can require specialized tools, spare parts, or spe-
 cialties to repair.
 
-ARTIFACT DICE
+## ARTIFACT DICE (DICE POOL)
 
 You can use polyhedral dice even in a dice pool YZE game, as
 artifact dice from especially powerful or magical items. Such
 items are divided into three categories, depending on the type
 of dice they give:
- ✦ D8: Mighty
- ✦ D10: Epic
- ✦ D12: Legendary
+ - ✦ D8: Mighty
+ - ✦ D10: Epic
+ - ✦ D12: Legendary
 
 Artifact dice are added to your pool, and any result of 6 or
 higher counts as a success. Results of 10 or higher counts as
@@ -1076,44 +1047,60 @@ two successes. Artifact dice are never lost due to wear, but
 an item with artifact dice is still unusable if its gear bonus is
 reduced to zero.
 
-MELEE (STRENGTH)
+# THE SKILLS
+
+This section describes the twelve core skills of the Year Zero
+Engine.
+
+## FORCE (STRENGTH)
+When something heavy or solid blocks your way and you need
+to lift, push, or break it, roll for Force. Use this skill for any
+feat of strength.
+
+## MELEE (STRENGTH)
+
 Sometimes, you need to fight for your life, hand-to-hand with
 your opponent. Roll for this skill when you attack someone
 or defend yourself using only your body or a melee weapon.
 Read more about close combat and damage in Chapter 4.
 
-STAMINA (STRENGTH)
+## STAMINA (STRENGTH)
+
 When your physical endurance or vigor is tested, roll for
 Stamina. For example, this skill is used to survive under water
 or to resist a deadly poison. You also roll Stamina to stay alive
 when you have suffered a lethal critical injury.
 
-MARKSMANSHIP (AGILITY)
+## MARKSMANSHIP (AGILITY)
+
 Use the Marksmanship skill to fire all types of range weapons.
 Read more about ranged combat in Chapter 4.
 
-MOBILITY (AGILITY)
+## MOBILITY (AGILITY)
+
 Roll for Mobility when you want to perform any action that
 requires speed or motor control – be it a risky climb, a danger-
 ous jump, or a foot chase after a fleeing enemy (page 27).
 
-STEALTH (AGILITY)
+## STEALTH (AGILITY)
+
 Roll for Stealth when trying to sneak past someone, staying
 undetected, or picking someone’s pocket. If your opponent
 is actively looking for you, it’s an opposed roll against their
 Observation. If not, it’s just a straight skill roll. Each of the
 following external factors gives you a +1 modifier to the roll:
- ✦ You blend into your surroundings.
- ✦ The area is dark or dimly lit.
- ✦ The area is crowded or noisy.
- ✦ Your opponent is distracted by something.
+- ✦ You blend into your surroundings.
+- ✦ The area is dark or dimly lit.
+- ✦ The area is crowded or noisy.
+- ✦ Your opponent is distracted by something.
 
 Each of the following factors gives you a −1 modifier to the
 roll:
- ✦ You stand out against the surroundings.
- ✦ There is nothing to hide behind.
+- ✦ You stand out against the surroundings.
+- ✦ There is nothing to hide behind.
 
-CRAFTING (WITS)
+## CRAFTING (WITS)
+
 The Crafting skill is primarily used to repair broken gear or
 building new items, but it can also be used to understand or
 operate mechanical constructions. Repairing a broken item
@@ -1121,16 +1108,8 @@ typically takes a shift of work (see Gear on page 11). The
 exact uses of this skill vary depending on the specific game
 setting.
 
-THE SKILLS
-This section describes the twelve core skills of the Year Zero
-Engine.
+## OBSERVATION (WITS)
 
-FORCE (STRENGTH)
-When something heavy or solid blocks your way and you need
-to lift, push, or break it, roll for Force. Use this skill for any
-feat of strength.
-
-OBSERVATION (WITS)
 The Observation skill can be used to examine an area to find
 useful information or to spot something or someone from a
 distance. When the GM calls for it, you can make a passive
@@ -1139,37 +1118,33 @@ examining an area, the GM can give you a positive modifier if
 your description of where you are searching is very precise, or
 even let you succeed without a roll.
 
-12
+## SURVIVAL (WITS)
 
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0
-SURVIVAL (WITS)
 Year Zero Engine games often take place in harsh and danger-
 ous environments. Roll for Survival when you’re in a hazard-
 ous environment of some kind, be it extreme heat and cold,
 sandstorms, acid rain, or other forms of extreme weather, and
 need to figure out a way to stay alive. Read more in Chapter 6.
 
-HEALING (EMPATHY)
-In many YZE games, your PC risks getting hurt. This is when
-the Healing skill is useful. It can be used to get a broken char-
-acter back on their feet, or even save their life if they suffered
-a critical injury. Read more on page 22.
+## HEALING (EMPATHY)
 
-INSIGHT (EMPATHY)
+In many YZE games, your PC risks getting hurt. This is when
+the Healing skill is useful. It can be used to get a broken character back on their feet, or even save their life if they suffered a critical injury. Read more on page 22.
+
+## INSIGHT (EMPATHY)
+
 This skill represents the ability to read other people and see
 through lies. Roll for Insight to assess an NPC’s mood. If you
-succeed, the GM must reveal the NPC’s current, most power-
-ful emotion – hate, fear, contempt, love, etc. If you roll several
+succeed, the GM must reveal the NPC’s current, most powerful emotion – hate, fear, contempt, love, etc. If you roll several
 successes, you can also determine if an NPC is lying – but not
 exactly what they are lying about or what the truth is. The
-Insight skill can also be used in opposed rolls to resist Persua-
-sion (below).
+Insight skill can also be used in opposed rolls to resist Persuasion (below).
 
-PERSUASION (EMPATHY)
-Sometimes, you can make things go your way without resort-
-ing to violence. Instead, you trick or convince your opponents
-without drawing your weapon. For this, you use the Persua-
-sion skill. If your opponent is actively trying to resist you, it’s
+## PERSUASION (EMPATHY)
+
+Sometimes, you can make things go your way without resorting to violence. Instead, you trick or convince your opponents
+without drawing your weapon. For this, you use the Persuasion skill. 
+If your opponent is actively trying to resist you, it’s
 an opposed roll against their Insight. If not, it’s a straight roll.
 Before you roll, you must state the stakes of the roll –
 what you want to achieve. What you ask of your opponent
@@ -1194,13 +1169,10 @@ information whether you as a player want to or not.
 PERSUADING A GROUP: When you want to Persuade a whole
 group, you usually address the group’s leader or spokesperson.
 
+```
 NEGOTIATING POSITION
 
-Your chances of Persuading someone are affected by your
-
-negotiating position. Each of the following factors gives you +1
-
-modifier to the roll:
+Your chances of Persuading someone are affected by your negotiating position. Each of the following factors gives you +1 modifier to the roll:
  ✦ Your request doesn’t cost your opponent anything.
  ✦ Your opponent has suffered damage or stress.
  ✦ Your opponent is in custody or held captive by you.
@@ -1208,131 +1180,139 @@ modifier to the roll:
  ✦ You present your case very well (determined by the GM).
 
 Each of the following factors gives you a −1 modifier to the roll:
- ✦ Your opponent must take a serious risk or make a sacrifice to
-
-help you.
-
+ ✦ Your opponent must take a serious risk or make a sacrifice to help you.
  ✦ Your opponent has nothing to gain by helping you.
  ✦ You are held captive by your opponent.
  ✦ You are having trouble hearing or understanding each other.
+```
 
-SPECIALTIES
+# SPECIALTIES
+
 While attributes and skills give you the broad strokes of your
 competency, specialties represent specific areas of expertise.
 Specialties are unique tricks and talents that give you an edge
 and keep your adversaries guessing.
 
-You typically start the game with just one or a few special-
-ties, with your choice limited by your archetype. You can learn
+You typically start the game with just one or a few specialties, with your choice limited by your archetype. You can learn
 more specialties during the game (page 7), without being
 limited by your archetype.
 
-This section includes a limited number of general special-
-ties, as the selection of specialties in a specific game are closely
+This section includes a limited number of general specialties, as the selection of specialties in a specific game are closely
 tailored to its setting and theme. The specialties listed here
 should be considered examples only.
 
-TIERED SPEC IALTIES
+```
+TIERED SPECIALTIES
 
-In most YZE games, specialties are not rated – you either have
+In most YZE games, specialties are not rated – you either have them or you don’t. Some games, however, have specialties tiered in ranks – usually three. Each rank gives you additional bonuses or effects. Tiered specialties give the game more complexity and “crunch.” Low-crunch games don’t even need specialties at all.
+```
 
-them or you don’t. Some games, however, have specialties tiered
-in ranks – usually three. Each rank gives you additional bonuses
-or effects. Tiered specialties give the game more complexity and
+## BODYGUARD
 
-“crunch.” Low-crunch games don’t even need specialties at all.
-
-BODYGUARD
 If someone within Short range of you is hit by an attack, you
 can dive in to take the hit. Roll for Mobility. It doesn’t count
 as an action in combat. If you roll one or more successes, you
 take the hit instead of your friend. You can push the roll.
 
-COMPASSION
+## COMPASSION
+
 You can push any skill roll based on Empathy twice, not just
 once like other characters.
 
-FAST REFLEXES
+## FAST REFLEXES
+
 You can draw two initiative cards instead of one during the
 initiative draw. Choose the one you want to use.
 
-13
+## FIELD SURGEON
 
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0FIELD SURGEON
 You know the delicate art of stopping a wound from bleeding
 or treating grave injuries. You get a +1 modifier to Healing
 when treating someone who is about to die from a critical
 injury.
 
-WILL POWER SPECIALTI ES
+## FLYWEIGHT
 
-Some Year Zero Engine games include specialties that require
-
-Willpower Points to use (page 30). Such specialties are typical-
-
-ly reserved for specific archetypes or character classes.
-
-FLYWEIGHT
 When you block in close combat, you can use Agility instead
 of Strength.
 
-PACK MULE
-Your carry limit is increased by +2.
+## GUT FEELING
 
-GUT FEELING
 You have a knack for sensing when trouble is coming your
 way. You can roll for Observation using Empathy instead of
 Wits to detect an approaching threat.
 
-HARDENED
+## HARDENED
+
 Your maximum Resolve score is increased by 1. You can take
 this specialty up to three times.
 
-HARD HITTER
+## HARD HITTER
+
 You get a +1 modification to Melee Combat if you sacrifice
 your fast action in the round.
 
-HEALER
+## HEALER
+
 You are very resilient and recover quickly from injuries. The
 healing time of critical injuries is halved for you.
 
-INQUISITIVE
+## INQUISITIVE
+
 You can push any skill roll based on Wits twice, not just once
 like other characters.
 
-KILLER
+## KILLER
+
 You know where to strike to make your enemy fall and not
 get up. Ever. When your enemy sustains a critical injury you
 may roll twice and choose the result you want.
 
-LUCKY
+## LUCKY
+
 No matter what horrible situations you end up in, you always
 seem to make it out unscathed. When you suffer a critical
 injury, you get to re-roll the dice and choose the result that
 you prefer.
 
-MENACING
+## MENACING
+
 You have a scary physical presence that makes it easy to
 intimidate people. You can roll for Persuasion using Strength
 instead of Empathy when you threaten someone.
 
-MERCILESS
+## MERCILESS
+
 You can perform a coup de grace without rolling for Empathy.
 
-MUSICIAN
+## MUSICIAN
+
 You get a +1 modifier to all Persuasion rolls in situations
 where singing or playing an instrument is helpful. The GM has
 final say.
 
-QUICK DRAW
+```
+WILL POWERSPECIALTIES
+
+Some Year Zero Engine games include specialties that require Willpower Points to use (page 30). Such specialties are typically reserved for specific archetypes or character classes.
+```
+
+## PACK MULE
+
+Your carry limit is increased by +2.
+
+## QUICK DRAW
+
 You can draw your weapon so quickly it doesn’t cost you an
 action.
 
-RECKLESS
+## RECKLESS
+
 You can push any skill roll based on Agility twice, not just
 once like other characters.
 
-SECOND WIND
+## SECOND WIND
+
 When you are broken, you can get back on your feet imme-
 diately. Roll for Stamina. You cannot push the roll. For every
 success you roll, you get one point of Health or Resolve back
@@ -1340,68 +1320,64 @@ success you roll, you get one point of Health or Resolve back
 use this specialty once while broken, and it has no effect
 against critical injuries.
 
-SNIPER
+## SNIPER
+
 You get a +1 modifier to Marksmanship rolls when firing
 a single shot (not full auto) at Long range or more, from a
 hidden position.
 
-TOUGH
+## TOUGH
+
 Your maximum Health score is increased by 1. You can take
 this specialty up to three times.
 
-TRUE GRIT
+## TRUE GRIT
+
 You can push any skill roll based on Strength twice, not just
 once like other characters.
 
-WEAPON SPECIALIST
+## WEAPON SPECIALIST
+
 You’re an expert at using a certain type of weapon. When you
 use this type of weapon, you get a +1 modifier. You can choose
 this specialty several times, once for each weapon type. You
 can be a specialist at fighting unarmed.
 
-MAGIC  SPECIALTIES
+```
+MAGIC SPECIALTIES
 
-In YZE games that include magic, each discipline of magic is typ-
+In YZE games that include magic, each discipline of magic is typically a specialty of its own. Such pecialties of magic are usually tiered (page 13) and use Willpower Points (page 30).
+```
 
-ically a specialty of its own. Such specialties of magic are usually
-
-tiered (page 13) and use Willpower Points (page 30).
-
-14
-
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.04
-COMBAT & DAMAGE
+# [4] COMBAT & DAMAGE
 
 Combat is deadly in most Year Zero Engine games. Before you
 enter a fight, you should always ask yourself: Is it worth it?
 
-MAPS & ZONES
+# MAPS & ZONES
+
 A violent conflict is typically played out using a map of the
 location where your characters happen to find themselves
 fighting for their lives.
 
 The map is divided into zones. A zone is typically a room,
-
 a corridor, or an area of ground. How big a zone is varies –
 from a few steps across up to about 25 meters. A zone is gen-
 erally smaller in a cramped environment than in open terrain.
+
 In pre-made scenario material, zones are usually indicated
 on a location map. In random encounters created on the fly, the
 GM can make a quick sketch of the area or simply describe it.
 
-PL AYING WIT HOUT MAPS
+```
+PLAYING WITHOUT MAPS
 
-Although maps can be useful, you can always choose not to use
+Although maps can be useful, you can always choose not to use them and let certain conflicts play out only in the “theater of the mind.” This can be a good solution in close quarters conflicts between a small number of combatants.
+```
 
-them and let certain conflicts play out only in the “theater of the
+## ZONE FEATURES
 
-mind.” This can be a good solution in close quarters conflicts
-
-between a small number of combatants.
-
-ZONE FEATURES
-Zones can have various features, which affect actions per-
-formed within them. Here are some examples:
+Zones can have various features, which affect actions performed within them. Here are some examples:
 
 CLUTTERED: The zone is covered by dense undergrowth or
 filled with debris of some sort. You must roll for Mobility
@@ -1416,7 +1392,8 @@ CRAMPED: A crawlspace or narrow tunnel. In a cramped
 zone, you can only crawl, not run. You also cannot move or
 shoot past individuals next to you against targets behind them.
 
-BORDERS & LINE OF SIGHT
+## BORDERS & LINE OF SIGHT
+
 The border between two adjacent zones can be open or
 blocked by a wall. A blocked border can have a door or a
 hatch, as indicated by the map, allowing movement between
@@ -1427,57 +1404,38 @@ border generally blocks line of sight even if there is a door or
 hatch in it – unless you’re actively standing by the doorway
 and peeking through.
 
-RANGE CATEGORIES
+## RANGE CATEGORIES
+
 The distance between you and your opponents is divided into
 five range categories. See the adjacent table.
 
-RANGE
+| RANGE | DESCRIPTION |
+| --- |--- |
+| Engaged | Right next to you |
+| Short | A few meters away, in the same zone as you |
+| Medium | Up to 25 meters away, in an adjacent zone |
+| Long | Up to about one hundred meters (four zones) away |
+| Extreme | Up to about one kilometer |
 
-DESCRIPTION
+# ROUNDS & INITIATIVE
 
-Engaged
-
-Right next to you
-
-Short
-
-A few meters away, in the same zone as you
-
-Medium
-
-Up to 25 meters away, in an adjacent zone
-
-Long
-
-Up to about one hundred meters (four zones) away
-
-Extreme
-
-Up to about one kilometer
-
-ROUNDS & INITIATIVE
 Combat is played out in rounds, each roughly 5–10 seconds
 long. When combat begins, the first step is to determine who
 has the initiative. Do this before anyone rolls dice for an
 action.
 
-DRAWING INITIATIVE
-Grab ten cards, numbered 1 through 10. A suit of any nor-
-mal deck of cards works fine if you remove the face cards
+## DRAWING INITIATIVE
+
+Grab ten cards, numbered 1 through 10. A suit of any normal deck of cards works fine if you remove the face cards
 and count the ace as 1.
 
 Each player taking part in the conflict, either voluntarily
-
 or involuntarily, draws a card and the GM draws one card
-for each NPC (or group). This is called drawing the initia-
-tive. The number on the card determines the order in which
-you act in the conflict.
+for each NPC (or group). This is called drawing the initiative. The number on the card determines the order in which you act in the conflict.
 
 Participants act in order from lowest to highest number,
 beginning with card #1, until everyone has taken their turn.
-Place your initiative card by your character sheet, so every-
-one can see in which order you all act. The GM places their
-initiative card(s) in front of them.
+Place your initiative card by your character sheet, so everyone can see in which order you all act. The GM places their initiative card(s) in front of them.
 
 When all the participants in the combat have acted
 once, the round is over, and a new round begins. The round
@@ -1485,16 +1443,16 @@ order remains the same throughout the whole conflict –
 drawing initiative is only done once, at the start of the first
 round.
 
-15
+## SURPRISE
 
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0SURPRISE
 If you initiate combat with an attack that the GM deems fully
 surprising, you get to choose any initiative you want instead of
 drawing a random card. All other combatants – including oth-
 ers on your side – draw initiative normally. Also see Ambushes
 (page 17).
 
-EXCHANGING INITIATIVE
+## EXCHANGING INITIATIVE
+
 During a fight, you can exchange your initiative card – and
 thus your initiative – with another player character or NPC,
 whose turn has not yet come up in the current round (if such
@@ -1502,49 +1460,18 @@ a character exists). This must be declared on your turn, before
 you perform any action.
 
 The other character cannot resist this exchange, and must
-
 take their turn immediately. A character is not allowed to
 immediately exchange their initiative when just given a new
 one. They may, however, exchange this new initiative in the
 following Round.
 
-HI DDEN INITIATIVE
+```
+HIDDEN INITIATIVE
 
-As an alternative rule to create more uncertainty, you can keep
+As an alternative rule to create more uncertainty, you can keep initiative cards secret. The GM then calls out initiative numbers, starting at #1, and each combatant shows their card and performs their actions once their number comes up. In this variant, the initiative must be drawn again at the start of each round.
+```
+## YOUR TURN
 
-initiative cards secret. The GM then calls out initiative numbers,
-
-SLOW & FAST ACTIONS
-On your turn, you can perform one slow action and one fast
-action, or two fast actions. See the lists of typical slow and fast
-actions on page 16.
-
-FREE ACTIONS: Dropping to the ground or shouting a few words
-are called free actions – they don’t count toward your two actions
-for the round, but you can only do them on your own turn.
-
-DESCRIBE YOUR ACTIONS
-When it’s your turn to act, simply state which actions you
-wish to perform and roll dice if needed to see if you are suc-
-cessful. Some actions will give your opponent the opportunity
-to perform a reactive action that breaks the turn order.
-
-HELPING OTHERS
-If you wish to help another player character or NPC perform
-an action (page 11), it costs you one action of the same kind
-(slow or fast). You must state you are trying to help someone
-before any dice are rolled. Helping others occurs out of turn,
-i.e. it breaks the initiative order in the round.
-
-starting at #1, and each combatant shows their card and per-
-
-SLOW ACTIONS
-
-forms their actions once their number comes up. In this variant,
-
-the initiative must be drawn again at the start of each round.
-
-YOUR TURN
 The point in the initiative order at which you act is called your
 turn. The phrase “your next turn” means the next upcoming
 point in the initiative order at which you normally act, wheth-
@@ -1554,172 +1481,79 @@ phrase “your previous turn” means your latest previous point
 in the initiative order, whether it was in the current round or
 the previous round.
 
-NPC INITIATIVE
+## NPC INITIATIVE
+
 For a group of NPCs with identical stats, the GM can, if they
 want, draw one initiative card for the group instead of one per
 individual. All the NPCs in that group act at the same point in
 the round order. In what order they act individually within the
 group is up to the GM.
 
-ACTION
+```
+MARK YOUR ACTIONS
+
+Because helping and reactive actions occur out of turn, it can be hard to keep track of how many actions the combatants have performed. A tip is to keep track of this by turning the initiative card 90 degrees for every performed action. Turn it to the left for a fast action and to the right for a slow action, and all the way around 180 degrees once both actions in the turn are used up. All actions are refreshed at the start of each round.
+```
+
+# SLOW & FAST ACTIONS
+
+On your turn, you can perform one slow action and one fast
+action, or two fast actions. See the lists of typical slow and fast
+actions on page 16.
+
+FREE ACTIONS: Dropping to the ground or shouting a few words
+are called free actions – they don’t count toward your two actions
+for the round, but you can only do them on your own turn.
+
+## DESCRIBE YOUR ACTIONS
+
+When it’s your turn to act, simply state which actions you
+wish to perform and roll dice if needed to see if you are successful. 
+Some actions will give your opponent the opportunity
+to perform a reactive action that breaks the turn order.
+
+## HELPING OTHERS
+
+If you wish to help another player character or NPC perform
+an action (page 11), it costs you one action of the same kind
+(slow or fast). You must state you are trying to help someone
+before any dice are rolled. Helping others occurs out of turn,
+i.e. it breaks the initiative order in the round.
+
+### SLOW ACTIONS
+
+|SLOW ACTION|PREREQUISITE|SKILL|
+|---|---|---|
+| Crawl | You are prone. | --- |
+| Close combat attack | --- | Melee |
+| Shoot ranged weapon | Ranged weapon | Marksmanship |
+| Reload | Firearm | --- |
+| First aid | Broken or dying victim | Healing |
+| Persuade | Your opponent can hear you | Persuasion |
+
+### FAST ACTIONS
+
+|FAST ACTION|PREREQUISITE|SKILL|
+| --- | --- | --- |
+| Run | No Engaged enemy | Mobility (in cluttered zone) |
+| Move through door/hatch | — | — |
+| Get up | You are prone | — |
+| Draw weapon | — | — |
+| Block attack | Attacked in close combat | Melee |
+| Grapple attack | You’ve grappled an opponent | Melee |
+| Retreat | Engaged enemy |Mobility |
+| Aim | Ranged weapon | — |
+| Seek cover | Cover in same zone | — |
+| Enter/exit vehicle | Vehicle | — |
+| Start engine | Vehicle | — |
+| Grab the wheel | Vehicle | — |
+| Drive | Vehicle | Mobility |
+| Use item | Varies | Varies |
+
+>>>
+
+# MOVEMENT
 
-Crawl
-
-Close combat
-attack
-
-Shoot ranged
-weapon
-
-Reload
-
-First aid
-
-Persuade
-
-PREREQUISITE
-
-You are prone
-
-—
-
-SKILL
-
-—
-
-Melee
-
-Ranged weapon
-
-Marksmanship
-
-Firearm
-
-—
-
-Broken or dying victim
-
-Healing
-
-Your opponent can hear you
-
-Persuasion
-
-FAST AC TIONS
-
-FAST ACTION
-
-PREREQUISITE
-
-SKILL
-
-Run
-
-No Engaged enemy
-
-Mobility (in
-cluttered zone)
-
-Move through
-door/hatch
-
-—
-
-Get up
-
-You are prone
-
-Draw weapon
-
-—
-
-Block attack
-
-Attacked in close combat
-
-MAR K  YO UR  ACTIONS
-
-Because helping and reactive actions occur out of turn, it can be
-
-hard to keep track of how many actions the combatants have
-
-Retreat
-
-Aim
-
-Grapple attack
-
-You’ve grappled an
-opponent
-
-Engaged enemy
-
-Ranged weapon
-
-performed. A tip is to keep track of this by turning the initiative
-
-Seek cover
-
-Cover in same zone
-
-card 90 degrees for every performed action. Turn it to the left for
-
-a fast action and to the right for a slow action, and all the way
-
-around 180 degrees once both actions in the turn are used up.
-
-All actions are refreshed at the start of each round.
-
-Enter/exit vehicle
-
-Vehicle
-
-Start engine
-
-Grab the wheel
-
-Drive
-
-Use item
-
-Vehicle
-
-Vehicle
-
-Vehicle
-
-Varies
-
-—
-
-—
-
-—
-
-Melee
-
-Melee
-
-Mobility
-
-—
-
-—
-
-—
-
-—
-
-—
-
-Mobility
-
-Varies
-
-16
-
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0
-MOVEMENT
 To move during combat, you can spend a fast action to move
 from one zone to a neighboring zone or between Short and
 Engaged range from an enemy or PC in the same zone you
