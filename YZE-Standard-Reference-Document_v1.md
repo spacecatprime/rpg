@@ -1958,29 +1958,25 @@ armor rating and works exactly like armor – but only against
 ranged attacks. Cover can be degraded just like armor. Cover
 can be combined with armor – roll for cover first, then armor.
 
->>> COVER
-BARRIER
-Furniture
-Wooden Door
-Tree Trunk
-Wooden Wall
-Stone Wall
-ARMOR RATING
-3/D
-4/C
-5/C
-6/B
-8/A
+| COVER | |
+| --- | --- |
+| BARRIER | ARMOR RATING | |
+| Furniture | 3/D | |
+| Wooden Door | 4/C | |
+| Tree Trunk | 5/C | |
+| Wooden Wall | 6/B | |
+| Stone Wall | 8/A | |
 
 # CONDITIONS
 
 Some YZE games manage damage and trauma via conditions.
 Typically, these are divided into the three physical conditions
 and three mental conditions:
- ✦ PHYSICAL CONDITIONS: Exhausted, Battered, Wounded
- ✦ MENTAL CONDITIONS: Angry, Scared, Disheartened
+- ✦ PHYSICAL CONDITIONS: Exhausted, Battered, Wounded
+- ✦ MENTAL CONDITIONS: Angry, Scared, Disheartened
 
-GETTING CONDITIONS
+## GETTING CONDITIONS
+
 You can get conditions by pushing a dice roll (page 9).
 When pushing a roll for Strength or Agility, you get a physical
 condition of your choice. When pushing a roll for Wits or
@@ -1992,7 +1988,8 @@ damage. Stressful situations give you a number of mental
 conditions equal to the amount of potential stress (page 20),
 reduced by one for each success on an Insight roll.
 
-EFFECTS OF CONDITIONS
+## EFFECTS OF CONDITIONS
+
 Each physical condition you have gives you a −1 modifier to
 skills rolls using Strength or Agility, while each mental con-
 dition gives you −1 to rolls for Wits or Empathy. When you
@@ -2000,33 +1997,28 @@ already have three conditions of the same type and acquire a
 fourth one, you become broken and sustain a critical injury of
 the relevant type (page 21).
 
-BROKEN
+# BROKEN
+
 In most YZE games, your PC can be broken by damage or
 stress. Being broken basically means you are taken out of
 action, and you might risk even lethal injuries. When broken,
 you can’t perform any actions or roll for any skills.
 
-GETTING BROKEN
+## GETTING BROKEN
 How you get broken depends on the specific damage system
 used:
- ✦ HEALTH & RESOLVE: In a system using Health and Re-
-solve (page 5), you are broken if either of these scores
-are reduced to zero by damage or stress.
+- ✦ HEALTH & RESOLVE: In a system using Health and Resolve (page 5), you are broken if either of these scores are reduced to zero by damage or stress.
+- ✦ ATTRIBUTE DAMAGE: In a system using attribute damage, you are broken if any attribute is reduced to zero.
+- ✦ CONDITIONS: In a system using conditions (page 21), you are broken when you have suffered a set number of physical or mental conditions.
 
- ✦ ATTRIBUTE DAMAGE: In a system using attribute damage,
+## MORE DAMAGE
 
-you are broken if any attribute is reduced to zero.
- ✦ CONDITIONS: In a system using conditions (page 21),
-
-you are broken when you have suffered a set number of
-physical or mental conditions.
-
-MORE DAMAGE
 You can’t go below zero in Health, Resolve, or any attribute.
 If you suffer further damage, you may suffer an additional
 critical injury however.
 
-RECOVERY
+## RECOVERY
+
 Being broken is not fatal in itself – only critical injuries (page
 21) can actually kill you. There are two ways to recover
 after being broken, assuming you’re not dead.
@@ -2037,56 +2029,55 @@ you immediately heal damage or stress equal to the number
 of successes rolled. The Healing roll only has this effect on a
 broken victim.
 
-ON YOUR OWN: If no one is around to help you, you auto-
-matically heal one point of damage or stress after one Shift
-has passed.
+ON YOUR OWN: If no one is around to help you, you automatically heal one point of damage or stress after one Shift has passed.
 
 NOT BROKEN? If you are not broken, you heal one point
 of damage or stress per shift. This assumes that you are not
 starving, dehydrated, or hypothermic (page 25). You can
 heal damage and stress at the same time.
 
+```
 BROKEN NPCS
 
-NPCs can be broken in the same ways as PCs. An NPC can
+NPCs can be broken in the same ways as PCs. An NPC can use Healing on a PC and vice versa. However, dice are usually not rolled when an NPC heals another NPC – instead, the GM decides what happens. The GM can also decide that a minor NPC who is broken by damage simply dies.
+```
 
-use Healing on a PC and vice versa. However, dice are usually
+# CRITICAL INJURIES
 
-not rolled when an NPC heals another NPC – instead, the GM
+Critical injuries are dangerous, even lethal, injuries to your body or mind. The way you suffer critical injuries varies between YZE games. Here are some examples:
+- ✦ You suffer a physical critical injury when your Health is reduced to zero, and a mental critical injury when your Resolve is reduced to zero
+- ✦ You suffer a physical critical injury when your Strength is reduced to zero, and a mental critical injury when your Wits is reduced to zero.
+- ✦ You suffer a physical critical injury when you are broken by physical conditions, and a mental critical injury when you are broken by mental conditions.
+- ✦ You suffer a physical critical injury when an attack against you inflicts damage equal to or in excess of the Crit thresh old of the weapon.
+- ✦ You suffer a physical critical injury when an attack against you rolls two or more successes.
 
-decides what happens. The GM can also decide that a minor NPC
-who is broken by damage simply dies.
+```
+PUSHED DAMAGE
 
-CRITICAL INJURIES
-Critical injuries are dangerous, even lethal, injuries to your
-body or mind. The way you suffer critical injuries varies be-
-tween YZE games. Here are some examples:
- ✦ You suffer a physical critical injury when your Health is
-reduced to zero, and a mental critical injury when your
-Resolve is reduced to zero
+There is one case where you don’t risk any critical injury when broken: when you push a roll so hard that you break yourself. This is very rare, but it can happen. This means you can never kill yourself by pushing a roll.
+```
 
-21
+ROLLING FOR THE CRIT
+When you suffer a critical injury, roll on a table to see what it
+is. Sample tables for physical and mental critical injuries can be
+found on page 22 and 23. In some YZE games, the weapon
+used determines which dice to roll to determine the critical injury.
 
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0
- ✦ You suffer a physical critical injury when your Strength
+DEATH
+Physical critical injuries can be lethal. If you suffer such an injury, you must make a death save when the listed time limit has
+passed – one round, stretch, or shift. If the time limit is round,
+make the roll on your next turn. The death save is not an action
+in itself.
 
-The Healing roll takes the same amount of time to perform as
+A death save is a roll for Stamina. If a death save fails,
+you die. If you succeed, you linger on, but you must make
+another death save when the listed amount of time has
+passed again.
 
-is reduced to zero, and a mental critical injury when your
-Wits is reduced to zero.
+STABILIZING CRITS: To stabilize a lethal critical injury and
+save your life, one or more Healing rolls must be made. Medical gear can give positive modifiers to the roll.
 
- ✦ You suffer a physical critical injury when you are broken
-by physical conditions, and a mental critical injury when
-you are broken by mental conditions.
-
- ✦ You suffer a physical critical injury when an attack against
-you inflicts damage equal to or in excess of the Crit thresh-
-old of the weapon.
-
- ✦ You suffer a physical critical injury when an attack against
-
-you rolls two or more successes.
-
+The Healing roll takes the same amount of time to perform as 
 the time limit of your critical injury. If the roll succeeds, the time
 limit of your crit is increased by one category (e.g., from round
 to stretch). When a crit with a time limit of a shift is successfully
@@ -2099,43 +2090,12 @@ critical injury, two separate Healing rolls are needed: one to
 get you back on your feet, and another one to save your life.
 These two rolls can be made in whichever order you prefer.
 
-PUS HED DAMAGE
-
-There is one case where you don’t risk any critical injury when
-
-broken: when you push a roll so hard that you break yourself.
-
-This is very rare, but it can happen. This means you can never
-
 INSTANT KILL: Note that some critical injuries will kill you
 outright. If you gain any of these, your character dies immedi-
 ately. No death save is allowed.
 
-kill yourself by pushing a roll.
+## HEALING CRITS
 
-ROLLING FOR THE CRIT
-When you suffer a critical injury, roll on a table to see what it
-is. Sample tables for physical and mental critical injuries can be
-found on page 22 and 23. In some YZE games, the weapon
-used determines which dice to roll to determine the critical injury.
-
-DEATH
-Physical critical injuries can be lethal. If you suffer such an in-
-jury, you must make a death save when the listed time limit has
-passed – one round, stretch, or shift. If the time limit is round,
-make the roll on your next turn. The death save is not an action
-in itself.
-
-A death save is a roll for Stamina. If a death save fails,
-you die. If you succeed, you linger on, but you must make
-another death save when the listed amount of time has
-passed again.
-
-STABILIZING CRITS: To stabilize a lethal critical injury and
-save your life, one or more Healing rolls must be made. Medi-
-cal gear can give positive modifiers to the roll.
-
-HEALING CRITS
 Each critical injury has a specific effect that you suffer during
 the healing time indicated, which is measured in days. If you
 have several crits, they will heal simultaneously. If an injury is
@@ -2151,637 +2111,80 @@ that day counts double.
 DAMAGE: Note that you can heal all of your damage, but still
 suffer the effects of a critical injury.
 
-OTH ER TYPES OF DAM AGE
+```
+OTHER TYPES OF DAMAGE
+
+For some special types of physical damage – for example from fire, cold, starvation, etc. – the critical damage table is not used. Instead, the effects of being broken by these forms of damage are described in the relevant rules section below.
+```
+
+### CRITICAL INJURIES – PHYSICAL
+|D66|INJURY|LETHAL|TIMELIMIT|EFFECTS|HEALING TIME|
+|---|---|---|---|---|---|
+|11|Winded|No|—|None.|—|
+|12|Stunned|No|—|None.|—|
+|13|Crippling pain|No|—|None.|—|
+|14|Sprained ankle|No|—|Mobility −2 and movement is a slow action until a Healing roll is made.|—|
+|15|Blood in eyes|No|—|Observation and Marksmanship −2 until a Healing roll is made.|—|
+|16|Concussion|No|—|Mobility −2.|D6|
+|21|Severed ear|No|—|Observation −2.|D6|
+|22|Broken toes| No |— |Movement becomes a slow action.| D6|
+|23|Broken hand|No|—|Hand cannot be used.|D6|
+|24|Knocked out teeth|No|—|Persuasion −2.|D6|
+|25|Impaled thigh|No|—|Movement becomes a slow action.|2D6|
+|26|Slashed shoulder|No|—|Arm cannot be used.|D6|
+|31|Broken nose|No|—|Persuasion and Observation −1.|D6|
+|32|Crotch hit|No|—|One point of damage for every Mobility or Melee roll made.|D6|
+|33|Broken ribs|No|—|Mobility and Observation −2.|2D6|
+|34|Gouged eye|No|—|Marksmanship and Observation −2.|2D6|
+|35|Busted kneecap|No|—|Movement becomes a slow action.|2D6|
+|36|Broken arm|No|—|Arm cannot be used.|2D6|
+|41|Broken leg|No|—|Movement becomes a slow action.|2D6|
+|42|Crushed foot|No|—|Movement becomes a slow action.|3D6|
+|43|Crushed elbow|No|—|Arm cannot be used.|3D6|
+|44|Punctured lung|Yes|Shift|Stamina and Mobility −2.|D6|
+|45|Bleeding gut|Yes|Shift|One point of damage for every Mobility or Melee roll made.|D6|
+|46|Ruptured intes- tines|Yes|Shift|Disease with virulence 6.|2D6|
+|51|Busted kidney|Yes|Day|Mobility −2 and movement is a slow action.|2D6|
+|52|Severed arm artery|Yes −1|Stretch|Arm cannot be used.|D6|
+|53|Severed leg artery|Yes −1|Stretch|Movement becomes a slow action.|D6|
+|54|Severed arm|Yes −1|Shift|Arm cannot be used.|Permanent|
+|55|Severed leg|Yes −1|Shift|Movement becomes a slow action.|Permanent|
+|56|Cracked spine|No|—|Paralyzed from the neck down. If no Healing roll is made in time, the effect is permanent.|3D6|
+|61|Ruptured jugular|Yes −1|Round|Stamina −1.|2D6|
+|62|Ruptured aorta|Yes −2|Round|Stamina −2.|3D6|
+|63|Disemboweled|Yes|—|Instant death.|—|
+|64|Crushed skull|Yes|—|Your story ends here.|—|
+|65|Pierced head|Yes|—|You die immediately.|—|
+|66|Impaled heart|Yes|—|Your heart beats for the last time.|—|
+
+>>>
+
+### CRITICAL INJURIES – MENTAL
+
+|D66|TRAUMA|EFFECTS|HEALING TIME|
+|---|---|---|---|
+|11–16|Trembling|Modifier −1 on all Agility-based rolls.|D6|
+|21|White hair|None.|Permanent|
+|22–24|Anxious|Modifier −1 on all Wits-based rolls.|D6|
+|25–31|Sullen|Modifier −1 on all Empathy-based rolls.|D6|
+|32–35|Nightmares|Make an Insight roll every shift spent sleeping. Failure means that the sleep doesn’t count.|D6|
+|36–41|Nocturnal|You can only sleep during the light part of the day.|2D6|
+|42–43|Phobic|You are terrified by something related to what broke you. The GM decides what it is. You suffer one point of stress / damage to Wits each round within Short range of the object of your phobia.|2D6|
+|44–45 |Alcoholic |You must drink alcohol every day, or suffer one point of stress / damage to Agility. |3D6| 
+|46–51 |Claustrophobic | Every stretch in a confined environment, you suffer one point of stress / damage to Wits. | 2D6| 
+|52 | Mythomaniac | You cannot stop yourself from lying about everything. The effect needs to be roleplayed. | 2D6| 
+|53–54 | Paranoia | You are certain that someone is out to get you. The effect needs to be roleplayed. | 2D6| 
+|55 | Delusion | You are totally convinced of something that is totally untrue, for example that a certain color or item doesn’t exist. | 3D6 | 
+|56 | Hallucinations | Make an Insight roll every shift. If you fail, you suffer a powerful hallucination. The GM determines the details. | 3D6 | 
+|61–62 | Altered personality | Your personality is altered in a fundamental way. Determine how together with the GM. The effect should be roleplayed.| Permanent|
+|63 | Amnesia | You lose all memory, and cannot recollect who you or the other PCs are. The effect should be roleplayed. | D6 | 
+|64–65 | Catatonic | You stare blankly into oblivion, and do not respond to any stimuli. | D6| 
+|66 | Heart attack | Your heart stops, and you die of pure fright.| —| 
+
+# OTHER HAZARDS
+
+## DARKNESS
 
-For some special types of physical damage – for example from
-
-fire, cold, starvation, etc. – the critical damage table is not used.
-
-Instead, the effects of being broken by these forms of damage
-
-are described in the relevant rules section below.
-
-C RIT ICAL  INJURIES – PHYSICAL
-
-D66
-
-INJURY
-
-LETHAL
-
-TIMELIMIT
-
-EFFECTS
-
-HEALING TIME
-
-11
-
-12
-
-13
-
-14
-
-15
-
-16
-
-21
-
-22
-
-Winded
-
-Stunned
-
-Crippling pain
-
-Sprained ankle
-
-Blood in eyes
-
-Concussion
-
-Severed ear
-
-Broken toes
-
-No
-
-No
-
-No
-
-No
-
-No
-
-No
-
-No
-
-No
-
-—
-
-—
-
-—
-
-—
-
-—
-
-—
-
-—
-
-—
-
-None.
-
-None.
-
-None.
-
-—
-
-—
-
-—
-
-Mobility −2 and movement is a slow action until a Healing roll is made. —
-
-Observation and Marksmanship −2 until a Healing roll is made.
-
-Mobility −2.
-
-Observation −2.
-
-Movement becomes a slow action.
-
-—
-
-D6
-
-D6
-
-D6
-
-22
-
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0C RIT ICAL  INJURIES – PHYSICAL, CONT.
-
-D66
-
-INJURY
-
-LETHAL
-
-TIMELIMIT
-
-EFFECTS
-
-HEALING TIME
-
-23
-
-24
-
-25
-
-26
-
-31
-
-32
-
-33
-
-34
-
-35
-
-36
-
-41
-
-42
-
-43
-
-44
-
-45
-
-46
-
-51
-
-52
-
-53
-
-54
-
-55
-
-56
-
-61
-
-62
-
-63
-
-64
-
-65
-
-66
-
-Broken hand
-
-Knocked out
-teeth
-
-No
-
-No
-
-Impaled thigh
-
-No
-
-Slashed shoulder No
-
-Broken nose
-
-Crotch hit
-
-Broken ribs
-
-Gouged eye
-
-Busted kneecap
-
-Broken arm
-
-Broken leg
-
-Crushed foot
-
-Crushed elbow
-
-Punctured lung
-
-Bleeding gut
-
-Ruptured intes-
-tines
-
-No
-
-No
-
-No
-
-No
-
-No
-
-No
-
-No
-
-No
-
-No
-
-Yes
-
-Yes
-
-Yes
-
-—
-
-—
-
-—
-
-—
-
-—
-
-—
-
-—
-
-—
-
-—
-
-—
-
-—
-
-—
-
-—
-
-Shift
-
-Shift
-
-Shift
-
-Hand cannot be used.
-
-Persuasion −2.
-
-Movement becomes a slow action.
-
-Arm cannot be used.
-
-Persuasion and Observation −1.
-
-One point of damage for every Mobility or Melee roll made.
-
-Mobility and Observation −2.
-
-Marksmanship and Observation −2.
-
-Movement becomes a slow action.
-
-Arm cannot be used.
-
-Movement becomes a slow action.
-
-Movement becomes a slow action.
-
-Arm cannot be used.
-
-Stamina and Mobility −2.
-
-One point of damage for every Mobility or Melee roll made.
-
-Disease with virulence 6.
-
-Busted kidney
-
-Yes
-
-Day
-
-Mobility −2 and movement is a slow action.
-
-Yes −1
-
-Stretch
-
-Arm cannot be used.
-
-Yes −1
-
-Stretch
-
-Movement becomes a slow action.
-
-Severed arm
-artery
-
-Severed leg
-artery
-
-Severed arm
-
-Severed leg
-
-Cracked spine
-
-No
-
-Yes −1
-
-Yes −1
-
-Shift
-
-Shift
-
-—
-
-Arm cannot be used.
-
-Movement becomes a slow action.
-
-Paralyzed from the neck down. If no Healing roll is made in time, the
-effect is permanent.
-
-Ruptured jugular
-
-Yes −1
-
-Round
-
-Stamina −1.
-
-Ruptured aorta
-
-Yes −2
-
-Round
-
-Stamina −2.
-
-Disemboweled
-
-Crushed skull
-
-Pierced head
-
-Impaled heart
-
-Yes
-
-Yes
-
-Yes
-
-Yes
-
-—
-
-—
-
-—
-
-—
-
-Instant death.
-
-Your story ends here.
-
-You die immediately.
-
-Your heart beats for the last time.
-
-C RIT ICAL  INJURIES – MENTA L
-
-D66
-
-TRAUMA
-
-EFFECTS
-
-11–16
-
-Trembling
-
-Modifier −1 on all Agility-based rolls.
-
-21
-
-White hair
-
-None.
-
-22–24 Anxious
-
-Modifier −1 on all Wits-based rolls.
-
-25–31
-
-Sullen
-
-Modifier −1 on all Empathy-based rolls.
-
-32–35 Nightmares
-
-Make an Insight roll every shift spent sleeping. Failure means that the sleep doesn’t count.
-
-36–41 Nocturnal
-
-You can only sleep during the light part of the day.
-
-D6
-
-D6
-
-2D6
-
-D6
-
-D6
-
-D6
-
-2D6
-
-2D6
-
-2D6
-
-2D6
-
-2D6
-
-3D6
-
-3D6
-
-D6
-
-D6
-
-2D6
-
-2D6
-
-D6
-
-D6
-
-Permanent
-
-Permanent
-
-3D6
-
-2D6
-
-3D6
-
-—
-
-—
-
-—
-
-—
-
-HEALING TIME
-
-D6
-
-Permanent
-
-D6
-
-D6
-
-D6
-
-2D6
-
-23
-
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0C RIT ICAL  INJURIES – MENTA L, CONT.
-
-D66
-
-TRAUMA
-
-EFFECTS
-
-HEALING TIME
-
-42–43
-
-Phobic
-
-You are terrified by something related to what broke you. The GM decides what it is. You
-suffer one point of stress / damage to Wits each round within Short range of the object of your
-phobia.
-
-44–45 Alcoholic
-
-You must drink alcohol every day, or suffer one point of stress / damage to Agility.
-
-46–51
-
-Claustrophobic
-
-Every stretch in a confined environment, you suffer one point of stress / damage to Wits.
-
-52
-
-Mythomaniac
-
-You cannot stop yourself from lying about everything. The effect needs to be roleplayed.
-
-53–54
-
-Paranoia
-
-You are certain that someone is out to get you. The effect needs to be roleplayed.
-
-55
-
-56
-
-Delusion
-
-You are totally convinced of something that is totally untrue, for example that a certain color or
-item doesn’t exist.
-
-Hallucinations
-
-Make an Insight roll every shift. If you fail, you suffer a powerful hallucination. The GM deter-
-mines the details.
-
-2D6
-
-3D6
-
-2D6
-
-2D6
-
-2D6
-
-3D6
-
-3D6
-
-61–62 Altered person-
-ality
-
-Your personality is altered in a fundamental way. Determine how together with the GM. The
-effect should be roleplayed.
-
-Permanent
-
-63
-
-Amnesia
-
-You lose all memory, and cannot recollect who you or the other PCs are. The effect should be
-roleplayed.
-
-64–65
-
-Catatonic
-
-You stare blankly into oblivion, and do not respond to any stimuli.
-
-66
-
-Heart attack
-
-Your heart stops, and you die of pure fright.
-
-D6
-
-D6
-
-—
-
-OTHER HAZARDS
-
-DARKNESS
 In complete darkness, you have no choice but to feel your
 way around. To run in complete darkness requires a successful
 Mobility roll, and you take one point of damage if you fail.
@@ -2792,15 +2195,14 @@ for Observation successfully (no action) to be able to attack
 the target, also with a −2 modifier. You cannot hit targets at
 Medium range or more in total darkness.
 
-FIRE
-When exposed to fire, roll for its intensity. In the dice pool sys-
-tem, fires typically range from 3 to 9. In the step dice system,
+## FIRE
+
+When exposed to fire, roll for its intensity. In the dice pool system, fires typically range from 3 to 9. In the step dice system,
 fire intensities range from D to A, and you roll two base dice
 of the corresponding type.
 
 EFFECT: For every success rolled for the fire, you suffer one
-point of damage. If you take damage, you catch fire and con-
-tinue to burn. When burning, you suffer another attack each
+point of damage. If you take damage, you catch fire and continue to burn. When burning, you suffer another attack each
 round, on your turn. The intensity increases by one step each
 round. As soon as a fire attack inflicts no damage, the fire goes
 out by itself. You, or a friend at Engaged range, can put out
@@ -2808,11 +2210,11 @@ the fire with a successful Mobility roll (slow action). Using a
 blanket or similar object gives a +2 modifier.
 
 CRITS: Fire doesn’t cause normal critical injuries. Instead, if
-you are broken by fire damage, or suffer fire damage when al-
-ready broken, you must make a death save on your turn every
+you are broken by fire damage, or suffer fire damage when already broken, you must make a death save on your turn every
 round until you die or you are saved by a Healing roll.
 
-EXPLOSIONS
+## EXPLOSIONS
+
 The force of an explosion is measured by its blast power. For
 each person within Short range of the blast (i.e., in the same
 zone), roll for the blast power. See the table on page 24,
@@ -2830,47 +2232,22 @@ at Medium range (i.e., adjacent zones) if nothing blocks the
 blast. The blast power is then reduced by 6 (dice pool system)
 or two steps (step dice system).
 
-BLAST POWER
+|BLAST POWER|||
+|---|---|---|
+|DICE POOL|STEP DICE|BASE DAMAGE|
+|12|A|4|
+|9|B|3|
+|6|C|2|
+|3|D|1|
 
-DICE POOL
+# FALLING
 
-STEP DICE
-
-BASE DAMAGE
-
-12
-
-9
-
-6
-
-3
-
-A
-
-B
-
-C
-
-D
-
-4
-
-3
-
-2
-
-1
-
-FALLING
 Falling on a hard surface automatically inflicts an amount of
 damage to you equal to the height of the fall (in meters) divided
-by 2, rounding all fractions down. In a controlled jump, roll Mo-
-bility – each success rolled reduces the damage done by one.
+by 2, rounding all fractions down. In a controlled jump, roll Mobility – each success rolled reduces the damage done by one.
 
-24
+## DROWNING
 
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0DROWNING
 All PCs are assumed to know how to swim. If you end up in
 water, you need to make a Stamina roll every stretch to stay
 afloat. If you wear metal armor, you sink. Under water, you
@@ -2879,7 +2256,8 @@ If you fail, you start to drown and suffer one point of damage
 to Strength every round until someone saves you. If you are
 broken when drowning, you die after one stretch.
 
-POISON
+## POISON
+
 Poisons are measured by its toxicity. A weak poison has toxicity 3
 (D in the step dice system), a strong poison has toxicity 6 (C), and
 an extremely potent poison can have toxicity 9 (B) or even more.
@@ -2898,7 +2276,8 @@ actions for one stretch.
 
 SLEEPING POISON: You fall asleep, unable to wake up for a shift.
 
-DISEASE
+## DISEASE
+
 When exposed to a dangerous contagion or infection, make
 an opposed roll for Stamina against the virulence rating of the
 disease. This is called an infection roll. A typical disease has
@@ -2919,7 +2298,8 @@ HEALING: If you are cared for by someone during your sick-
 ness, this person can roll your sickness rolls instead of you.
 The healer rolls for their Healing skill with a +2 modifier.
 
-COLD
+## COLD
+
 When the cold is bitter and you don’t have adequate clothes or
 shelter (GM’s discretion), you must roll for Stamina at regular
 intervals. The colder it is, the more frequently you need to roll. A
@@ -2928,7 +2308,6 @@ to roll once every shift or even every stretch in extreme conditions.
 Extra protection, like a blanket, can give a bonus to your roll.
 
 If you fail, you become hypothermic and suffer one point
-
 of damage and one point of stress (damage to Strength and
 Wits). You also cannot heal naturally. You must keep rolling
 for Stamina at the same interval, suffering more damage and
@@ -2936,7 +2315,8 @@ stress each time you fail. If you are broken while hypothermic,
 you die the next time you need to roll. Only after you have
 warmed up, if only by a campfire, are you able to heal again.
 
-STARVATION
+## STARVATION
+
 You must eat a ration of food at least once every day. After a
 day without food, you starve. When starving, you don’t heal
 damage (Strength) normally. You heal stress (other attributes)
@@ -2944,7 +2324,8 @@ normally. You also suffer one point of damage per week. If you
 are broken while Starving, you die after another week without
 food. As soon as you have eaten, you are no longer starving.
 
-SLEEP DEPRIVATION
+## SLEEP DEPRIVATION
+
 You need to sleep for at least one shift each day. After one day
 without sleep, you cannot heal stress (damage to Wits). If you
 are broken by stress (damage to Wits) while sleep deprived,
@@ -2952,7 +2333,8 @@ you collapse and sleep for at least one shift, and are unable
 to wake up during that time. As soon as you have slept for at
 least a shift, you are no longer sleep deprived.
 
-MOUNTS
+# MOUNTS
+
 A horse or other riding animal can be a useful asset. The
 animal can carry gear for you, and you can take advantage of
 being in the saddle during combat.
@@ -2982,9 +2364,8 @@ An animal that has its Strength reduced to zero does not suffer
 a critical injury, instead it is considered perished. Animals
 generally don’t have Wits or Empathy.
 
-25
+# VEHICLES
 
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0VEHICLES
 In modern setting games, vehicles can play a big role. Driving
 under normal circumstances requires no dice roll but more
 advanced maneuvers require a Mobility roll (some YZE games
@@ -2995,11 +2376,10 @@ Getting on or off a motorcycle or bicycle is a fast action. Start-
 ing a vehicle is typically a fast action. A few typical vehicles
 are listed in the table on page 26.
 
-VEHICLE ATTRIBUTES
+## VEHICLE ATTRIBUTES
+
 PASSENGERS: The number of people that can ride in the vehi-
 cle, in addition to the driver.
-
-TYPI CAL VEHICLES
 
 MANEUVERABILITY: A modifier to all skill rolls with this
 vehicle. Fast and agile vehicles have higher scores than slow
@@ -3010,119 +2390,22 @@ ing wrecked.
 
 ARMOR: The armor rating of the vehicle.
 
-TRAVEL SPEED: Indicates the speed of the vehicle on-road / off-
-road per shift of driving. Read more on page 41.
+TRAVEL SPEED: Indicates the speed of the vehicle on-road / offroad per shift of driving. Read more on page 41.
 
-VEHICLE
+| TYPICAL VEHICLES||||||
+| ---|---|---|---|---|---|
+| VEHICLE|PASSENGERS|MANEUVERABILITY|HULL|ARMOR|TRAVEL SPEED|
+| Car | 4 | +1 | 4 | 3 | 10/1 |
+| Truck | 3 | — | 8 | 3 | 8/1 |
+| Motorcycle | 1 | +2 | 2 | — | 9/2 |
+| Dirtbike | 1 | + 2 | 2 | — | 6/4 |
+| Pickup Truck | 3 | +1 | 3 | 4 | 9/4 |
+| Armored Personnel Carrier | 8 | —| 8 | 8 | 8/6 |
+| Battle Tank | — | — | 10 | 12 | 7/6 |
+| Helicopter | 5 | +3 | 5 | 2 | 40/40 |
 
-PASSENGERS
+## VEHICLES IN COMBAT
 
-MANEUVERABILITY
-
-HULL
-
-ARMOR
-
-TRAVEL SPEED
-
-Car
-
-Truck
-
-Motorcycle
-
-Dirtbike
-
-Pickup Truck
-
-Armored Personnel
-Carrier
-
-Battle Tank
-
-Helicopter
-
-4
-
-3
-
-1
-
-1
-
-3
-
-8
-
-—
-
-5
-
-+1
-
-—
-
-+2
-
-+2
-
-+1
-
-—
-
-—
-
-+3
-
-4
-
-8
-
-2
-
-2
-
-3
-
-8
-
-10
-
-5
-
-3
-
-3
-
-—
-
-—
-
-4
-
-8
-
-12
-
-2
-
-10/1
-
-8/1
-
-9/2
-
-6/4
-
-9/4
-
-8/6
-
-7/6
-
-40/40
-
-VEHICLES IN COMBAT
 When operating a vehicle in combat, you can move one zone
 with a fast action just like on foot, and you can move farther
 by rolling for a vehicle maneuver, modified by the Maneuver-
@@ -3134,7 +2417,8 @@ as a close combat attack but is rolled for with a driving skill
 roll. The base damage rating of the attack equals your vehicle’s
 Hull rating divided by two, rounded up.
 
-DAMAGE TO VEHICLES
+## DAMAGE TO VEHICLES
+
 Vehicles suffer damage just like people. When a vehicle has
 suffered damage equal to or in excess of its Hull rating, it is
 wrecked. This means that the vehicle is inoperable – you’ll
@@ -3153,7 +2437,8 @@ by component damage to a vehicle. If they are visible, they can
 also be targeted directly by a ranged attack. In a ground car, this
 counts as cover with an armor rating equal to that of the vehicle.
 
-AERIAL VEHICLES
+## AERIAL VEHICLES
+
 Aerial vehicles are handled in much the same way as ground
 vehicles, with some exceptions:
 
@@ -3167,201 +2452,91 @@ damage plus one for each zone of altitude, mitigated by the ve-
 hicle’s armor rating. You can also brace yourself for the hit by
 rolling Mobility – each success reduces the damage by one.
 
-REPAIRS
+## REPAIRS
+
 Repairing damage to a vehicle requires one or several Crafting
 rolls. One roll can be made per shift. Only one person can roll
 to repair, but others can help. Each success removes one point
 of damage. If the vehicle was wrecked, it is no longer consid-
 ered wrecked once one point of damage has been repaired.
 
-26
-
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0COMPONENT DAMAGE: If the engine or a mounted weapon
+COMPONENT DAMAGE: If the engine or a mounted weapon
 has been disabled due to a critical hit, repairing it typically
-
 requires a Crafting roll, in addition to any roll for repairing
 hull damage. The work takes one shift.
 
-C RIT ICAL  VEHICLE DAMAGE
+**CRITICAL VEHICLE DAMAGE**
 
-D12
+|D12|<div style="width:40px">D66</div>|D6|DAMAGE|EFFECTS|
+|---|---|---|---|---|
+|1|11–13|1|Ricochet|The attack bounces off the vehicle and strikes another random target in the same zone, inflicting the same damage to it.|
+|2|14–16|2|Skid|The vehicle skids severely. The driver must make an immediate skill roll (not an action) – failure means that the driver loses their next turn, and is unable to perform any actions.|
+|3|21–23|3|Windshield Shattered|The windshield of the vehicle is shattered, reducing the Maneuverability of the vehicle one step.|
+|4|24–26|4|Driver Hit|The driver is hit and suffers damage equal to the damage inflicted on the vehicle.|
+|5|31–33|5|Passenger Hit|A random passenger is hit and suffers damage equal to the damage inflicted on the vehicle, and a critical injury. Re-roll if no passengers are present.|
+|6|34–36|6|Wheel Blown|A wheel or thruster on the vehicle is blown out, giving a −2 modifier to all driving skill rolls.|
+|7|41–43|—|Severe Spin|The attack rocks the vehicle. The driver must make an immediate skill roll (not an action) – fail- ure means that the vehicle crashes and is automatically wrecked. Each passenger then suffers D3 points of falling damage (page 24) plus one for each zone of altitude, mitigated by the vehicle’s armor.|
+|8|44–46|—|Fuel Fire|The vehicle catches fire. The vehicle and everyone inside is exposed to intensity 6 (C) fire.|
+|9|51–53|—|Weapon Disabled|A random weapon mounted on the vehicle is disabled. Re-roll if no weapons are present.|
+|10|54–56|—|Massive Crash|The vehicle careens out of control and crashes violently. It is automatically wrecked, and each passenger suffers D6 points of falling damage plus one for each zone of altitude, mitigated by the vehicle’s armor.|
+|11|61–63|—|Engine Disabled|The engine is disabled, and the vehicle can’t continue. An aerial vehicle can make a controlled landing, losing one zone of altitude per round.|
+|12|64–66|—|Explosion|The vehicle explodes in a ball of flame. Everyone inside is exposed to a blast power 9 (B) explo- sion, and the vehicle is destroyed beyond repair.|
 
-D66
+# CHASES
 
-D6
-
-DAMAGE
-
-EFFECTS
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-11–13 1
-
-Ricochet
-
-14–16 2
-
-Skid
-
-21–23 3
-
-Windshield
-Shattered
-
-The attack bounces off the vehicle and strikes another random target in the same zone, inflicting
-the same damage to it.
-
-The vehicle skids severely. The driver must make an immediate skill roll (not an action) – failure
-means that the driver loses their next turn, and is unable to perform any actions.
-
-The windshield of the vehicle is shattered, reducing the Maneuverability of the vehicle one step.
-
-24–26 4
-
-Driver Hit
-
-The driver is hit and suffers damage equal to the damage inflicted on the vehicle.
-
-31–33 5
-
-Passenger Hit
-
-A random passenger is hit and suffers damage equal to the damage inflicted on the vehicle, and
-a critical injury. Re-roll if no passengers are present.
-
-34–36 6
-
-Wheel Blown
-
-A wheel or thruster on the vehicle is blown out, giving a −2 modifier to all driving skill rolls.
-
-41–43 —
-
-Severe Spin
-
-The attack rocks the vehicle. The driver must make an immediate skill roll (not an action) – fail-
-ure means that the vehicle crashes and is automatically wrecked. Each passenger then suffers
-D3 points of falling damage (page 24) plus one for each zone of altitude, mitigated by the
-vehicle’s armor.
-
-44–46 —
-
-Fuel Fire
-
-The vehicle catches fire. The vehicle and everyone inside is exposed to intensity 6 (C) fire.
-
-51–53 —
-
-Weapon Disabled
-
-A random weapon mounted on the vehicle is disabled. Re-roll if no weapons are present.
-
-10
-
-54–56 —
-
-Massive Crash
-
-The vehicle careens out of control and crashes violently. It is automatically wrecked, and each
-passenger suffers D6 points of falling damage plus one for each zone of altitude, mitigated by
-the vehicle’s armor.
-
-11
-
-61–63 —
-
-Engine Disabled
-
-The engine is disabled, and the vehicle can’t continue. An aerial vehicle can make a controlled
-landing, losing one zone of altitude per round.
-
-12
-
-64–66 —
-
-Explosion
-
-The vehicle explodes in a ball of flame. Everyone inside is exposed to a blast power 9 (B) explo-
-sion, and the vehicle is destroyed beyond repair.
-
-CHASES
 The rules so far in this chapter mainly deal with a fight
 between two parties. A different type of confrontation is the
 chase. Chases can be on foot or use vehicles.
 
-STARTING THE CHASE
+## STARTING THE CHASE
+
 A chase can either start directly from a roleplaying situation, or
 it can follow directly after combat if someone runs off. In either
-case, the GM declares that a chase is now in progress and de-
-cides the starting range between the participants, using the table
+case, the GM declares that a chase is now in progress and decides the starting range between the participants, using the table
 on page 15 as a reference, up to a maximum of Long range.
 
 Distances in a chase are measured only in range categories
-
 (not zones). Most chases are between just two parties – the
-pursuer and their prey. For guidelines on using multiple partic-
-ipants, see the sidebar on page 28.
+pursuer and their prey. For guidelines on using multiple participants, see the sidebar on page 28.
 
-RESOLUTION
+## RESOLUTION
+
 Chases are played out in rounds like combat, but no initiative
 is drawn and normal actions are not performed. Instead, each
 participant gets one maneuver each round, chosen in secret
-and then revealed, while the GM randomly generates obsta-
-cles to place in their way. Obstacles can be rolled up using the
+and then revealed, while the GM randomly generates obstacles to place in their way. Obstacles can be rolled up using the
 tables on page 29. The following procedure is used each
 round of the chase:
 
 1.  Each participant selects a maneuver, in secret.
 2.  The GM randomly generates an obstacle and reveals it.
 3.  The pursuer and prey both reveal their maneuver.
-4.  Maneuvers are resolved, with the prey going first and the
-
-pursuer last.
+4.  Maneuvers are resolved, with the prey going first and the pursuer last.
 
 A PC or NPC is allowed to cancel a planned maneuver, but
 no other maneuver may be chosen instead – the participant
 simply does nothing in the round.
 
-RUNNE RS v s VEH IC LES
+```
+RUNNERS vs VEHICLES
 
-If one participant in a chase is running while the other is in a vehi-
-cle, the chase rules work normally – just use the applicable skill for
-
+If one participant in a chase is running while the other is in a vehicle, 
+the chase rules work normally – just use the applicable skill for
 each participant. In a bustling street environment, it’s not necessarily
-
 faster to be driving, but the driver will be more protected. However,
-
 in a more open environment where the greater speed of a vehicle
-
 comes into play, the participant in a vehicle gets a +2 modifier to all
-
 Pursue/Flee rolls in a chase against an opponent on foot.
 
-CHASE MANEUVERS
+```
+
+## CHASE MANEUVERS
+
 In each round of a chase, each participant can perform one ma-
 neuver, all described below. The maneuvers are chosen secretly
 – either using cards or by just writing them on a piece of paper.
 
-27
-
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0Maneuvers require skill rolls. These rolls can be affected
+Maneuvers require skill rolls. These rolls can be affected
 by the chase obstacle revealed by the GM before the maneu-
 ver is resolved. Skills and other factors used for vehicles are
 indicated in [brackets].
@@ -3370,24 +2545,12 @@ PURSUE/FLEE: You simply run or drive as fast as you can.
 Roll Mobility [Driving, if your game has that skill]. For each
 success rolled, the distance to the other participant decreases
 (if the pursuer) or increases (if the prey) by one range category.
- ✦ If the range exceeds Extreme after both maneuvers in the
+- ✦ If the range exceeds Extreme after both maneuvers in the round are resolved, the chase is over.
+- ✦ If the range is Engaged (or less) after both maneuvers are resolved, the pursuer may immediately make a close combat attack [ramming attack for vehicles]. The range stays at Engaged.
+- ✦ If the range would go below Engaged, and the pursuer declines to attack as per above, they can either stay at Engaged range or overtake the prey, and now become the prey themselves, at a distance defined by the number of excess (one excess = Short range, etc.). This latter option will typically only be viable in some sort of race situation.
 
-round are resolved, the chase is over.
-
- ✦ If the range is Engaged (or less) after both maneuvers are
-resolved, the pursuer may immediately make a close com-
-bat attack [ramming attack for vehicles]. The range stays
-at Engaged.
-
- ✦ If the range would go below Engaged, and the pursuer
-declines to attack as per above, they can either stay at
-Engaged range or overtake the prey, and now become the
-prey themselves, at a distance defined by the number of
-excess (one excess = Short range, etc.). This latter option
-will typically only be viable in some sort of race situation.
-
-HIDE: You quickly duck into a side alley or hide behind some-
-thing. This maneuver can only be done by the prey, and never
+HIDE: You quickly duck into a side alley or hide behind something. 
+This maneuver can only be done by the prey, and never
 at Short range or less. If the range is Medium, you get a −2
 modifier. If the range is Extreme, you get a +2 modifier.
 
@@ -3415,49 +2578,36 @@ distance was already Extreme, the chase is over.
 STAND AND SHOOT: You take a breath to aim your weapon
 and fire. This is conducted as a normal ranged weapon attack.
 
-OTHER: You do something not covered by any other maneu-
-ver. Typically, this means no movement relative to the other
+OTHER: You do something not covered by any other maneuver. 
+Typically, this means no movement relative to the other
 participant during the Round. The GM has final say.
 
-MULTIPLE PARTIC IPANTS
+```
+MULTIPLE PARTICIPANTS
 
 If there are more than two participants in a chase, there are
-
 two ways to resolve it. The simplest way is to divide the par-
-
 ticipants into two sides. Only the slowest person/vehicle on
-
 each side – the one with the lowest skill level after the Maneu-
-
 verability modifier (free choice on a tie) – performs maneuvers
-
 and rolls dice, except for the Stand and Shoot maneuver,
-
 which all participants on the side can perform.
 
 A more complex way to resolve chases with multiple
-
 participants is to let each perform maneuvers separately. You
-
 will then need to keep track of the relative distances between
-
 each participant. A sheet of paper indicating range bands can
-
 be useful for this. In this model, the Pursue/Flee maneuver
-
 will move you forward relative to all other participants in the
-
 chase. For all other maneuvers, you must indicate which other
-
 participant you wish to target, and all limitations refer to your
-
 position relative to the target. You count as pursuer in relation
-
 to all participants in front of you, and as prey in relation to all
-
 participants behind you.
+```
 
-CHASE OBSTACLES
+## CHASE OBSTACLES
+
 Each round, after the participants have secretly chosen
 their maneuvers, the GM randomly generates a chase
 obstacle. There are two tables for chase obstacles on the
@@ -3466,153 +2616,59 @@ vehicle chases. You may need to adapt these to the setting
 of your game.
 
 The obstacles provide flavor for the chase and can also
-
-affect the maneuvers chosen by the participants in dif-
-ferent ways. The GM is free to adapt the obstacles to the
+affect the maneuvers chosen by the participants in different
+ ways. The GM is free to adapt the obstacles to the
 situation at hand, or even choose to create obstacles freely
 as needed.
 
-FIRING FROM VEH ICLES
+```
+FIRING FROM VEHICLES
 
 Passengers can make ranged attacks from a vehicle in a
-
 chase, and these attacks are performed immediately after the
-
 driver’s maneuver is resolved. However, such attacks get a −2
-
 modifier if the driver performs any maneuver except Stand
-
 and Shoot.
 
 Advanced military and police vehicles can have mounted
-
 weapons with targeting systems. Such weapons can be fired by
 a gunner without a penalty even when the driver does not Stand
-
 and Shoot. Some very advanced vehicles even have automated
-
 targeting systems with their own Marksmanship skill and can fire
-
 at the driver’s command (no action), eliminating the need for a
-
 gunner.
+```
 
-28
+||<div style="width:200px">FOOT CHASE OBSTACLES</div>|
+|---|---|
+|D10|OBSTACLE|
+|1|DEAD END: If the prey has chosen to Pursue/Flee, Hide, or Block, the maneuver fails automatically.|
+|2|FOOD STALL: A food stall or market stand blocks the way. If the prey has chosen to Flee, Hide, or Block, they must first make a Force roll (no action) to crash through the glass. If it fails, the maneuver is canceled, and the prey suffers D3 points of damage.|
+|3|VEHICLE/CART: A car or cart pulls in and blocks the way. This gives a +2 modifier to Pursue/Flee and Stand and Shoot maneuvers, but −2 to Cut Off.|
+|4|CROWD: The crowds of people making their way along the street provide cover for the prey. A Hide maneuver gets a +2 modifier, and even if the prey doesn’t Hide, the pursuer must roll Observation (no action). If it fails, their maneuver for the round fails automatically. Any failed Stand and Shoot maneuver means a bystander is hit.|
+|5|MONKS: A throng of robed, chanting monks blocks the road. The prey must roll Persuasion (no action) to convince them to move. Suc- cess gives a +2 modifier to any Hide maneuver. A failed roll means that the prey’s maneuver fails automatically.|
+|6|GUARDS/POLICE: A pair of guards or police try to block the chase, weapons drawn. This gives a −2 modifier to Pursue/Flee, Hide and Stand and Shoot. Anyone who performs the Stand and Shoot maneuver will be attacked by the guards.|
+|7|OLD MAN: An old man grabs at the pursuer and starts chattering away, clearly after money. The pursuer must give the man some mon- ey or push him away with Force. If it fails, their maneuver for the round fails automatically.|
+|8|GARBAGE: There is garbage and debris all over the street, making the ground slippery. Any Pursue/Flee maneuvers get a −2 modifier this round, while Block gets +2.|
+|9|OPEN SPACE: The chasers suddenly find themselves in an open space, the crowds clearing for a moment. This gives a +2 modifier to Stand and Shoot but −2 to Hide.|
+|10|THUGS: D6 street thugs block the road, threatening violence. The prey must roll Persuasion (no action) to be allowed to pass. A failed roll means that the thugs attack – the chosen maneuver fails automatically and one thug attacks in close combat. If the Persuasion roll succeeds, the thugs will attack the pursuer instead.|
 
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0F OOT  CHAS E  OBSTACLES
 
-D10 OBSTACLE
+||<div style="width:200px">VEHICLE CHASE OBSTACLES</div>|
+|---|---|
+|D10| OBSTACLE|
+|1|Dead End: If the prey has chosen to Pursue/Flee, Hide, or Block, the maneuver fails automatically.|
+|2|Downpour: A sudden downpour makes it difficult to see and the pavement slippery. The Pursue/Flee maneuver gets a disadvantage, but Hide gets an advantage.|
+|3|Vehicle/Cart: A car or cart pulls in and blocks the way. This gives an advantage to the Block maneuver, but a disadvantage to Pursue/ Flee, and any failed such maneuver inflicts D3 points of damage to the driver’s vehicle.|
+|4|Red Lights: The traffic lights by a pedestrian crossing turn red, and a throng of people cross the street. This gives an advantage to the Cut Off maneuver, but a disadvantage to Pursue/Flee and Stand and Shoot. Any such failed maneuver will result in collateral damage.|
+|5|Patrol Car: A police patrol car joins the fray, sirens blaring. This gives a disadvantage to Pursue/Flee, Hide, and Stand and Shoot. Any- one who performs the Stand and Shoot maneuver will be fired upon by the police.|
+|6|Freeway: The vehicles move onto a wide freeway with multiple lanes, the traffic clearing for a moment. This gives an advantage to Pursue/Flee and Stand and Shoot, but a disadvantage to Hide and Block.|
+|7|Roadworks: A major roadworks is up ahead. It gives an advantage to the Hide, Block, and Cut Off maneuvers, but a disadvantage to Pursue/Flee and Stand and Shoot. A failed Pursue/Flee roll will inflict D3 points of damage to the vehicle.|
+|8|Cyclists: A group of dozens of cyclists are making their way along the streets, forming a noisy, clanking, almost impenetrable barrier. This gives an advantage to the Block maneuver, but a disadvantage to Pursue/Flee and Stand and Shoot. Any such failed maneuver will result in collateral damage.|
+|9|Truck: A massive truck blocks the way. This gives an advantage to the Cut Off maneuver, but a disadvantage to Pursue/Flee. A failed Pursue/Flee roll will inflict D6 points of damage to the vehicle.|
+|10| Alleyway: The chase enters a narrow alley. Passing through unscathed requires a separate skill roll (no action) before any maneuver is resolved – failure means the vehicle is wrecked and the chase is over. The driver can choose to cancel their maneuver and navigate the alley slowly and carefully (no roll required).|
 
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-DEAD END: If the prey has chosen to Pursue/Flee, Hide, or Block, the maneuver fails automatically.
-
-FOOD STALL: A food stall or market stand blocks the way. If the prey has chosen to Flee, Hide, or Block, they must first make a Force roll
-(no action) to crash through the glass. If it fails, the maneuver is canceled, and the prey suffers D3 points of damage.
-
-VEHICLE/CART: A car or cart pulls in and blocks the way. This gives a +2 modifier to Pursue/Flee and Stand and Shoot maneuvers, but
-−2 to Cut Off.
-
-CROWD: The crowds of people making their way along the street provide cover for the prey. A Hide maneuver gets a +2 modifier, and
-even if the prey doesn’t Hide, the pursuer must roll Observation (no action). If it fails, their maneuver for the round fails automatically.
-Any failed Stand and Shoot maneuver means a bystander is hit.
-
-MONKS: A throng of robed, chanting monks blocks the road. The prey must roll Persuasion (no action) to convince them to move. Suc-
-cess gives a +2 modifier to any Hide maneuver. A failed roll means that the prey’s maneuver fails automatically.
-
-GUARDS/POLICE: A pair of guards or police try to block the chase, weapons drawn. This gives a −2 modifier to Pursue/Flee, Hide and
-Stand and Shoot. Anyone who performs the Stand and Shoot maneuver will be attacked by the guards.
-
-OLD MAN: An old man grabs at the pursuer and starts chattering away, clearly after money. The pursuer must give the man some mon-
-ey or push him away with Force. If it fails, their maneuver for the round fails automatically.
-
-GARBAGE: There is garbage and debris all over the street, making the ground slippery. Any Pursue/Flee maneuvers get a −2 modifier
-this round, while Block gets +2.
-
-OPEN SPACE: The chasers suddenly find themselves in an open space, the crowds clearing for a moment. This gives a +2 modifier to
-Stand and Shoot but −2 to Hide.
-
-10
-
-THUGS: D6 street thugs block the road, threatening violence. The prey must roll Persuasion (no action) to be allowed to pass. A failed
-roll means that the thugs attack – the chosen maneuver fails automatically and one thug attacks in close combat. If the Persuasion roll
-succeeds, the thugs will attack the pursuer instead.
-
-VEHICLE CHASE OBSTACLES
-
-D10 OBSTACLE
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-Dead End: If the prey has chosen to Pursue/Flee, Hide, or Block, the maneuver fails automatically.
-
-Downpour: A sudden downpour makes it difficult to see and the pavement slippery. The Pursue/Flee maneuver gets a disadvantage, but
-Hide gets an advantage.
-
-Vehicle/Cart: A car or cart pulls in and blocks the way. This gives an advantage to the Block maneuver, but a disadvantage to Pursue/
-Flee, and any failed such maneuver inflicts D3 points of damage to the driver’s vehicle.
-
-Red Lights: The traffic lights by a pedestrian crossing turn red, and a throng of people cross the street. This gives an advantage to the Cut
-Off maneuver, but a disadvantage to Pursue/Flee and Stand and Shoot. Any such failed maneuver will result in collateral damage.
-
-Patrol Car: A police patrol car joins the fray, sirens blaring. This gives a disadvantage to Pursue/Flee, Hide, and Stand and Shoot. Any-
-one who performs the Stand and Shoot maneuver will be fired upon by the police.
-
-Freeway: The vehicles move onto a wide freeway with multiple lanes, the traffic clearing for a moment. This gives an advantage to
-Pursue/Flee and Stand and Shoot, but a disadvantage to Hide and Block.
-
-Roadworks: A major roadworks is up ahead. It gives an advantage to the Hide, Block, and Cut Off maneuvers, but a disadvantage to
-Pursue/Flee and Stand and Shoot. A failed Pursue/Flee roll will inflict D3 points of damage to the vehicle.
-
-Cyclists: A group of dozens of cyclists are making their way along the streets, forming a noisy, clanking, almost impenetrable barrier.
-This gives an advantage to the Block maneuver, but a disadvantage to Pursue/Flee and Stand and Shoot. Any such failed maneuver will
-result in collateral damage.
-
-Truck: A massive truck blocks the way. This gives an advantage to the Cut Off maneuver, but a disadvantage to Pursue/Flee. A failed
-Pursue/Flee roll will inflict D6 points of damage to the vehicle.
-
-10
-
-Alleyway: The chase enters a narrow alley. Passing through unscathed requires a separate skill roll (no action) before any maneuver is
-resolved – failure means the vehicle is wrecked and the chase is over. The driver can choose to cancel their maneuver and navigate the
-alley slowly and carefully (no roll required).
-
-29
-
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.05
-MAGIC
+# [5] MAGIC
 
 What most people call magic is a catch-all term for forces at
 work behind the veil of the world, beyond what the common
@@ -3625,11 +2681,12 @@ ber of broad categories, called disciplines.
 
 There are seven disciplines in this SRD. Three of these are for
 druidic magic – Awareness, Healing, and Shapeshifting – while four
-are for sorcery: Blood Magic, Death Magic, Elementalism, and Sym-
-bolism. Every discipline is linked to a tiered specialty (page 13),
+are for sorcery: Blood Magic, Death Magic, Elementalism, and Symbolism. 
+Every discipline is linked to a tiered specialty (page 13),
 that is a prerequisite to be able to cast spells within each discipline.
 
-LEARNING MAGIC
+## LEARNING MAGIC
+
 To learn a new discipline, or increase your rank in a discipline
 you already know, you should find a master with a higher rank
 than you in the magic specialty and who is ready to share their
@@ -3637,12 +2694,14 @@ secrets with you. This can require both persuasion and substantial
 compensation. Without a teacher, the cost in XP for increasing the
 rank in a magical specialty or learning a new one is tripled.
 
-SPELLS
+# SPELLS
+
 Your attempts to use magic to impose your will on the world
 are called spells. A large number of spells are described later in
 this chapter.
 
-SPELL RANKS
+## SPELL RANKS
+
 All spells in this chapter are rated in ranks ranging from 1 to
 3. There can be spells of even higher rank. As a magic user,
 you can cast all spells that are at a rank equal to or lower than
@@ -3654,7 +2713,8 @@ this comes at a great risk, as you will automatically suffer a
 random magic mishap in this case. You can never cast a spell
 that is two ranks or more above your talent rank.
 
-CASTING A SPELL
+## CASTING A SPELL
+
 Casting a spell is generally a slow action in combat, but there
 are also so-called power words that are fast actions. Another
 type of spell are rituals that take a longer time to cast (see the
@@ -3707,116 +2767,67 @@ WILLPOWER POINTS: Casting a spell requires at least one
 Willpower Point. This applies even if it does not explicitly say
 so in the description of the spell.
 
-30
+|D12|MAGIC MISHAPS EFFECT|
+|---|---|
+|1|The magic makes you unable to sleep for D6 days.|
+|2|Your spell drains your energy, inflicting one point of stress.|
+|3|Your magic hurts your body and you suffer one point of damage.|
+|4|The spell triggers a magical disease with a virulence of 2D6. You and everyone within Engaged range of you for the next shift are exposed to the contagion.|
+|5|The spell also affects a friend or other unintended victim. A healing or helping spell affects an enemy alongside the intended target.|
+|6|Your magic permanently alters your appearance. The GM decides how.|
+|7|The spell blinds you. You act as in total darkness for the next full day.|
+|8|The spell ravages your mind. Immediately roll for a mental critical injury.|
+|9|The force of the magic breaks bones in your body. Immediately roll for a physical critical injury.|
+|10|Your magic attracts a demon from another dimension. The demon appears within the next shift and will create all kinds of trouble.|
+|11|The spell backfires. An offensive spell affects you instead of your intended target. A protective or healing spell wounds instead of heal- ing. A shapeshift goes horribly wrong and you become a dumb animal. A summoned undead, demon, or illusion turns against you. The GM specifies the details.|
+|12| Your magic rips open a rift to another dimension, and a demon pulls you over to the other side. Time to make a new character. Your old character will come back as an NPC after D66 days but will be… changed.|
 
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0MAGIC  MISHAPS
+```
+RITUALS
 
-D12 EFFECT
+Some complicated spells can’t be cast as an action in combat, as they require more time and preparation. A typical ritual takes a shift of time to perform. Rituals often have other prerequisites, such as ingredients that must be used to perform the ritual.
+```
 
-1
+## GENERAL SPELLS
 
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
-12
-
-The magic makes you unable to sleep for D6 days.
-
-Your spell drains your energy, inflicting one point of stress.
-
-Your magic hurts your body and you suffer one point of damage.
-
-The spell triggers a magical disease with a virulence of 2D6. You and everyone within Engaged range of you for the next shift are
-exposed to the contagion.
-
-The spell also affects a friend or other unintended victim. A healing or helping spell affects an enemy alongside the intended target.
-
-Your magic permanently alters your appearance. The GM decides how.
-
-The spell blinds you. You act as in total darkness for the next full day.
-
-The spell ravages your mind. Immediately roll for a mental critical injury.
-
-The force of the magic breaks bones in your body. Immediately roll for a physical critical injury.
-
-Your magic attracts a demon from another dimension. The demon appears within the next shift and will create all kinds of trouble.
-
-The spell backfires. An offensive spell affects you instead of your intended target. A protective or healing spell wounds instead of heal-
-ing. A shapeshift goes horribly wrong and you become a dumb animal. A summoned undead, demon, or illusion turns against you. The
-GM specifies the details.
-
-Your magic rips open a rift to another dimension, and a demon pulls you over to the other side. Time to make a new character. Your old
-character will come back as an NPC after D66 days but will be… changed.
-
-RIT UALS
-
-NPC S & SPEL LCASTING
-
-Some complicated spells can’t be cast as an action in combat, as
-
-NPCs don’t have pools of Willpower Points. Instead, when an
-
-they require more time and preparation. A typical ritual takes a
-
-NPC casts a spell, the GM may simply choose a base power level
-
-shift of time to perform. Rituals often have other prerequisites,
-
-up to the caster’s rank in the magic discipline used. Roll normally
-
-such as ingredients that must be used to perform the ritual.
-
-to determine any overcharging or magic mishap.
-
-GENERAL SPELLS
 The magic disciplines differ, but there are certain effects and
 spells that all sorcerers and druids can use if skilled enough.
 These are called general spells. They also come in ranks, but
 you can use any magic discipline to cast them.
 
-MAGICAL SEAL
- ✦ RANK 1
- ✦ RANGE: Engaged
- ✦ DURATION: Shift
+### MAGICAL SEAL
+- ✦ RANK 1
+- ✦ RANGE: Engaged
+- ✦ DURATION: Shift
 
 Using this spell, you protect a person or a location (no bigger
 than a human) from magic. The power level of any spells
 cast against that person or place during the Quarter Day is
 decreased by the power level of the Magical Seal.
 
-GR IMOIR ES
+```
+GRIMOIRES
 
 You don’t need your spells written down to cast them, but it makes
-
 it easier to get it right. Grimoires are highly sought-after artifacts
-
 among sorcerers. If you cast a spell from a book or a scroll, its rank
-
 is considered one step lower than usual. In combat, you must spend
-
 a fast action readying your grimoire before you can cast the spell.
+```
 
-SENSE MAGIC
- ✦ RANK 1
- ✦ RANGE: Medium
- ✦ DURATION: Immediate
+```
+NPCS & SPELLCASTING
+
+NPCs don’t have pools of Willpower Points. Instead, when an
+NPC casts a spell, the GM may simply choose a base power level
+up to the caster’s rank in the magic discipline used. Roll normally
+to determine any overcharging or magic mishap.
+```
+
+### SENSE MAGIC
+- ✦ RANK 1
+- ✦ RANGE: Medium
+- ✦ DURATION: Immediate
 
 As a sorcerer or druid, you automatically sense whenever
 someone uses magic within Short range or if an item you
@@ -3827,32 +2838,24 @@ Obscured magic (see below) – your power level must then be
 equal to or higher than the power level of the Obscure Magic
 spell.
 
-DISPEL MAGIC
- ✦ RANK 2, POWER WORD
- ✦ RANGE: Medium
- ✦ DURATION: Immediate
+### DISPEL MAGIC
+- ✦ RANK 2, POWER WORD
+- ✦ RANGE: Medium
+- ✦ DURATION: Immediate
 
 You can interfere with the spells cast by other magic users.
 This spell is reactive and breaks the initiative order of combat
 in the round (page 15). You decrease the power level of
 your opponent’s spell with the power level of your Dispel. If
 the result is zero or less, your opponent’s spell has no effect at
-
-31
-
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0all. You must both roll for overcharge and mishaps, as with
+all. You must both roll for overcharge and mishaps, as with
 any other spell. You must decide how many WP you spend on
 your Dispel before you both roll.
 
-AWARENESS
-Druids who practice Awareness can see what others cannot
-see, hear what others cannot hear. They can see what has hap-
-pened in the past and sense what will happen in the future.
-
-OBSCURE MAGIC
- ✦  RANK 2
- ✦  RANGE: Personal
- ✦  DURATION: Immediate
+### OBSCURE MAGIC
+- ✦  RANK 2
+- ✦  RANGE: Personal
+- ✦  DURATION: Immediate
 
 If you want to cast a spell unnoticed, you must Obscure your
 magic. This requires one extra Willpower Point that does not
@@ -3861,17 +2864,17 @@ does not count as an action in itself. To detect your Obscured
 spell, another magic user must actively survey the area by
 casting Sense Magic.
 
-BIND MAGIC
- ✦  RANK 3, RITUAL
- ✦ RANGE: Personal
- ✦  DURATION: Varies
+### BIND MAGIC
+- ✦ RANK 3, RITUAL
+- ✦ RANGE: Personal
+- ✦ DURATION: Varies
 
 Skilled sorcerers and druids can Bind spells to dead objects
 to create magical traps or powerful magical artifacts. You
 cast the spell like any other and choose how many Willpower
 Points to spend, but you must also spend extra WP to bind
-your spell to an object instead of unleashing its power imme-
-diately. Rituals cannot be Bound.
+your spell to an object instead of unleashing its power immediately. 
+Rituals cannot be Bound.
 
 Roll for any overcharge and mishap when the spell is
 Bound. The extra WP do affect this roll, but don’t count
@@ -3883,16 +2886,15 @@ WP binds the spell to the object forever and it can be triggered
 once per day, at a cost in WP equal to the Power Level.
 
 You can bind the spell in whatever manner you wish. You
-
 decide how the spell is triggered. Common methods include
 a certain phrase being uttered or that the object is opened,
 broken or thrown to the ground. Once the spell is triggered, it
 has the same effect as if it had been cast normally.
 
-TRANSFER
- ✦ RANK 3
- ✦  RANGE: Engaged
- ✦  DURATION: Immediate
+### TRANSFER
+- ✦ RANK 3
+- ✦ RANGE: Engaged
+- ✦ DURATION: Immediate
 
 You can use this spell to steal Willpower Points from others
 or to give your WP to someone else. The base cost to cast the
@@ -3902,18 +2904,24 @@ this case, you can Transfer no more WP than the power level
 of the spell. The WP used to cast Transfer are spent and are
 not transferred.
 
-LIGHTBRINGER
- ✦ RANK 1
- ✦ RANGE: Short
- ✦ DURATION: One stretch per power level
+## AWARENESS
+
+Druids who practice Awareness can see what others cannot
+see, hear what others cannot hear. They can see what has happened 
+in the past and sense what will happen in the future.
+
+### LIGHTBRINGER
+- ✦ RANK 1
+- ✦ RANGE: Short
+- ✦ DURATION: One stretch per power level
 
 You summon a bright light that dispels all shadows within
 Short range, i.e., in the same zone as you.
 
-TRUE SIGHT
- ✦ RANK 1
- ✦ RANGE: Extreme
- ✦ DURATION: Round
+### TRUE SIGHT
+- ✦ RANK 1
+- ✦ RANGE: Extreme
+- ✦ DURATION: Round
 
 You can enhance your vision to be unnaturally sharp, and
 see details at Extreme range as if you stood right next to the
@@ -3922,20 +2930,20 @@ through smoke and fog, and automatically see through any
 kind of disguise or shapeshift. You must have a clear line of
 sight to whatever you want to look at.
 
-WORDS ON THE WIND
- ✦ RANK 1
- ✦ RANGE: Extreme
- ✦ DURATION: One stretch per power level
+### WORDS ON THE WIND
+- ✦ RANK 1
+- ✦ RANGE: Extreme
+- ✦ DURATION: One stretch per power level
 
 You can enhance your hearing magically and hear specific
 sounds up to Extreme range as clearly as if you stood right
 where they emanate from. You must see the place to which
 you direct your hearing.
 
-FARSIGHT
- ✦ RANK 2
- ✦ RANGE: Varies
- ✦ DURATION: Stretch
+### FARSIGHT
+- ✦ RANK 2
+- ✦ RANGE: Varies
+- ✦ DURATION: Stretch
 
 You can let your inner eye wander across vast distances, over
 oceans and land, mountains, and valleys, and see what is
@@ -3948,61 +2956,32 @@ increases the required power level by two. Your visions are
 often fragmented and cryptic – the GM decides exactly what
 you can see.
 
-32
-
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0TRUE PATH
- ✦ RANK 2
- ✦ RANGE: Personal
- ✦ DURATION: Immediate
+### TRUE PATH
+- ✦ RANK 2
+- ✦ RANGE: Personal
+- ✦ DURATION: Immediate
 
 This spell can guide you to the right path when you face a
 difficult decision. Once you have cast the spell, the GM must
 tell you which decision or choice she believes is the wisest.
 
-VISIONS OF THE PAST
- ✦ RANK 2
- ✦ RANGE: Medium
- ✦ DURATION: Stretch
+### VISIONS OF THE PAST
+- ✦ RANK 2
+- ✦ RANGE: Medium
+- ✦ DURATION: Stretch
 
-You can see events that have transpired in the past at the loca-
-tion where you are, even if those events are no longer remem-
-bered by any living being. Power level 1 lets you see one day
+You can see events that have transpired in the past at the location 
+where you are, even if those events are no longer remembered by any 
+living being. Power level 1 lets you see one day
 back in time, power level 2 one year into the past, and power
 level 3 lets you see hundreds of years back. Your visions are
 often fragmented and cryptic – the GM decides exactly what
 you can see.
 
-DIVINATION
- ✦ RANK 3, RITUAL
- ✦ RANGE: Short
- ✦ DURATION: Stretch
-
-to another person. In that case, the range of the spell is Long
-if you know the target well. By sending thoughts of pain and
-suffering, you can inflict stress (damage to Wits or Empathy,
-if using attribute damage) equal to the power level. This spell
-has no effect on monsters.
-
-HEALING
-The true calling of the druid is to further nature’s cause and to
-heal its wounds wherever they appear. Thus, the Healing dis-
-cipline is the most common among druids, and druids focused
-on this discipline are often popular among adventurers.
-
-CLEANSE SPIRIT
- ✦ RANK 1
- ✦ RANGE: Engaged
- ✦ DURATION: Immediate
-
-You can focus the forces of nature to enlighten dark souls. You
-immediately heal an amount of Resolve (Wits or Empathy, if
-the game uses attribute damage) equal to the power level. You
-cannot heal yourself.
-
-HEALING HANDS
- ✦ RANK 1
- ✦ RANGE: Engaged
- ✦ DURATION: Immediate
+### DIVINATION
+- ✦ RANK 3, RITUAL
+- ✦ RANGE: Short
+- ✦ DURATION: Stretch
 
 Performing a ritual, you can see visions of the future. You ask
 the GM questions about yourself or someone else present. The
@@ -4010,21 +2989,10 @@ GM answers as best she can. The answer must be brief, and is
 often ambiguous and cryptic. The answer can also come in the
 form of a sign of happiness, or a foreboding sign of ill fortune.
 
-You can heal an amount of Health (Strength or Agility, if the
-game uses attribute damage) by laying your hands on the
-wounded. You immediately heal a number of points equal to
-the power level. This spell does not affect critical injuries. You
-cannot heal yourself.
-
-INTUITION
- ✦ RANK 3
- ✦ RANGE: Personal
- ✦ DURATION: Immediate
-
-NATURE’S CURE
- ✦ RANK 1
- ✦ RANGE: Engaged
- ✦ DURATION: Immediate
+### INTUITION
+- ✦ RANK 3
+- ✦ RANGE: Personal
+- ✦ DURATION: Immediate
 
 You can ask a short “yes” or “no” question about anything
 in the world. The GM must answer “yes,” “no,” or “maybe.”
@@ -4033,6 +3001,54 @@ know the answer, but believes that the true answer may dis-
 rupt the game. Note that true or false is not an objective fact,
 but is defined by who is asking the question.
 
+### TELEPATHY
+- ✦ RANK 3
+- ✦ RANGE: Short
+- ✦ DURATION: Stretch
+
+You can read the surface thoughts of another person for a few
+minutes. Digging deeper for memories is harder, and requires
+power level 2 or even more, depending on how fresh the mem-
+ory is. You can also use this spell to send your own thoughts
+to another person. In that case, the range of the spell is Long
+if you know the target well. By sending thoughts of pain and
+suffering, you can inflict stress (damage to Wits or Empathy,
+if using attribute damage) equal to the power level. This spell
+has no effect on monsters.
+
+## HEALING
+
+The true calling of the druid is to further nature’s cause and to
+heal its wounds wherever they appear. Thus, the Healing dis-
+cipline is the most common among druids, and druids focused
+on this discipline are often popular among adventurers.
+
+### CLEANSE SPIRIT
+- ✦ RANK 1
+- ✦ RANGE: Engaged
+- ✦ DURATION: Immediate
+
+You can focus the forces of nature to enlighten dark souls. You
+immediately heal an amount of Resolve (Wits or Empathy, if
+the game uses attribute damage) equal to the power level. You
+cannot heal yourself.
+
+### HEALING HANDS
+ ✦ RANK 1
+ ✦ RANGE: Engaged
+ ✦ DURATION: Immediate
+
+You can heal an amount of Health (Strength or Agility, if the
+game uses attribute damage) by laying your hands on the
+wounded. You immediately heal a number of points equal to
+the power level. This spell does not affect critical injuries. You
+cannot heal yourself.
+
+### NATURE’S CURE
+- ✦ RANK 1
+- ✦ RANGE: Engaged
+- ✦ DURATION: Immediate
+
 You heal a sickness or cure the effects of poison in your-
 self or someone else. The power level of your spell must be
 equal to or higher than the virulence or toxicity rating (page
@@ -4040,48 +3056,35 @@ equal to or higher than the virulence or toxicity rating (page
  system. In the step dice system, the power level must be 1 for
  virulence /  toxicity D, 2 for C, 3 for B, and 4 for A.
 
-TELEPATHY
- ✦ RANK 3
- ✦ RANGE: Short
- ✦ DURATION: Stretch
-
-BANISH DEMON
- ✦ RANK 2
- ✦ RANGE: Short
- ✦ DURATION: Immediate
-
-You can read the surface thoughts of another person for a few
-minutes. Digging deeper for memories is harder, and requires
-power level 2 or even more, depending on how fresh the mem-
-ory is. You can also use this spell to send your own thoughts
+### BANISH DEMON
+- ✦ RANK 2
+- ✦ RANGE: Short
+- ✦ DURATION: Immediate
 
 This spell inflicts damage equal to the power level on a demon.
 This includes demons that do not suffer damage from physical
 weapons.
 
-33
-
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0MEND WOUNDS
- ✦ RANK 2
- ✦ RANGE: Engaged
- ✦ DURATION: Immediate
+### MEND WOUNDS
+- ✦ RANK 2
+- ✦ RANGE: Engaged
+- ✦ DURATION: Immediate
 
 You can use magic to heal broken bones and bleeding wounds.
-This spell immediately heals a critical injury. A lethal injury re-
-quires power level 2. Lost limbs cannot be regrown, however.
+This spell immediately heals a critical injury. A lethal injury requires 
+power level 2. Lost limbs cannot be regrown, however.
 
-PURGE UNDEAD
- ✦ RANK 2
- ✦ RANGE: Short
- ✦ DURATION: Immediate
+### PURGE UNDEAD
+- ✦ RANK 2
+- ✦ RANGE: Short
+- ✦ DURATION: Immediate
 
-This spell inflicts damage equal to the Power Level on one
-undead target.
+This spell inflicts damage equal to the Power Level on one undead target.
 
-RESURRECTION
- ✦ RANK 3
- ✦ RANGE: Engaged
- ✦ DURATION: Immediate
+### RESURRECTION
+- ✦ RANK 3
+- ✦ RANGE: Engaged
+- ✦ DURATION: Immediate
 
 You can channel nature’s forces to resurrect a dead person –
 not as undead, but truly alive. The more time that has passed
@@ -4093,33 +3096,33 @@ ed. A person brought back to life loses one point of Empathy
 permanently, as having seen the world beyond the veil will
 change their outlook on life forever.
 
-SERENITY
- ✦ RANK 3
- ✦ RANGE: Short
- ✦ DURATION: Immediate
+### SERENITY
+- ✦ RANK 3
+- ✦ RANGE: Short
+- ✦ DURATION: Immediate
 
 You spread harmony and serenity around you with this spell,
 which helps you in social conflicts. The victim of the spell will
 do what you want, without a roll to Persuade them. The spell
 can only be used against living humanoids.
 
-WEATHERMASTER
- ✦ RANK 3
- ✦ RANGE: Extreme
- ✦ DURATION: Shift
+### WEATHERMASTER
+- ✦ RANK 3
+- ✦ RANGE: Extreme
+- ✦ DURATION: Shift
 
-You are so in tune with the forces of nature that you can sum-
-mon a drastic weather shift in the area where you are. A minor
+You are so in tune with the forces of nature that you can summon 
+a drastic weather shift in the area where you are. A minor
 shift, from cloudy to rain or from dead calm to a light breeze,
 requires power level 1. Unusual weather phenomena that still
 stay within what is apt for the season – a snowstorm in winter,
 blazing heat in the summer, or hard winds and lashing rains
 in the fall – require power level 2. To summon completely
-
 unnatural weather, such as a snowstorm in the summer or a
 heatwave in the middle of winter, requires power level 3.
 
-SHAPESHIFTING
+## SHAPESHIFTING
+
 Druids are closely connected to nature, and the shapeshifters
 are even more so in their aspiration to be one with nature.
 Shapeshifting means taking the form of an animal. While there
@@ -4127,82 +3130,68 @@ are Druids who have truly mastered this art, there is a broad
 spectrum of spells in the Shapeshifting discipline that all relate
 to animals and their aspects in different ways.
 
-ANIMAL SPEECH
- ✦ RANK 1
- ✦ RANGE: Short
- ✦ DURATION: Stretch
+### ANIMAL SPEECH
+- ✦ RANK 1
+- ✦ RANGE: Short
+- ✦ DURATION: Stretch
 
 This spell allows you to speak with a mammal. You can ask a
 number of questions equal to the power level of the spell. The
 animal can tell you what it has seen, heard, or smelled – but
-they do not perceive the world as humanoids do, so their an-
-swers are often hard to interpret. The main advantage is that
+they do not perceive the world as humanoids do, so their answers 
+are often hard to interpret. The main advantage is that
 they never lie.
 
-CAT’S PAW
- ✦ RANK 1
- ✦ RANGE: Personal
- ✦ DURATION: Immediate
+### CAT’S PAW
+- ✦ RANK 1
+- ✦ RANGE: Personal
+- ✦ DURATION: Immediate
 
 You can meld your mind with the spirit of the cat, and move
 without a sound. You can cast this spell instead of rolling
 Stealth, and you will succeed automatically. Each power level
 counts as one success.
 
-HAWK’S EYE
- ✦ RANK 1
- ✦ RANGE: Extreme
- ✦ DURATION: Stretch
+### HAWK’S EYE
+- ✦ RANK 1
+- ✦ RANGE: Extreme
+- ✦ DURATION: Stretch
 
 You can meld your mind with that of a hawk and gain its
 inhuman sight. You can see the details of anything within
 Extreme range, everything from horizon to horizon. You see
 all details and can identify specific people.
 
-BEASTMASTER
- ✦ RANK 2
- ✦ RANGE: Short
- ✦ DURATION: Stretch
+### BEASTMASTER
+- ✦ RANK 2
+- ✦ RANGE: Short
+- ✦ DURATION: Stretch
 
 You can bend animals, both wild and tame, to your will. The
 animal can, for example, break off an attack, track down an
 enemy, run to where you want it to and deliver a message,
 allow you to ride on it, or even attack your opponents.
 
-34
-
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0You cannot control an animal with a Strength higher than
+You cannot control an animal with a Strength higher than
 twice the power level. The power level must be one step higher
 if the animal is agitated, scared or in combat. If you force an
 animal to act in a way that is outside its normal behavior –
 like make it perform tricks, for example – the power level
 needs to be one step higher.
 
-You can only control one animal at a time. This spell can-
+You can only control one animal at a time. This spell cannot be used against monsters.
 
-not be used against monsters.
+### BEAR’S CLAW
+- ✦ RANK 2 
+- ✦ RANGE: Engaged 
+- ✦ DURATION: Immediate
 
-a crowd in a more general way, a small crowd requires a power
-level of 2, a big crowd requires 3, and a whole village 4.
+You can strike your enemy with the force of a great bear. You hit automatically and cause damage equal to the power level. The attack cannot be parried or dodged, but armor has normal effect.
 
-BLOOD MAGIC
-Blood magic derives its power from life itself and its liquid
-essence – blood.
-
-BEAR’S CLAW
- ✦ RANK 2
- ✦  RANGE: Engaged
- ✦  DURATION: Immediate
-
-You can strike your enemy with the force of a great bear.
-You hit automatically and cause damage equal to the power
-level. The attack cannot be parried or dodged, but armor has
-normal effect.
-
-DEER’S DASH
- ✦ RANK 2
- ✦  RANGE: Personal
- ✦  DURATION: Immediate
+### DEER’S DASH
+- ✦ RANK 2
+- ✦  RANGE: Personal
+- ✦  DURATION: Immediate
 
 You can run with the speed of a deer for a short distance. This
 spell allows you to move (fast action) as an animal (page 25)
@@ -4210,10 +3199,10 @@ with a positive modifier to the Mobility roll equal to the power
 level. Casting this spell does not count as an action in itself.
 Roll for overcharge/mishap right before you actually move.
 
-ANIMAL FORM
- ✦ RANK 3
- ✦  RANGE: Personal
- ✦  DURATION: Immediate
+### ANIMAL FORM
+- ✦ RANK 3
+- ✦ RANGE: Personal
+- ✦ DURATION: Immediate
 
 You can shapeshift completely, and take the form of an animal.
 You cannot choose an animal with a Strength higher than twice the
@@ -4224,29 +3213,36 @@ that your Wits and Empathy drop to 1 each while in animal form.
 You also get access to the animal’s natural attacks. Shifting back to
 your normal form requires that you cast the spell again.
 
-PRIMAL SOUL
- ✦ RANK 3
- ✦ RANGE: Long
- ✦ DURATION: Stretch
+### PRIMAL SOUL
+- ✦ RANK 3
+- ✦ RANGE: Long
+- ✦ DURATION: Stretch
 
 You can awaken primal emotions in the minds of others. The
 power level must be equal to or higher than the victim’s current
 Wits score. For example, you can bring out the rage of a boar,
 the laziness of a cat or the timidity of a sparrow. Exactly how the
 victim reacts is up to the GM. If you want to affect the mood of
+a crowd in a more general way, a small crowd requires a power
+level of 2, a big crowd requires 3, and a whole village 4.
 
-FIREWALKER
- ✦ RANK 1
- ✦ RANGE: Personal
- ✦ DURATION: Shift
+## BLOOD MAGIC
+
+Blood magic derives its power from life itself and its liquid
+essence – blood.
+
+### FIREWALKER
+- ✦ RANK 1
+- ✦ RANGE: Personal
+- ✦ DURATION: Shift
 
 You can make yourself completely immune to heat and cold
 (page 25). You take no damage from fire.
 
-STIR BLOOD
- ✦ RANK 1
- ✦ RANGE: Short
- ✦ DURATION: Stretch
+### STIR BLOOD
+- ✦ RANK 1
+- ✦ RANGE: Short
+- ✦ DURATION: Stretch
 
 Using this spell, you stir your victim’s blood and bring out
 strong emotions such as lust, fear or rage. The victim must
@@ -4255,21 +3251,21 @@ on the individual and the situation. The GM determines the
 details. The spell has no effect in combat and cannot be used
 against monsters.
 
-BIND DEMON
- ✦ RANK 2
- ✦ RANGE: Short
- ✦ DURATION: Shift
+### BIND DEMON
+- ✦ RANK 2
+- ✦ RANGE: Short
+- ✦ DURATION: Shift
 
 This spell allows you to bend demonic creatures from other
-worlds to your will. The demon can resist the spell with a suc-
-cessful Insight roll with a negative modifier equal to the power
+worlds to your will. The demon can resist the spell with a successful 
+Insight roll with a negative modifier equal to the power
 level. Keep in mind that demons rarely react well to magicians’
 attempts to Bind them, so be ready for any consequences.
 
-BLOOD BOND
- ✦ RANK 2
- ✦ RANGE: Engaged
- ✦ DURATION: Immediate
+### BLOOD BOND
+- ✦ RANK 2
+- ✦ RANGE: Engaged
+- ✦ DURATION: Immediate
 
 You can transfer blood, and the inherent energy of it, to or
 from another being of the same kind as yourself. You can
@@ -4282,12 +3278,10 @@ equal to the power level, to resist the spell. The spell can be
 used to get a broken person up on their feet, but it has no
 effect on critical injuries.
 
-35
-
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0IMMOLATE
- ✦ RANK 2
- ✦ RANGE: Short
- ✦ DURATION: Immediate
+### IMMOLATE
+- ✦ RANK 2
+- ✦ RANGE: Short
+- ✦ DURATION: Immediate
 
 You can heat up your victim’s blood to the point where they liter-
 ally burst into flames. The spell inflicts damage equal to the power
@@ -4296,10 +3290,10 @@ equal to twice the power level. If using the step dice system, the in-
 tensity is D for power level 1, C for power level 2, B for 3, and A for
 power level 4 or above. Armor does not protect against this spell.
 
-BLOOD CHANNELING
- ✦ RANK 3
- ✦ RANGE: Personal
- ✦ DURATION: Round
+### BLOOD CHANNELING
+- ✦ RANK 3
+- ✦ RANGE: Personal
+- ✦ DURATION: Round
 
 This spell concentrates the energy of the sorcerer’s own blood.
 You gain a number of Willpower Points equal to twice the power
@@ -4308,23 +3302,23 @@ er Points must be used in the next round, or they are lost. If you
 use a living sacrifice as an ingredient for your spell, it must be
 sacrificed before you cast the spell. A small animal is enough.
 
-BLOOD CURSE
- ✦ RANK 3, RITUAL
- ✦ RANGE: Unlimited
- ✦ DURATION: One shift per power level
+### BLOOD CURSE
+- ✦ RANK 3, RITUAL
+- ✦ RANGE: Unlimited
+- ✦ DURATION: One shift per power level
 
 You place a blood curse on your victim, who must be a living
 humanoid. You must know your victim’s name and know
-where they are, at least approximately. The victim suffers dam-
-age or stress (any attribute, if using attribute damage). The
+where they are, at least approximately. The victim suffers damage 
+or stress (any attribute, if using attribute damage). The
 amount of damage equals the power level and the victim takes
 one point of damage per shift until the full effect is reached.
 During this time, no natural healing is possible.
 
-BIND SOUL
- ✦ RANK 3, RITUAL
- ✦ RANGE: Engaged
- ✦ DURATION: Varies
+### BIND SOUL
+- ✦ RANK 3, RITUAL
+- ✦ RANGE: Engaged
+- ✦ DURATION: Varies
 
 Through this ritual, you can extract a victim’s soul from his
 blood and capture it in a vessel of some kind (such as a mirror,
@@ -4339,7 +3333,8 @@ victim can be freed by a Dispel Magic (page 31). While the
 soul is bound, the body is unconscious and can be killed or
 possessed by another restless spirit.
 
-DEATH MAGIC
+## DEATH MAGIC
+
 Death magic draws its power from dead or dying beings, from
 rot and decay. Practitioners of death magic, known as necro-
 mancers, can also steal power from living things by twisting
@@ -4348,35 +3343,35 @@ and fear these black arts stir up. The necromancers see them-
 selves as seekers of truth, as pioneers and explorers of the true
 nature of life and death.
 
-BEFOUL
- ✦ RANK 1
- ✦ RANGE: Short
- ✦  DURATION: Immediate
+### BEFOUL
+- ✦ RANK 1
+- ✦ RANGE: Short
+- ✦  DURATION: Immediate
 
 You can let death and decay seep into food. You can Befoul a
-ration of food per power level making it unfit for consump-
-tion. The food turns into a poison with a toxicity equal to
+ration of food per power level making it unfit for consumption. 
+The food turns into a poison with a toxicity equal to
 the lower level multiplied by 3 in the dice pool system. In the
 step dice system, power level 1 gives toxicity D, power level
 toxicity C, etc.
 
-CHILL OF THE GRAVE
- ✦ RANK 1
- ✦ RANGE: Engaged
- ✦ DURATION: One round per power level
+### CHILL OF THE GRAVE
+- ✦ RANK 1
+- ✦ RANGE: Engaged
+- ✦ DURATION: One round per power level
 
 You let the unrelenting cold of death seep into your victim.
-The victim becomes cold (page 25), immediately suffer-
-ing one point of damage and one point of stress (damage to
+The victim becomes cold (page 25), immediately suffering 
+one point of damage and one point of stress (damage to
 Strength and Wits) as a result. The victim continues to suffer
 one point of damage and stress each round, until the total
 amount of damage and stress each equal the power level. The
 spell has no effect on monsters.
 
-CONTAMINATE
- ✦ RANK 1
- ✦ RANGE: Engaged
- ✦  DURATION: Immediate
+### CONTAMINATE
+- ✦ RANK 1
+- ✦ RANGE: Engaged
+- ✦  DURATION: Immediate
 
 You can create horrid contagions with which to torment
 your enemies. Your victim, who must be a living humanoid,
@@ -4384,22 +3379,20 @@ contracts a disease with a virulence equal to the power level
 multiplied by 3 in the dice pool system. In the step dice system,
 power level 1 gives virulence D, power level virulence C, etc.
 
-GHOULISH GLARE
- ✦  RANK 1
- ✦  RANGE: Medium
- ✦  DURATION: Immediate
+### GHOULISH GLARE
+- ✦  RANK 1
+- ✦  RANGE: Medium
+- ✦  DURATION: Immediate
 
 Your murky appearance instills unease and fear in your victim.
 They suffer stress (damage to Empathy if using attribute
 damage) equal to the power level. This spell can only be used
 against living humanoids.
 
-36
-
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0HAND OF DOOM
- ✦ RANK 2
- ✦ RANGE: Short
- ✦ DURATION: Immediate
+### HAND OF DOOM
+- ✦ RANK 2
+- ✦ RANGE: Short
+- ✦ DURATION: Immediate
 
 You can claw your way to your victim’s heart magically and
 squeeze the life from them. This spell inflicts damage equal to the
@@ -4407,80 +3400,78 @@ power level. You can extend the range to Medium if you spend
 an extra Willpower Point (this does not count towards the power
 level). This spell can only be used against living humanoids.
 
-RAISE THE DEAD
- ✦  RANK 2, RITUAL
- ✦  RANGE: Short
- ✦  DURATION: Shift
+### RAISE THE DEAD
+- ✦  RANK 2, RITUAL
+- ✦  RANGE: Short
+- ✦  DURATION: Shift
 
 The main task of Death Magic is awakening the dead. In its
-simplest form, this ritual is used to reanimate one dead hu-
-manoid or animal, which will become a rank 1 undead.
+simplest form, this ritual is used to reanimate one dead humanoid 
+or animal, which will become a rank 1 undead.
 
 For each power level beyond the first, you can reanimate one
-
 more undead, or increase the rank of all undead raised by the
 spell by one. A ritual with power level 2 can raise two undead of
 rank 1, power level 3 can raise two undead of rank 2, and so on.
-A rank 1 undead has little to no mental capacity, but will
 
+A rank 1 undead has little to no mental capacity, but will
 obey simple commands and can use weapons and simple
 tools. The undead has the same Strength it did in life, Agility
 is decreased by one (no lower than 1), and it has no Wits or
 Empathy. Skills based on Strength and Agility are retained.
 
 A rank 2 undead can be enhanced in one of the following ways:
- ✦ STRONGER: The Strength score increases by 1. This effect
-can be chosen several times for undead of higher ranks.
+- ✦ STRONGER: The Strength score increases by 1. This effect can be chosen several times for undead of higher ranks.
+- ✦ SMARTER: The undead regains some of its lost mental capacity, in the form of both Wits and Empathy and skills associated with these attributes. All the scores are lowered by one (no lower than 1). The undead can answer questions about its life both before and after death, but it often has an unclear sense of time and can be very forgetful. It obeys its maker and can perform slightly more advanced tasks.
+- ✦ DURABLE: The duration of the spell is doubled. This effect can be chosen several times for undead of higher levels.
 
- ✦ SMARTER: The undead regains some of its lost mental
+A rank 3 undead gets two of the effects above. A rank 4 undead gets three effects, a rank 5 gets four effects, and so on.
 
-capacity, in the form of both Wits and Empathy and skills
-associated with these attributes. All the scores are lowered
-by one (no lower than 1). The undead can answer questions
-about its life both before and after death, but it often has an
-unclear sense of time and can be very forgetful. It obeys its
-maker and can perform slightly more advanced tasks.
+### SPEAK TO THE DEAD
+- ✦ RANK 2
+- ✦ RANGE: Short
+- ✦ DURATION: Stretch
 
- ✦ DURABLE: The duration of the spell is doubled. This effect
-can be chosen several times for undead of higher levels.
-
-A rank 3 undead gets two of the effects above. A rank 4 un-
-dead gets three effects, a rank 5 gets four effects, and so on.
-
-tim’s remains are reasonably intact you can speak directly with
+You can speak with the dead. You must be within Short range
+of where the victim died or lies buried. You must know the victim’s 
+name. You can speak with the dead for a few minutes and
+ask a few simple questions. The GM decides what the dead can
+and will answer – the dead aren’t always cooperative. If the victim’s 
+remains are reasonably intact you can speak directly with
 the corpse, otherwise you hear the dead as a disembodied host
 voice in your head. This spell cannot be used against undead.
 
-STEAL LIFE
- ✦  RANK 3, RITUAL
- ✦  RANGE: Short
- ✦  DURATION: Immediate
+### STEAL LIFE
+- ✦  RANK 3, RITUAL
+- ✦  RANGE: Short
+- ✦  DURATION: Immediate
 
 You can suck the life from living plants and animals around you.
 You gain a number of Willpower Points equal to twice the power
 level. The ritual can only be used in an environment where there
-is vegetation and so cannot be used indoors or on a rocky moun-
-tain side. When you perform the ritual, all people, animals and
+is vegetation and so cannot be used indoors or on a rocky mountain 
+side. When you perform the ritual, all people, animals and
 plants within Short range – in the same zone as you – die.
 
-TERROR
- ✦  RANK 3
- ✦  RANGE: Medium
- ✦  DURATION: Immediate
+### TERROR
+- ✦  RANK 3
+- ✦  RANGE: Medium
+- ✦  DURATION: Immediate
 
 You can instill a horrible, unbearable fear in your victim, whose
 mind is flooded by images of their own aging and death. The
 victim suffers stress (damage to both Wits and Empathy) equal
 to the power level. This spell only works on living humanoids.
 
-ELEMENTALISM
+## ELEMENTALISM
+
 Elemental magic is the art of manipulating the very building blocks
 of existence, the four basic elements earth, wind, water, and fire.
 
-COMBUSTION
- ✦  RANK 1
- ✦  RANGE: Short
- ✦  DURATION: Immediate
+### COMBUSTION
+- ✦  RANK 1
+- ✦  RANGE: Short
+- ✦  DURATION: Immediate
 
 Manipulating the element of fire, you make any non-living
 object suddenly burst into flame. If used against a held item, the
@@ -4490,21 +3481,10 @@ with an intensity (page 24) equal to twice the power level. If
 using the step dice system, the intensity is D for power level 1, C
 for power level 2, B for 3, and A for power level 4 or above.
 
-SPEAK TO THE DEAD
- ✦ RANK 2
- ✦ RANGE: Short
- ✦ DURATION: Stretch
-
-SUNDER
- ✦  RANK 1
- ✦  RANGE: Engaged
- ✦  DURATION: Immediate
-
-You can speak with the dead. You must be within Short range
-of where the victim died or lies buried. You must know the vic-
-tim’s name. You can speak with the dead for a few minutes and
-ask a few simple questions. The GM decides what the dead can
-and will answer – the dead aren’t always cooperative. If the vic-
+### SUNDER
+- ✦  RANK 1
+- ✦  RANGE: Engaged
+- ✦  DURATION: Immediate
 
 Breaking the invisible bonds holding physical matter together,
 you split apart any object. Using this spell, you can break any
@@ -4512,17 +3492,10 @@ non-living and non-magical object. For each power level, the item
 loses one point of gear bonus (page 11) or suffers ten points of
 damage. Armor has no effect.
 
-37
-
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0SUFFOCATE
- ✦  RANK 1
- ✦  RANGE: Short
- ✦  DURATION: One round per power level
-
-FLIGHT
- ✦ RANK 2
- ✦ RANGE: Engaged
- ✦ DURATION: Round
+### SUFFOCATE
+- ✦  RANK 1
+- ✦  RANGE: Short
+- ✦  DURATION: One round per power level
 
 Commanding the element of wind, you suffocate a victim
 by literally pulling the air out of their lungs. The target
@@ -4533,10 +3506,10 @@ of the spell, they die after D6 rounds unless saved with a
 Healing roll. While under the effect of the spell, the victim
 cannot talk or scream.
 
-WATER BREATHING
- ✦  RANK 1
- ✦  RANGE: Engaged
- ✦  DURATION: Stretch
+### WATER BREATHING
+- ✦  RANK 1
+- ✦  RANGE: Engaged
+- ✦  DURATION: Stretch
 
 You grant yourself or a creature you touch the ability to
 breath water as if it was air, eliminating the danger of drown-
@@ -4544,10 +3517,10 @@ ing. Each power level increases the number of creatures you
 can affect by one or increases the duration by one stretch.
 These extra effects can be combined.
 
-HEAT OF THE MOMENT
- ✦  RANK 2
- ✦  RANGE: Short
- ✦  DURATION: Immediate
+### HEAT OF THE MOMENT
+- ✦  RANK 2
+- ✦  RANGE: Short
+- ✦  DURATION: Immediate
 
 By calling forth the element of fire in the heart of another
 living being, you cause your victim to be overcome by anger
@@ -4561,10 +3534,19 @@ keep fighting until they are broken, or all enemies have fled
 or are broken. No effect against monsters or creatures that
 lack Wits.
 
-ROCK STORM
- ✦ RANK 2
- ✦ RANGE: Medium
- ✦ DURATION: Immediate
+### ROCK STORM
+- ✦ RANK 2
+- ✦ RANGE: Medium
+- ✦ DURATION: Immediate
+
+Manipulating the element of Earth, you hurl stones and rocks
+at an enemy in combat. The damage from your attack is equal
+to the power level. Armor works normally.
+
+### FLIGHT
+- ✦ RANK 2
+- ✦ RANGE: Engaged
+- ✦ DURATION: Round
 
 Controlling the air around you, you create a small whirlwind
 that propels you into the air. Using the spell, you can fly for
@@ -4573,20 +3555,20 @@ The casting of the spell doesn’t count as an action in itself.
 For each additional power level, you can fly for an additional
 round or bring another person with you.
 
-PARCH
- ✦ RANK 2
- ✦ RANGE: Engaged
- ✦  DURATION: Immediate
+### PARCH
+- ✦ RANK 2
+- ✦ RANGE: Engaged
+- ✦  DURATION: Immediate
 
 Controlling the element of water, you draw the fluids out of
 a living victim. They immediately suffer damage (to Agility, if
 using the attribute damage) equal to the power level. Armor
 has no effect.
 
-FIREBALL
- ✦  RANK 3
- ✦  RANGE: Long
- ✦  DURATION: Immediate
+### FIREBALL
+- ✦  RANK 3
+- ✦  RANGE: Long
+- ✦  DURATION: Immediate
 
 You hurl a ball of fire which explodes upon hitting the target,
 incinerating a large area. The main target of your attack suffers
@@ -4596,10 +3578,10 @@ fire with an intensity (page 24) equal to twice the power level.
 If using the step dice system, the intensity is D for power level 1,
 C for power level 2, B for 3, and A for power level 4 or above.
 
-STONESKIN
- ✦  RANK 3
- ✦  RANGE: Personal
- ✦  DURATION: Stretch
+### STONESKIN
+- ✦ RANK 3
+- ✦ RANGE: Personal
+- ✦ DURATION: Stretch
 
 Manipulating the element of Earth, you cover your body with
 a layer of living stone, protecting you against damage. You
@@ -4607,34 +3589,22 @@ receive an armor rating equal to twice the power level (using
 step dice, power level 1 gives armor rating D, power level 2
 gives armor rating C, etc).
 
-Manipulating the element of Earth, you hurl stones and rocks
-at an enemy in combat. The damage from your attack is equal
-to the power level. Armor works normally.
-
-TORNADO
- ✦  RANK 3
- ✦  RANGE: Medium
- ✦  DURATION: Immediate
+### TORNADO
+- ✦  RANK 3
+- ✦  RANGE: Medium
+- ✦  DURATION: Immediate
 
 Forcing air into a spin, you unleash a powerful whirlwind.
 Your target is pummeled and suffers damage equal to the
 power level (blunt trauma). You can distribute the damage to
-
-38
-
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0several targets in the same zone. Also, everyone in the target
+several targets in the same zone. Also, everyone in the target
 zone must make a Force roll to stay standing. Flying creatures
 must make the same roll to stay in the air.
 
-PARALYZE
- ✦ RANK 1
- ✦ RANGE: Medium
- ✦ DURATION: Immediate
-
-FLOOD WAVE
- ✦  RANK 3
- ✦  RANGE: Medium
- ✦  DURATION: Immediate
+### FLOOD WAVE
+- ✦  RANK 3
+- ✦  RANGE: Medium
+- ✦  DURATION: Immediate
 
 Forcing any nearby source of water or snow to do your
 bidding, you unleash a flood wave or small avalanche against
@@ -4643,7 +3613,8 @@ equal to the power level – you can distribute the damage as
 you see fit. All victims who take damage are thrown to the
 ground.
 
-SYMBOLISM
+## SYMBOLISM
+
 The discipline of Symbolism uses runes, esoteric signs and
 symbols that reflect the underlying patterns of the world. It
 takes advantage of the forces unleashed by a broad spectrum
@@ -4653,7 +3624,6 @@ drawn, or simply formed in the air by the hands of a sorcerer.
 In any case, the sorcerer needs at least one free hand.
 
 Draw or Carve: Symbolism requires no ingredients apart
-
 from the symbols themselves. If they are carved or drawn
 in any way, the power level is increased by one. Drawing a
 symbol takes a few minutes and cannot be done in the heat of
@@ -4661,10 +3631,31 @@ battle. Carving a symbol into stone takes one shift or more.
 The Sorcerer decides when the symbol is activated. Even a
 drawn or carved symbol only works once.
 
-ENTICE
- ✦  RANK 1
- ✦  RANGE: Medium
- ✦  DURATION: Immediate
+### ENTICE
+- ✦  RANK 1
+- ✦  RANGE: Medium
+- ✦  DURATION: Immediate
+
+The symbol lures the victim, who must make an Insight roll
+with a negative modifier equal to the power level. If the roll
+fails, the victim must move to within Engaged range of the
+symbol, spending all their normal actions to do so. When the
+victim reaches the symbol, or if the symbol is moved, the effect
+is broken. No effect on monsters.
+
+### HORRIFY
+- ✦  RANK 1
+- ✦  RANGE: Medium
+- ✦  DURATION: Immediate
+
+The symbol awakens a deep fear in the victim, who suffers
+stress (damage to Wits) equal to the power level. No effect on
+monsters.
+
+### PARALYZE
+- ✦ RANK 1
+- ✦ RANGE: Medium
+- ✦ DURATION: Immediate
 
 The hypnotizing power of the symbol mesmerizes your op-
 ponent. At power level 1, the victim loses their fast action in
@@ -4674,10 +3665,10 @@ At power level 2, they lose their slow action. At power level
 any bonus actions from talents. The spell has no effect on
 monsters.
 
-BLIND
- ✦  RANK 2
- ✦  RANGE: Medium
- ✦  DURATION: Shift
+### BLIND
+- ✦  RANK 2
+- ✦  RANGE: Medium
+- ✦  DURATION: Shift
 
 The victim must make an Insight roll with a negative modifier
 equal to the power level. If the roll fails, the symbol blinds the
@@ -4686,10 +3677,10 @@ total darkness (page 24). On victims without Wits, such as
 animals, the effect is automatic, but the spell has no effect on
 monsters.
 
-ILLUSION
- ✦  RANK 2
- ✦  RANGE: Medium
- ✦  DURATION: Stretch
+### ILLUSION
+- ✦  RANK 2
+- ✦  RANGE: Medium
+- ✦  DURATION: Stretch
 
 You make the victim see or hear something that isn’t there,
 or hide something that otherwise would be seen. A small item
@@ -4700,26 +3691,10 @@ can see through the illusion with an Insight roll, but gets a
 negative modifier equal to the power level. This spell has no
 effect on monsters.
 
-The symbol lures the victim, who must make an Insight roll
-with a negative modifier equal to the power level. If the roll
-fails, the victim must move to within Engaged range of the
-symbol, spending all their normal actions to do so. When the
-victim reaches the symbol, or if the symbol is moved, the effect
-is broken. No effect on monsters.
-
-MIND TRICK
- ✦  RANK 2, POWER WORD
- ✦  RANGE: Medium
- ✦  DURATION: Round
-
-HORRIFY
- ✦  RANK 1
- ✦  RANGE: Medium
- ✦  DURATION: Immediate
-
-The symbol awakens a deep fear in the victim, who suffers
-stress (damage to Wits) equal to the power level. No effect on
-monsters.
+### MIND TRICK
+- ✦  RANK 2, POWER WORD
+- ✦  RANGE: Medium
+- ✦  DURATION: Round
 
 You can force an NPC to refrain from an action they would
 otherwise have performed. It must be a minor action, some-
@@ -4728,12 +3703,10 @@ could be that a guard lets a PC pass without confirming who
 they are or that someone leaves their keys on a table. The
 spell cannot be used in combat.
 
-39
-
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0PUPPETEER
- ✦ RANK 3
- ✦ RANGE: Short
- ✦ DURATION: Round
+### PUPPETEER
+- ✦ RANK 3
+- ✦ RANGE: Short
+- ✦ DURATION: Round
 
 You can take complete control of your victim’s actions. The
 victim must make an Insight roll with a negative modifier
@@ -4744,25 +3717,23 @@ fast and one slow action. The victim cannot perform reactive
 actions or bonus actions from talents before the Puppeteer’s
 actions are performed. The spell has no effect on monsters.
 
-POWER RUNE
- ✦ RANK 3, RITUAL
- ✦ RANGE: Engaged
- ✦ DURATION: Immediate
+### POWER RUNE
+- ✦ RANK 3, RITUAL
+- ✦ RANGE: Engaged
+- ✦ DURATION: Immediate
 
 You can charge a symbol with power. The symbol must be
 drawn on or carved into an object, which is then charged with
-
 a number of Willpower Points equal to the power level. You
 can use the symbol later to cast spells, emptying its stored
 Willpower Points. You don’t need to Bind magic to use this
 spell. Other sorcerers skilled in the art of runes can use your
-Power Runes if they can access them, so keep them to your-
-self!
+Power Runes if they can access them, so keep them to yourself!
 
-PORTAL
- ✦ RANK 3, RITUAL
- ✦ RANGE: Short
- ✦  DURATION: One shift per power level
+### PORTAL
+- ✦ RANK 3, RITUAL
+- ✦ RANGE: Short
+- ✦  DURATION: One shift per power level
 
 This powerful ritual tears a hole in the veil between worlds
 and opens a path between them. This is a very risky undertaking,
@@ -4774,27 +3745,25 @@ spell Bind Demon (page 35) is very useful here. The details are
 up to the GM. Another use for this spell is creating a new Portal
 on the other side, which can lead you anywhere you want.
 
-40
-
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.06
-TRAVEL
+# [6] TRAVEL
 
 In many YZE games, the world is a dangerous place and safe
 havens are few and far between. To survive, you need to keep
 moving. Traveling, whether on foot or by vehicle, can be a key
 part of your game.
 
-TRAVEL MAPS
+## TRAVEL MAPS
+
 To regulate journeys, a travel map is used. A travel map is
 typically divided into hexagons, which are used to measure
-distances and govern movement. One hexagon is 10 kilome-
-ters across. Some YZE games use travel maps with square
+distances and govern movement. One hexagon is 10 kilometers 
+across. Some YZE games use travel maps with square
 grids instead of hexagons.
 
-TERRAIN TYPES
+## TERRAIN TYPES
+
 A travel map is divided into different terrain types. A few
 typical terrain types are summarized in the table on page
-
 41, but you may want to invent others specific to your game
 setting. The terrain types affect travel speed as well as the
 difficulty of driving, foraging, and hunting.
@@ -4802,8 +3771,8 @@ difficulty of driving, foraging, and hunting.
 ROADS: Several major roads are marked on the travel map.
 Traveling along a major road is generally faster – but you
 also increase the risk of encounters. Only main roads count
-as roads for game purposes, even if the countryside is criss-
-crossed with tracks or even small dirt roads.
+as roads for game purposes, even if the countryside is crisscrossed 
+with tracks or even small dirt roads.
 
 RIVERS: Rivers are also not a type of terrain in themselves,
 but can be used for traveling. Fords and bridges can be used
@@ -4811,118 +3780,10 @@ to pass over a river. If there are none, you need a raft or boat
 to cross a river, or you must swim across it. Read more about
 journeys on lakes and rivers below.
 
-TERRAIN
+>>> table TERRAIN TYPES
 
-ROAD
+## TASKS
 
-OPEN
-
-WOODS
-
-HILLS
-
-MOUNTAINS
-
-LAKE/RIVER SWAMP
-
-RUINS
-
-Speed*
-
-Driving
-
-Foraging
-
-×1
-
-+3
-
-As terrain
-
-×1
-
-+1
-
-−1
-
-Hunting
-
-As terrain
-
-+1
-
-×½
-
-−1
-
-+1
-
-+1
-
-×½
-
-0
-
-0
-
-0
-
-Encounter Distance
-
-Long***
-
-Extreme
-
-Medium
-
-Long
-
-×1∕3
-−1
-
-−2
-
-−1
-
-Long
-
-×1**
-
-+2
-
-—
-
-0
-
-×¼
-
-−1
-
-−1
-
-0
-
-×½
-
-0
-
-−2
-
-−1
-
-Extreme
-
-Long
-
-Medium
-
-*Applies only to off-road driving. For marching and on-road driving, the speed factor is always ×1.
-
-**Requires boat or amphibious vehicle.
-
-***Minimum distance, use only for roads through woods or ruins.
-
-TASKS
 At the start of every shift, each member of the traveling
 party must decide what they will do for most of that shift.
 You cannot perform more than one task in the same shift,
@@ -4936,8 +3797,7 @@ The various tasks are summarized below, and explained
 in detail over the course of the coming pages.
 
 Marching: Walking on foot to progress on the travel
-map. Can be combined with keeping watch, for one charac-
-ter only.
+map. Can be combined with keeping watch, for one character only.
 
 DRIVING: Maneuvering a vehicle on land, water or in the air
 to progress on the travel map. Passengers can keep watch, rest,
@@ -4953,10 +3813,7 @@ with marching.
 FORAGING: Looking for edible plants and herbs. Must be
 done on foot.
 
-41
-
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0
-HUNTING: Tracking and killing animals for food. Must be
+HUNTING: Tracking and killing animals for food. Must be
 done on foot.
 
 FISHING: Requires a river or a lake.
@@ -4974,28 +3831,21 @@ SLEEPING: You need to sleep at least one shift per day (page
 25). Can be done in a moving vehicle, as long as you’re not
 driving or keeping watch.
 
-WEATHER
+### WEATHER
+
 The GM decides the current weather when the game starts,
 and then rolls a D6 at the start of each shift (or less often if
 they prefer). On a bane, the weather changes one step toward
 rain. On a success, the weather changes one step toward fair.
- ✦  HEAVY RAIN/SNOW: Limits visibility to Long in the morn-
-ing and day shifts, and to Short during the evening and
-night. Gives a −1 modifier to all ranged attacks. Requires
-a Stamina roll for marching (page 42) and gives a −2
-modifier to skill rolls for driving. A heavy rain will only
-last one shift – then the weather automatically shifts to
+ - ✦  HEAVY RAIN/SNOW: Limits visibility to Long in the morning and day shifts, and to Short during the evening and night. Gives a −1 modifier to all ranged attacks. Requires a Stamina roll for marching (page 42) and gives a −2 modifier to skill rolls for driving. A heavy rain will only last one shift – then the weather automatically shifts to
 cloudy.
-
- ✦  CLOUDY: Cloud cover reduces visibility during the evening
-
-and night shifts of the day to Medium.
-
- ✦  FAIR WEATHER: Maximum visibility in the evening and
+ - ✦  CLOUDY: Cloud cover reduces visibility during the evening and night shifts of the day to Medium.
+ - ✦  FAIR WEATHER: Maximum visibility in the evening and
 
 night shifts is Long.
 
-MARCHING
+## MARCHING
+
 Under good circumstances, you can march two hexes per shift
 on a road or in open terrain. Off-road in any terrain type
 except open, you can march one hex per shift.
@@ -5019,7 +3869,8 @@ will not be able to travel the entire distance during the shift.
 The GM has the final word on how many hexes of movement
 you lose when stopping for an encounter.
 
-FORCED MARCH
+### FORCED MARCH
+
 You can march for two of the four shifts of the day without
 problem. If you need to, you can push yourselves and march
 for a third shift in a single day. This requires that each of you
@@ -5033,31 +3884,28 @@ If you are in a real rush, you can even attempt to march for
 a fourth shift in the day. In that case, you must roll for Stamina
 again as outlined above, but the roll gets a −2 modifier.
 
+```
 NAVIGATION
 
 When moving off-road through a hex with no road in it, no
-
 matter if you are marching or driving, one person in your group
-
 must make a Survival roll to enter a new hex. If the roll fails, you
-
 enter another hex than the one intended. Roll any die – on an
-
 even roll, you enter the hex to the right of the target hex, and on
-
 an odd roll, the hex to the left.
+```
 
-DRIVING
+## DRIVING
+
 All characters in a modern setting are assumed to be able to
 drive any civilian vehicle under normal circumstances. The
-vehicle list on page indicates maximum travel speeds, in 10-ki-
-lometer hexes per shift. Two separate rates are given, one for
+vehicle list on page indicates maximum travel speeds, in 10-kilometer 
+hexes per shift. Two separate rates are given, one for
 traveling off-road and one for traveling on-road. If the listed
 speed for off-road travel is a dash (–) the vehicle cannot be
 driven off-road at all.
 
 Normally, you will choose on-road or off-road driving for
-
 a full shift, but the GM can allow splitting a shift in half, at
 their discretion.
 
@@ -5067,7 +3915,8 @@ few minutes, you will not be able to travel the entire distance.
 The GM has the final word on how many hexes of movement
 you lose when stopping for an encounter.
 
-TERRAIN
+### TERRAIN
+
 When driving off-road, difficult terrain can reduce your speed.
 A terrain speed factor of ×½ in a hex means that you need to
 spend two hexes of movement to drive into it, a speed factor
@@ -5076,13 +3925,13 @@ etc. You will sometimes need to accumulate movement over
 multiple shifts to move into a hex. When driving on-road, the
 terrain has no effect.
 
-42
+### DRIVING AT NIGHT
 
-Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0DRIVING AT NIGHT
 Driving off-road at night halves the effective travel speed,
 rounding fractions up.
 
-MISHAPS
+### MISHAPS
+
 At the start of each shift you drive, you must make a skill roll
 for driving, modified for terrain type. If you drive off-road
 into a new terrain type during a shift, you need to make an
@@ -5091,97 +3940,24 @@ you suffer a mishap – make a roll on the table on page 43.
 Typically, a mishap occurs about halfway into the movement
 of the shift – the GM decides the exact hex.
 
-FUEL
+### FUEL
+
 Vehicles need fuel to operate. The lists in chapter 5 indicate
 each vehicle’s fuel capacity (in liters) and fuel consumption
 (in liters per hex driven). Off-road, the fuel consumption is
 doubled.
 
-MOUNTS
+### MOUNTS
+
 During travel, you can only ride for two shifts per day. To ride
 for a third shift, you need to make a Mobility roll. If you fail,
 your mount goes lame and becomes incapacitated. A mount
 needs at least one shift of rest per day.
 
-DR IV ING MISHAPS
+>>> DRIVING MISHAPS
 
-2D6 MISHAP
+## KEEPING WATCH
 
-EFFECT
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-Broken Axle
-
-The vehicle becomes inoperable, needing a shift of repairs and a successful Crafting roll before it can continue.
-
-Roadkill
-
-The vehicle hits a random animal (roll on the hunting table). The animal is killed (and can be used for food), but
-also inflicts damage on the vehicle front equal to half its hit capacity (rounding up).
-
-Busted Gearbox
-
-The vehicle cannot move any further. Fixing the problem requires a Crafting roll and shift of work.
-
-Dirty Fuel
-
-Bogged Down
-
-Wrong Turn
-
-Roadblock
-
-The engine stops due to dirt or water in the fuel. All of the fuel in the tank needs to be drained and the vehicle
-refueled before it can continue.
-
-The vehicle gets stuck and moves no further this shift. Getting loose requires a Force roll or help from another
-vehicle. One attempt per shift can be made.
-
-The driver makes a wrong turn somewhere and needs to turn around and go back. One hex of movement is lost
-this shift.
-
-The road ahead is blocked by debris, a landslide, or fallen trees. The driver must choose a different hex to move
-into, or remove the obstacle (Force roll, taking one shift).
-
-Engine Overheated
-
-The vehicle must stop for the rest of the shift.
-
-10
-
-Blown Tire
-
-The vehicle cannot move any further. Fixing the problem requires a Crafting roll with a +2 modifier. One attempt
-per shift can be made.
-
-11
-
-12
-
-Crash
-
-The vehicle crashes into a tree, rock, or barricade, and suffers damage equal to its travel speed rating.
-
-Engine Blown
-
-The vehicle becomes wrecked (page 26).
-
-KEEPING WATCH
 During every shift, you can designate one character in your
 group who is responsible for scouting for threats and enemies.
 The lookout can keep watch and march at the same time. A
