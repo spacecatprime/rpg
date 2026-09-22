@@ -3780,7 +3780,17 @@ to pass over a river. If there are none, you need a raft or boat
 to cross a river, or you must swim across it. Read more about
 journeys on lakes and rivers below.
 
->>> table TERRAIN TYPES
+|TERRAIN|ROAD|OPEN|WOODS|HILLS|MOUNTAINS|LAKE/RIVER|SWAMP|RUINS|
+|---|---|---|---|---|---|---|---|---|
+|Speed*|×1|×1|×½|×½|×1∕3|×1**|×¼|×½|
+|Driving|+3|+1|−1|0|−1|+2|−1|0|
+|Foraging|As terrain|−1|+1|0|−2|—|−1|−2|
+|Hunting|As terrain|+1|+1|0|−1|0|0|−1|
+|Encounter Distance|Long***|Extreme|Medium|Long|Long|Extreme|Long|Medium|
+
+\* **Applies only to off-road driving. For marching and on-road driving, the speed factor is always ×1.** <br/>
+\*\* **Requires boat or amphibious vehicle.** <br/>
+\*\*\* **Minimum distance, use only for roads through woods or ruins.** <br/>
 
 ## TASKS
 
@@ -3793,7 +3803,6 @@ performed by several of the characters at the same time. For
 other tasks, a single character must be chosen.
 
 The various tasks are summarized below, and explained
-
 in detail over the course of the coming pages.
 
 Marching: Walking on foot to progress on the travel
@@ -3810,22 +3819,17 @@ KEEPING WATCH: Scouting for enemies and other encounters.
 Only one character can perform this task. Can be combined
 with marching.
 
-FORAGING: Looking for edible plants and herbs. Must be
-done on foot.
+FORAGING: Looking for edible plants and herbs. Must be done on foot.
 
-HUNTING: Tracking and killing animals for food. Must be
-done on foot.
+HUNTING: Tracking and killing animals for food. Must be done on foot.
 
 FISHING: Requires a river or a lake.
 
-MAKING CAMP: Only one character can roll for making camp,
-but others can help.
+MAKING CAMP: Only one character can roll for making camp, but others can help.
 
-COOKING: Requires a kitchen or a campfire (which can be set
-as a part of making camp).
+COOKING: Requires a kitchen or a campfire (which can be set as a part of making camp).
 
-RESTING: Can be done in a moving vehicle, as long as you’re
-not driving or keeping watch.
+RESTING: Can be done in a moving vehicle, as long as you’re not driving or keeping watch.
 
 SLEEPING: You need to sleep at least one shift per day (page
 25). Can be done in a moving vehicle, as long as you’re not
@@ -3836,13 +3840,11 @@ driving or keeping watch.
 The GM decides the current weather when the game starts,
 and then rolls a D6 at the start of each shift (or less often if
 they prefer). On a bane, the weather changes one step toward
-rain. On a success, the weather changes one step toward fair.
- - ✦  HEAVY RAIN/SNOW: Limits visibility to Long in the morning and day shifts, and to Short during the evening and night. Gives a −1 modifier to all ranged attacks. Requires a Stamina roll for marching (page 42) and gives a −2 modifier to skill rolls for driving. A heavy rain will only last one shift – then the weather automatically shifts to
-cloudy.
- - ✦  CLOUDY: Cloud cover reduces visibility during the evening and night shifts of the day to Medium.
- - ✦  FAIR WEATHER: Maximum visibility in the evening and
-
-night shifts is Long.
+rain. On a success, the weather changes one step toward fair. </br>
+ ✦  HEAVY RAIN/SNOW: Limits visibility to Long in the morning and day shifts, and to Short during the evening and night. Gives a −1 modifier to all ranged attacks. Requires a Stamina roll for marching (page 42) and gives a −2 modifier to skill rolls for driving. A heavy rain will only last one shift – then the weather automatically shifts to
+cloudy. </br>
+ ✦  CLOUDY: Cloud cover reduces visibility during the evening and night shifts of the day to Medium. </br>
+ ✦  FAIR WEATHER: Maximum visibility in the evening and night shifts is Long. </br>
 
 ## MARCHING
 
@@ -3863,7 +3865,6 @@ during this shift.
 
 ENCOUNTERS: Short breaks are included in the travel speeds
 in the list, but if you stop for more than a few minutes along
-
 the way – because of an encounter or something else – you
 will not be able to travel the entire distance during the shift.
 The GM has the final word on how many hexes of movement
@@ -3875,6 +3876,7 @@ You can march for two of the four shifts of the day without
 problem. If you need to, you can push yourselves and march
 for a third shift in a single day. This requires that each of you
 make a Stamina roll (in addition to any roll for heavy rain).
+
 Failure means that you are unable to march during the
 shift – instead, you must rest or sleep. If your Stamina roll suc-
 ceeds, you can choose to leave any stragglers behind and split
@@ -3954,7 +3956,20 @@ for a third shift, you need to make a Mobility roll. If you fail,
 your mount goes lame and becomes incapacitated. A mount
 needs at least one shift of rest per day.
 
->>> DRIVING MISHAPS
+|DRIVING MISHAPS  |||
+|---|---|---|
+|2D6|MISHAP|EFFECT|
+|2 | Broken Axle | The vehicle becomes inoperable, needing a shift of repairs and a successful Crafting roll before it can continue.|
+|3 | Roadkill | The vehicle hits a random animal (roll on the hunting table). The animal is killed (and can be used for food), but also inflicts damage on the vehicle front equal to half its hit capacity (rounding up). |
+| 4 | Busted Gearbox | The vehicle cannot move any further. Fixing the problem requires a Crafting roll and shift of work. |
+| 5 | Dirty Fuel | The engine stops due to dirt or water in the fuel. All of the fuel in the tank needs to be drained and the vehicle  refueled before it can continue. |
+| 6 | Bogged Down | The vehicle gets stuck and moves no further this shift. Getting loose requires a Force roll or help from another vehicle. One attempt per shift can be made. |
+| 7 | Wrong Turn | The driver makes a wrong turn somewhere and needs to turn around and go back. One hex of movement is lost this shift. |
+| 8 | Roadblock | The road ahead is blocked by debris, a landslide, or fallen trees. The driver must choose a different hex to move into, or remove the obstacle (Force roll, taking one shift). |
+| 9 | Engine Overheated | The vehicle must stop for the rest of the shift. |
+| 10 | Blown Tire | The vehicle cannot move any further. Fixing the problem requires a Crafting roll with a +2 modifier. One attempt per shift can be made. |
+| 11 | Crash | The vehicle crashes into a tree, rock, or barricade, and suffers damage equal to its travel speed rating. |
+| 12 | Engine Blown | The vehicle becomes wrecked (page 26). |
 
 ## KEEPING WATCH
 
@@ -3965,15 +3980,15 @@ lookout is useful during every shift, even after you make camp.
 You don’t need to have a lookout, but without one you have
 no chance of spotting threats before they are upon you.
 
-During journeys, the lookout makes a passive Observa-
-tion roll (cannot be pushed) when the GM indicates that the
+During journeys, the lookout makes a passive Observation 
+roll (cannot be pushed) when the GM indicates that the
 group is approaching an encounter. The distance between the
 lookout and the encounter depends on the terrain that you are
 traveling in. See the table on page 41.
 
 If the roll is successful, your lookout spots the other group
-before you are spotted yourselves. You can then decide wheth-
-er to show yourselves, back off, or set up an ambush. If your
+before you are spotted yourselves. You can then decide whether 
+to show yourselves, back off, or set up an ambush. If your
 Observation roll fails, the other group spots you first.
 
 BACKING OFF: If you back off from an encounter without
@@ -3984,21 +3999,20 @@ terrain), before you can continue forward.
 VEHICLES: If you travel on or in a motor vehicle and the
 group you encounter is on foot, you get a −2 modifier to the
 Observation roll to spot the encounter. If you are on foot
-while the encountered group is motorized, you get a +2 modi-
-fier to the roll. If both groups are in vehicles, roll normally.
+while the encountered group is motorized, you get a +2 modifier 
+to the roll. If both groups are in vehicles, roll normally.
 
-FORAGING
+## FORAGING
+
 If you are running out of provisions, you can spend a shift
 looking for edible plants or drinkable water in your current
 hex. To forage, first choose whether you are looking for food
 or water. Then make a Survival roll, modified by the terrain
 type.
 
-43
-
 When foraging for food, success means that you find a
-number of rations of raw food equal to the number of success-
-es you rolled. You can eat raw plants, but you will then need
+number of rations of raw food equal to the number of successes 
+you rolled. You can eat raw plants, but you will then need
 to make a sickness roll against virulence 3 (D) to resist food
 poisoning.
 
@@ -4008,7 +4022,8 @@ same hex during the same shift, but others can help the roll
 you get a −1 cumulative modifier. This modifier is reset after a
 week, except in wintertime.
 
-HUNTING
+## HUNTING
+
 Another way to find food during a journey is to hunt in your
 current hex. First roll for Survival, modified for the terrain
 type. Success means that you have tracked some kind of prey.
@@ -4037,7 +4052,24 @@ during the same shift, but others can help the roll. For each
 shift you hunt again in the same hex, you get a −1 cumulative
 modifier. This modifier is reset after a week.
 
-FISHING
+TRAPPING: Certain animals can be caught using simple
+snares. Using a snare, you don’t need to shoot the animal
+in order to catch it. Instead, you just make another Surviv-
+al roll after having tracked the animal – if successful, the
+animal is caught.
+
+|SAMPLE HUNTING TABLE|||||
+|---|---|---|---|---|
+|D6|ANIMAL|HEALTH|TRAPPING|FOOD|
+|1 |Grouse|1|No|1|
+|2 | Rabbit|1|Yes|1|
+|3 | Fox|1|Yes|D3|
+|4 | Deer|2|No|2D6|
+|5 | Boar|3|No|2D6×2|
+|6 | Moose|5|No|2D6×4|
+
+## FISHING
+
 If you are in a hexagon next to a river, lake, or ocean, you
 can fish. You can fish from a moving boat. To fish, you need
 fishing gear and a Survival roll. Success means you gain a
@@ -4052,7 +4084,8 @@ during the same shift, but others can help the roll. For each
 shift you fish again in the same hex, you get a −1 cumulative
 modifier. This modifier is reset after a day.
 
-MAKING CAMP
+## MAKING CAMP
+
 When the journey of the day is over, it’s time to make camp.
 Finding a good location for a camp, making a fire, and prepar-
 ing a place to sleep takes a whole shift – usually the evening.
@@ -4060,7 +4093,6 @@ Only one character rolls to make camp, but others can help
 with the roll.
 
 Make a Survival roll. If your roll succeeds, you find a
-
 sheltered place to spend the night, where you can all find cover
 from incoming fire and rest up before the next day’s journey. If
 your roll fails, you set up camp to rest and sleep anyway, but
@@ -4077,85 +4109,7 @@ range of it. When sleeping for a shift without a fire (or other
 heat source), you must all roll Stamina to resist cold (page
 25), except in very warm weather.
 
-TRAPPING: Certain animals can be caught using simple
-snares. Using a snare, you don’t need to shoot the animal
-in order to catch it. Instead, you just make another Surviv-
-al roll after having tracked the animal – if successful, the
-animal is caught.
-
 STANDING GUARD: Even while you are in your camp, you would be wise to have a sentry stay awake to keep watch. You need to choose who stands guard during the night, and let this person sleep during some other shift (usually the evening).
-
-SAMPLE HUNTING TABLE
-
-D6
-
-ANIMAL
-
-HEALTH
-
-TRAPPING
-
-FOOD
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-Grouse
-
-Rabbit
-
-Fox
-
-Deer
-
-Boar
-
-Moose
-
-1
-
-1
-
-1
-
-2
-
-3
-
-5
-
-No
-
-Yes
-
-Yes
-
-No
-
-No
-
-No
-
-1
-
-1
-
-D3
-
-2D6
-
-2D6×2
-
-2D6×4
 
 BARE GROUND: It is possible to sleep in the wilderness with-
 out making camp – you simply find a suitable tree to sleep
@@ -4165,83 +4119,22 @@ to sleep. Failure means you don’t sleep at all. Since you don’t
 have a fire to keep the cold away, you all also suffer the effects
 of cold (page 25).
 
-44
+| CAMP MISHAPS |||
+|---|---|---|
+|D10|MISHAP|EFFECT|
+|1|Food Spoiled|Your food has rotted or been infected by insects. Half the rations you are carrying are spoiled.|
+|2|Flooding|Heavy rainfall (page 42) starts in the middle of the night. The camp is flooded and everything gets soaking wet. All characters must roll for Stamina to resist cold (page 25), and no one gets any sleep.|
+|3|Fire Dies|The firewood is wet, and your campfire goes out. Except in warm weather, everyone must roll for Stamina to resist cold.|
+|4|Fire!|The flames from your campfire spread out of control. If you have a tent, it’s destroyed. Each character suffers the effects of fire with intensity D, and must make a Mobility roll to save their gear. Failure means that one piece of equipment (GM’s discretion) is lost in the fire.|
+|5|Ants|Your camp sits right in the middle of an ant road. You each suffer one point of stress (damage to Empathy) and no one gets any sleep here.|
+|6|Lice|A randomly selected character has caught lice. It itches horribly, and they get a rash all over their body. The victim suffers one point of stress (damage to Empathy) each day and cannot sleep this day. A successful Healing roll stops the effect.|
+|7|Mosquito Swarm|A large swarm of mosquitoes attacks the camp, driving everyone crazy. Roll two D6 for each character – for each success rolled, the character suffers one point of stress (damage to Empathy).|
+|8|Savage Animal|A starving wolf, dog, boar or even a bear attacks the camp.|
+|9|Lost Gear|A randomly selected character has lost a piece of gear. The GM decides what was lost, and if it can be found.|
+|10|Broken Gear|An item belonging to a randomly selected character is broken. The GM decides what item it is. The item can be repaired with a Crafting roll.|
 
+## COOKING
 
-D10 MISHAP
-
-EFFECT
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-Food Spoiled
-
-Your food has rotted or been infected by insects. Half the rations you are carrying are spoiled.
-
-Flooding
-
-Fire Dies
-
-Fire!
-
-Ants
-
-Lice
-
-Heavy rainfall (page 42) starts in the middle of the night. The camp is flooded and everything gets soaking wet.
-All characters must roll for Stamina to resist cold (page 25), and no one gets any sleep.
-
-The firewood is wet, and your campfire goes out. Except in warm weather, everyone must roll for Stamina to resist
-cold.
-
-The flames from your campfire spread out of control. If you have a tent, it’s destroyed. Each character suffers the
-effects of fire with intensity D, and must make a Mobility roll to save their gear. Failure means that one piece of
-equipment (GM’s discretion) is lost in the fire.
-
-Your camp sits right in the middle of an ant road. You each suffer one point of stress (damage to Empathy) and no
-one gets any sleep here.
-
-A randomly selected character has caught lice. It itches horribly, and they get a rash all over their body. The victim
-suffers one point of stress (damage to Empathy) each day and cannot sleep this day. A successful Healing roll stops
-the effect.
-
-Mosquito Swarm
-
-A large swarm of mosquitoes attacks the camp, driving everyone crazy. Roll two D6 for each character – for each
-success rolled, the character suffers one point of stress (damage to Empathy).
-
-Savage Animal
-
-A starving wolf, dog, boar or even a bear attacks the camp.
-
-Lost Gear
-
-A randomly selected character has lost a piece of gear. The GM decides what was lost, and if it can be found.
-
-10
-
-Broken Gear
-
-An item belonging to a randomly selected character is broken. The GM decides what item it is. The item can be
-repaired with a Crafting roll.
-
-COOKING
 Cooking meat, fish or vegetables that you have caught or
 foraged in the wild requires a campfire or a kitchen of some
 sort. By a campfire, you can cook up to a dozen daily rations
@@ -4250,39 +4143,40 @@ cleaning fish, etc. You can cook in the same shift as another
 character makes camp.
 
 Roll for Survival. No matter if you succeed or not, your
-
 rations of raw plants, meat, or fish are turned into edible
 food. However, if you fail, anyone who eats the food must
 make a sickness roll to resist food poisoning (virulence 3/D
 for plants, 6/C for meat or fish). This can be a hidden roll
 made by the GM.
 
-SLEEPING
+## SLEEPING
+
 You need to sleep at least one shift per day (usually during the
 night). If your sleep is interrupted by something dramatic, like
 combat or other similar activity, your activity during the shift
 no longer counts as sleep.
 
-EXPLORING
+## EXPLORING
+
 When you stop at a location to explore it, your journey is
 interrupted. Exploring can take anything from a shift up to
 several days or even weeks. Sometimes, you might have to
 take a break to rest or sleep while exploring. You cannot rest
 or sleep if you explore for more than half of the shift.
 
-RESTING
+## RESTING
+
 Resting by the campfire is a good opportunity to recover from
 damage (page 21). If your rest is interrupted by something
 dramatic, like combat or other similar activity, your activity
 during the shift no longer counts as rest.
 
-WATER TRAVEL
-If you have access to a boat or raft, you can cross a river with-
-out using a bridge or a ford. You can also travel along a river,
+## WATER TRAVEL
+
+If you have access to a boat or raft, you can cross a river without 
+using a bridge or a ford. You can also travel along a river,
 across a lake or on an ocean. Sea travel works just like driving
 on land. Passengers on a boat can rest or even sleep, as long as
 they don’t keep watch, fish or perform some other action.
-
-45
 
 Not for resale. Permission granted to print or photocopy this document for personal use only.Standard Reference Document v1.0
