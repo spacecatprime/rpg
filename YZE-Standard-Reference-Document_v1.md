@@ -22,8 +22,12 @@ Not for resale. Permission granted to print or photocopy this document for perso
     background-color: #f2f2f2;
   }
   ul > li { 
-  list-style-type: none; 
-}
+    list-style-type: none; 
+  }
+  pre, code {
+    white-space: pre-wrap !important; /* Preserves spaces/tabs but wraps text */
+    word-wrap: break-word;            /* Breaks long words if they exceed width */
+  }
 </style>
 
 # **[1]** INTRODUCTION
