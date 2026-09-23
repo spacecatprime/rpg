@@ -25,8 +25,9 @@ Not for resale. Permission granted to print or photocopy this document for perso
     list-style-type: none; 
   }
   pre, code {
-    white-space: pre-wrap !important; /* Preserves spaces/tabs but wraps text */
-    word-wrap: break-word;            /* Breaks long words if they exceed width */
+    width: 100%;
+    white-space: pre-wrap; /* Preserves spaces/tabs but wraps text */
+    word-wrap: break-word; /* Breaks long words if they exceed width */
   }
 </style>
 
@@ -2491,13 +2492,7 @@ simply does nothing in the round.
 ```
 RUNNERS vs VEHICLES
 
-If one participant in a chase is running while the other is in a vehicle, 
-the chase rules work normally – just use the applicable skill for
-each participant. In a bustling street environment, it’s not necessarily
-faster to be driving, but the driver will be more protected. However,
-in a more open environment where the greater speed of a vehicle
-comes into play, the participant in a vehicle gets a +2 modifier to all
-Pursue/Flee rolls in a chase against an opponent on foot.
+If one participant in a chase is running while the other is in a vehicle, the chase rules work normally – just use the applicable skill for each participant. In a bustling street environment, it’s not necessarily faster to be driving, but the driver will be more protected. However, in a more open environment where the greater speed of a vehicle comes into play, the participant in a vehicle gets a +2 modifier to all Pursue/Flee rolls in a chase against an opponent on foot.
 ```
 
 ## CHASE MANEUVERS
@@ -2555,25 +2550,9 @@ participant during the Round. The GM has final say.
 ```
 MULTIPLE PARTICIPANTS
 
-If there are more than two participants in a chase, there are
-two ways to resolve it. The simplest way is to divide the par-
-ticipants into two sides. Only the slowest person/vehicle on
-each side – the one with the lowest skill level after the Maneu-
-verability modifier (free choice on a tie) – performs maneuvers
-and rolls dice, except for the Stand and Shoot maneuver,
-which all participants on the side can perform.
+If there are more than two participants in a chase, there are two ways to resolve it. The simplest way is to divide the participants into two sides. Only the slowest person/vehicle on each side – the one with the lowest skill level after the Maneuverability modifier (free choice on a tie) – performs maneuvers and rolls dice, except for the Stand and Shoot maneuver, which all participants on the side can perform.
 
-A more complex way to resolve chases with multiple
-participants is to let each perform maneuvers separately. You
-will then need to keep track of the relative distances between
-each participant. A sheet of paper indicating range bands can
-be useful for this. In this model, the Pursue/Flee maneuver
-will move you forward relative to all other participants in the
-chase. For all other maneuvers, you must indicate which other
-participant you wish to target, and all limitations refer to your
-position relative to the target. You count as pursuer in relation
-to all participants in front of you, and as prey in relation to all
-participants behind you.
+A more complex way to resolve chases with multiple participants is to let each perform maneuvers separately. You will then need to keep track of the relative distances between each participant. A sheet of paper indicating range bands can be useful for this. In this model, the Pursue/Flee maneuver will move you forward relative to all other participants in the chase. For all other maneuvers, you must indicate which other participant you wish to target, and all limitations refer to your position relative to the target. You count as pursuer in relation to all participants in front of you, and as prey in relation to all participants behind you.
 ```
 
 ## CHASE OBSTACLES
@@ -2594,19 +2573,9 @@ as needed.
 ```
 FIRING FROM VEHICLES
 
-Passengers can make ranged attacks from a vehicle in a
-chase, and these attacks are performed immediately after the
-driver’s maneuver is resolved. However, such attacks get a −2
-modifier if the driver performs any maneuver except Stand
-and Shoot.
+Passengers can make ranged attacks from a vehicle in a chase, and these attacks are performed immediately after the driver’s maneuver is resolved. However, such attacks get a −2 modifier if the driver performs any maneuver except Stand and Shoot.
 
-Advanced military and police vehicles can have mounted
-weapons with targeting systems. Such weapons can be fired by
-a gunner without a penalty even when the driver does not Stand
-and Shoot. Some very advanced vehicles even have automated
-targeting systems with their own Marksmanship skill and can fire
-at the driver’s command (no action), eliminating the need for a
-gunner.
+Advanced military and police vehicles can have mounted weapons with targeting systems. Such weapons can be fired by a gunner without a penalty even when the driver does not Stand and Shoot. Some very advanced vehicles even have automated targeting systems with their own Marksmanship skill and can fire at the driver’s command (no action), eliminating the need for a gunner.
 ```
 
 ||<div style="width:200px">FOOT CHASE OBSTACLES</div>|
@@ -2778,20 +2747,13 @@ decreased by the power level of the Magical Seal.
 ```
 GRIMOIRES
 
-You don’t need your spells written down to cast them, but it makes
-it easier to get it right. Grimoires are highly sought-after artifacts
-among sorcerers. If you cast a spell from a book or a scroll, its rank
-is considered one step lower than usual. In combat, you must spend
-a fast action readying your grimoire before you can cast the spell.
+You don’t need your spells written down to cast them, but it makes it easier to get it right. Grimoires are highly sought-after artifacts among sorcerers. If you cast a spell from a book or a scroll, its rank is considered one step lower than usual. In combat, you must spend a fast action readying your grimoire before you can cast the spell.
 ```
 
 ```
 NPCS & SPELLCASTING
 
-NPCs don’t have pools of Willpower Points. Instead, when an
-NPC casts a spell, the GM may simply choose a base power level
-up to the caster’s rank in the magic discipline used. Roll normally
-to determine any overcharging or magic mishap.
+NPCs don’t have pools of Willpower Points. Instead, when an NPC casts a spell, the GM may simply choose a base power level up to the caster’s rank in the magic discipline used. Roll normally to determine any overcharging or magic mishap.
 ```
 
 ### SENSE MAGIC
@@ -3861,12 +3823,7 @@ again as outlined above, but the roll gets a −2 modifier.
 ```
 NAVIGATION
 
-When moving off-road through a hex with no road in it, no
-matter if you are marching or driving, one person in your group
-must make a Survival roll to enter a new hex. If the roll fails, you
-enter another hex than the one intended. Roll any die – on an
-even roll, you enter the hex to the right of the target hex, and on
-an odd roll, the hex to the left.
+When moving off-road through a hex with no road in it, no matter if you are marching or driving, one person in your group must make a Survival roll to enter a new hex. If the roll fails, you enter another hex than the one intended. Roll any die – on an even roll, you enter the hex to the right of the target hex, and on an odd roll, the hex to the left.
 ```
 
 ## DRIVING
