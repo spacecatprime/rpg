@@ -8,10 +8,6 @@ You should read the FTL and understand its terms before using this material.
 
 Not for resale. Permission granted to print or photocopy this document for personal use only. Standard Reference Document v1.0
 
-```
-https://www.tablesgenerator.com/markdown_tables
-```
-
 # CONTENTS
 
 1. INTRODUCTION
@@ -25,9 +21,12 @@ https://www.tablesgenerator.com/markdown_tables
   tr:nth-child(even) {
     background-color: #f2f2f2;
   }
+  ul > li { 
+  list-style-type: none; 
+}
 </style>
 
-# [1] INTRODUCTION
+# **[1]** INTRODUCTION
 
 Welcome to Year Zero. This document contains the core Year
 Zero Engine mechanics for tabletop roleplaying, used in sever-
@@ -79,9 +78,7 @@ ABBREVIATIONS
 ```
 YOU AND OTHERS
 
-Most of the rules in this document are written in the second person – i.e., speaking to "you."
-Rules that apply to you also apply to others in the game, both PCs and NPCs, unless explicitly
-stated otherwise.
+Most of the rules in this document are written in the second person – i.e., speaking to "you." Rules that apply to you also apply to others in the game, both PCs and NPCs, unless explicitly stated otherwise.
 ```
 
 # KEY FEATURES
@@ -184,13 +181,7 @@ require dice in different colors.
 ```
 ROLLING DICE
 
-The rules will sometimes ask you to roll D3, 2D6, D66, and D100. D3 means you roll a D6 and 
-divide the result by two, rounding up. 2D6 means you roll two six-sided dice and add the results. 
-D66 means you roll two D6. The first die represents the tens digit and the second die represents 
-the ones digit. That generates a result between 11 and 66. D100 means you roll two D10. The first
-represents the tens digit and the second the ones digit. A double zero counts as 100. You can even
-roll D666, by rolling three six-sided dice. The first die then counts as the hundreds digit, the 
-second as the tens digit and the third as the ones digit.
+The rules will sometimes ask you to roll D3, 2D6, D66, and D100. D3 means you roll a D6 and divide the result by two, rounding up. 2D6 means you roll two six-sided dice and add the results. D66 means you roll two D6. The first die represents the tens digit and the second die represents the ones digit. That generates a result between 11 and 66. D100 means you roll two D10. The first represents the tens digit and the second the ones digit. A double zero counts as 100. You can even roll D666, by rolling three six-sided dice. The first die then counts as the hundreds digit, the second as the tens digit and the third as the ones digit.
 ```
 
 ## CUSTOM CARDS
@@ -231,7 +222,7 @@ happening in the game, or even leave the table if the player so
 chooses. And you may also want to talk about what happened
 after the game session.
 
-# 2. PLAYER CHARACTERS
+# **[2]** PLAYER CHARACTERS
 
 Your player character (PC) is your most important asset in any
 Year Zero Engine game. They are your avatar, your eyes and
@@ -351,20 +342,20 @@ Your attributes determine how much damage and stress you can take before being b
 
 ## DICE POOL RATINGS
 
- - HEALTH: Your starting Health equals the average of your Strength and Agility scores, rounding fractions up, plus one.
- - RESOLVE: Your starting Resolve equals the average of your Wits and Empathy scores, rounding up, plus one.
+- ✦ HEALTH: Your starting Health equals the average of your Strength and Agility scores, rounding fractions up, plus one.</br>
+- ✦ RESOLVE: Your starting Resolve equals the average of your Wits and Empathy scores, rounding up, plus one.</br>
 
 ## STEP DICE RATINGS
 
- - HEALTH: Your starting Health equals the sum of the die size for your Strength and Agility scores divided by 4, rounding fractions up.
- - RESOLVE: Your starting Resolve equals the sum of the die size for your Wits and Empathy scores divided by 4, rounding fractions up.
+- ✦ HEALTH: Your starting Health equals the sum of the die size for your Strength and Agility scores divided by 4, rounding fractions up.</br>
+ - ✦ RESOLVE: Your starting Resolve equals the sum of the die size for your Wits and Empathy scores divided by 4, rounding fractions up.</br>
 
 ## VARIATIONS
 
 There are other ways to manage damage and trauma within the Year Zero Engine, which don't require Health or Resolve scores at all. Two variants are described below:
- - JUST HEALTH: Some YZE games have only a Health rating, not Resolve.
- - ATTRIBUTE DAMAGE: You suffer damage directly on your attributes, reducing your effectiveness. You are broken if any attribute is reduced to zero.
- - CONDITIONS: Each point of damage gives you a condition (page 21) and you are broken when you have suffered a set number of conditions.
+- ✦ JUST HEALTH: Some YZE games have only a Health rating, not Resolve.
+- ✦ ATTRIBUTE DAMAGE: You suffer damage directly on your attributes, reducing your effectiveness. You are broken if any attribute is reduced to zero.
+- ✦ CONDITIONS: Each point of damage gives you a condition (page 21) and you are broken when you have suffered a set number of conditions.
 
 # SKILLS
 
@@ -495,8 +486,8 @@ Mobility skill rolls (page 12). The backpack itself does not
 affect your encumbrance.
 
 TINY ITEMS: Items with negligible weight, that can be hidden
-in a closed fist, are called tiny. They are so small they don’t af-
-fect your encumbrance at all. Tiny items still need to be listed
+in a closed fist, are called tiny. They are so small they don’t affect 
+your encumbrance at all. Tiny items still need to be listed
 on your character sheet.
 
 MOUNTS & VEHICLES: If you have a horse or other mount,
@@ -581,7 +572,7 @@ the teacher makes a Persuasion roll. If they fail, you learn
 nothing this shift. You keep your XP and the teacher can try
 again in another shift.
 
-### SKILL LEVEL INCREASE (Pool Dice)
+### **SKILL LEVEL INCREASE (Pool Dice)**
 |TARGET LEVEL|XP COST|
 |---|---|
 |1|5|
@@ -590,7 +581,7 @@ again in another shift.
 |4|20|
 |5|25|
 
-### SKILL LEVEL INCREASE (Step Dice)
+### **SKILL LEVEL INCREASE (Step Dice)**
 |TARGET LEVEL|XP COST|
 |---|---|
 |D|5|
@@ -602,7 +593,7 @@ again in another shift.
 
 After any session, you may change personality traits such as your pride, weakness, dark secret, big dream, and relationships. Try to connect the change to something that has happened during the course of the game.
 
-# [3] SKILLS & SPECIALTIES
+# **[3]** SKILLS & SPECIALTIES
 
 Roleplaying is a conversation. The Gamemaster describes the
 scene, you describe how your PCs behave, the GM describes
@@ -612,19 +603,19 @@ later, a decisive situation will arise, a point of no return, a
 conflict that conversation alone cannot resolve. Then it’s time
 to break out the dice and use one of your skills.
 
-THE 12 CORE SKILLS
--  ✦ Force (Strength)
--  ✦ Melee (Strength)
--  ✦ Stamina (Strength)
--  ✦ Marksmanship (Agility)
--  ✦ Mobility (Agility)
--  ✦ Stealth (Agility)
--  ✦ Crafting (Wits)
--  ✦ Observation (Wits)
--  ✦ Survival (Wits)
--  ✦ Healing (Empathy)
--  ✦ Insight (Empathy)
--  ✦ Persuasion (Empathy)
+_THE 12 CORE SKILLS_ </br>
+- ✦ Force (Strength)
+- ✦ Melee (Strength)
+- ✦ Stamina (Strength)
+- ✦ Marksmanship (Agility)
+- ✦ Mobility (Agility)
+- ✦ Stealth (Agility)
+- ✦ Crafting (Wits)
+- ✦ Observation (Wits)
+- ✦ Survival (Wits)
+- ✦ Healing (Empathy)
+- ✦ Insight (Empathy)
+- ✦ Persuasion (Empathy)
 
 ## OTHER SKILLS
 
@@ -685,7 +676,7 @@ If you roll two or more successes, you reach your stated goal,
 but also gain some additional bonus effect, depending on the
 situation and the skill used. In combat, extra successes can
 increase the damage done. For other skills, you can suggest a
-bonus effect yourself. The GM has final say. Some suggestions:
+bonus effect yourself. The GM has final say. Some suggestions:</br>
 - ✦ You act quickly.
 - ✦ You act quietly.
 - ✦ You help another character.
@@ -1349,7 +1340,7 @@ MAGIC SPECIALTIES
 In YZE games that include magic, each discipline of magic is typically a specialty of its own. Such pecialties of magic are usually tiered (page 13) and use Willpower Points (page 30).
 ```
 
-# [4] COMBAT & DAMAGE
+# **[4]** COMBAT & DAMAGE
 
 Combat is deadly in most Year Zero Engine games. Before you
 enter a fight, you should always ask yourself: Is it worth it?
@@ -1772,8 +1763,8 @@ on the level of complexity you want. A basic version follows
 below. For more complex rules, see the sidebar for ammo dice.
 
 BASIC AUTOFIRE: A burst of auto fire counts as a normal
-ranged attack, but if you hit, you may immediately make an-
-other attack against the same target or a different one. If you
+ranged attack, but if you hit, you may immediately make another 
+attack against the same target or a different one. If you
 hit again, you may make a third attack. Even if this also hits,
 you don’t get more attacks. After all attacks are resolved, you
 must make a supply roll (page 7) for ammunition.
@@ -1781,34 +1772,13 @@ must make a supply roll (page 7) for ammunition.
 ```
 AMMO DICE
 
-If you want more detail and complexity for managing firearms,
-you can use the ammo dice system. Ammo dice are always D6s,
-and should have a separate color from base dice. In this system,
-all firearms have a rate of fire (RoF) rating, from 2 for a typical
-pistol to 5 or 6 for full-auto weapons.
+If you want more detail and complexity for managing firearms, you can use the ammo dice system. Ammo dice are always D6s, and should have a separate color from base dice. In this system, all firearms have a rate of fire (RoF) rating, from 2 for a typical pistol to 5 or 6 for full-auto weapons.
 
-You can add as many ammo dice to your attack as you like,
-from zero up to RoF or the number of rounds left in the magazine
-minus one, whichever is lower. For example, if you have three
-rounds left, you can add up to two ammo dice. If you have only
-one round left, you cannot add any ammo dice to our roll. In this
-case, or if you choose to use no ammo dice, only one (1) round of
-ammunition is used in the attack.
+You can add as many ammo dice to your attack as you like, from zero up to RoF or the number of rounds left in the magazine minus one, whichever is lower. For example, if you have three rounds left, you can add up to two ammo dice. If you have only one round left, you cannot add any ammo dice to our roll. In this case, or if you choose to use no ammo dice, only one (1) round of ammunition is used in the attack.
 
-Rolling a 6 on an ammo die is a success just like with a D6
-base die, but successes on ammo dice do not contribute to hitting
-your target. Instead, if your attack hits (checking only the base
-dice), each success your ammo dice can be used to either in-
-crease the damage by one step or to trigger an additional hit on
-the same target or on a secondary target in the same zone. Each
-additional hit inflicts base damage and the damage is increased
-by one for each further success you spend on it.
+Rolling a 6 on an ammo die is a success just like with a D6 base die, but successes on ammo dice do not contribute to hitting your target. Instead, if your attack hits (checking only the base dice), each success your ammo dice can be used to either increase the damage by one step or to trigger an additional hit on the same target or on a secondary target in the same zone. Each additional hit inflicts base damage and the damage is increased by one for each further success you spend on it.
 
-After your roll, you sum up the D6 digits on all of your ammo
-dice, then add one (1) to the result. This sum is the total amount
-of ammunition you have spent on the attack. If the sum on your
-ammo dice is equal to or more than the number of rounds you
-have left in the magazine, your magazine is completely emptied.
+After your roll, you sum up the D6 digits on all of your ammo dice, then add one (1) to the result. This sum is the total amount of ammunition you have spent on the attack. If the sum on your ammo dice is equal to or more than the number of rounds you have left in the magazine, your magazine is completely emptied.
 ```
 
 ## OVERWATCH
@@ -1960,7 +1930,7 @@ can be combined with armor – roll for cover first, then armor.
 
 | COVER | |
 | --- | --- |
-| BARRIER | ARMOR RATING | |
+| **BARRIER** | **ARMOR RATING** | |
 | Furniture | 3/D | |
 | Wooden Door | 4/C | |
 | Tree Trunk | 5/C | |
@@ -1991,8 +1961,8 @@ reduced by one for each success on an Insight roll.
 ## EFFECTS OF CONDITIONS
 
 Each physical condition you have gives you a −1 modifier to
-skills rolls using Strength or Agility, while each mental con-
-dition gives you −1 to rolls for Wits or Empathy. When you
+skills rolls using Strength or Agility, while each mental condition 
+gives you −1 to rolls for Wits or Empathy. When you
 already have three conditions of the same type and acquire a
 fourth one, you become broken and sustain a critical injury of
 the relevant type (page 21).
@@ -2157,11 +2127,8 @@ For some special types of physical damage – for example from fire, cold, starv
 |65|Pierced head|Yes|—|You die immediately.|—|
 |66|Impaled heart|Yes|—|Your heart beats for the last time.|—|
 
->>>
-
 ### CRITICAL INJURIES – MENTAL
-
-|D66|TRAUMA|EFFECTS|HEALING TIME|
+|<div style="width:40px">D66|TRAUMA|EFFECTS|HEALING TIME|
 |---|---|---|---|
 |11–16|Trembling|Modifier −1 on all Agility-based rolls.|D6|
 |21|White hair|None.|Permanent|
@@ -2527,13 +2494,12 @@ faster to be driving, but the driver will be more protected. However,
 in a more open environment where the greater speed of a vehicle
 comes into play, the participant in a vehicle gets a +2 modifier to all
 Pursue/Flee rolls in a chase against an opponent on foot.
-
 ```
 
 ## CHASE MANEUVERS
 
-In each round of a chase, each participant can perform one ma-
-neuver, all described below. The maneuvers are chosen secretly
+In each round of a chase, each participant can perform one maneuver, 
+all described below. The maneuvers are chosen secretly
 – either using cards or by just writing them on a piece of paper.
 
 Maneuvers require skill rolls. These rolls can be affected
@@ -2544,10 +2510,10 @@ indicated in [brackets].
 PURSUE/FLEE: You simply run or drive as fast as you can.
 Roll Mobility [Driving, if your game has that skill]. For each
 success rolled, the distance to the other participant decreases
-(if the pursuer) or increases (if the prey) by one range category.
-- ✦ If the range exceeds Extreme after both maneuvers in the round are resolved, the chase is over.
-- ✦ If the range is Engaged (or less) after both maneuvers are resolved, the pursuer may immediately make a close combat attack [ramming attack for vehicles]. The range stays at Engaged.
-- ✦ If the range would go below Engaged, and the pursuer declines to attack as per above, they can either stay at Engaged range or overtake the prey, and now become the prey themselves, at a distance defined by the number of excess (one excess = Short range, etc.). This latter option will typically only be viable in some sort of race situation.
+(if the pursuer) or increases (if the prey) by one range category. </br>
+- ✦ If the range exceeds Extreme after both maneuvers in the round are resolved, the chase is over.</br>
+- ✦ If the range is Engaged (or less) after both maneuvers are resolved, the pursuer may immediately make a close combat attack [ramming attack for vehicles]. The range stays at Engaged.</br>
+- ✦ If the range would go below Engaged, and the pursuer declines to attack as per above, they can either stay at Engaged range or overtake the prey, and now become the prey themselves, at a distance defined by the number of excess (one excess = Short range, etc.). This latter option will typically only be viable in some sort of race situation.</br>
 
 HIDE: You quickly duck into a side alley or hide behind something. 
 This maneuver can only be done by the prey, and never
@@ -2563,8 +2529,8 @@ BLOCK: You knock things over behind you, trying to create
 obstacles for the pursuer. This maneuver can only be done by
 the prey. Roll for Force [Driving]. If you succeed, you move
 one range category away from the pursuer, and the pursuer
-must also roll Force [Driving] before resolving their own ma-
-neuver. If that roll fails, their maneuver is canceled.
+must also roll Force [Driving] before resolving their own maneuver. 
+If that roll fails, their maneuver is canceled.
 
 CUT OFF: You try to find a shortcut and cut off the prey. This
 maneuver can only be done by the pursuer. Make an opposed
@@ -2653,7 +2619,6 @@ gunner.
 |9|OPEN SPACE: The chasers suddenly find themselves in an open space, the crowds clearing for a moment. This gives a +2 modifier to Stand and Shoot but −2 to Hide.|
 |10|THUGS: D6 street thugs block the road, threatening violence. The prey must roll Persuasion (no action) to be allowed to pass. A failed roll means that the thugs attack – the chosen maneuver fails automatically and one thug attacks in close combat. If the Persuasion roll succeeds, the thugs will attack the pursuer instead.|
 
-
 ||<div style="width:200px">VEHICLE CHASE OBSTACLES</div>|
 |---|---|
 |D10| OBSTACLE|
@@ -2668,7 +2633,7 @@ gunner.
 |9|Truck: A massive truck blocks the way. This gives an advantage to the Cut Off maneuver, but a disadvantage to Pursue/Flee. A failed Pursue/Flee roll will inflict D6 points of damage to the vehicle.|
 |10| Alleyway: The chase enters a narrow alley. Passing through unscathed requires a separate skill roll (no action) before any maneuver is resolved – failure means the vehicle is wrecked and the chase is over. The driver can choose to cancel their maneuver and navigate the alley slowly and carefully (no roll required).|
 
-# [5] MAGIC
+# **[5]** MAGIC
 
 What most people call magic is a catch-all term for forces at
 work behind the veil of the world, beyond what the common
@@ -2767,8 +2732,9 @@ WILLPOWER POINTS: Casting a spell requires at least one
 Willpower Point. This applies even if it does not explicitly say
 so in the description of the spell.
 
-|D12|MAGIC MISHAPS EFFECT|
+||<div style="width:200px">MAGIC MISHAPS|
 |---|---|
+|D12|EFFECT|
 |1|The magic makes you unable to sleep for D6 days.|
 |2|Your spell drains your energy, inflicting one point of stress.|
 |3|Your magic hurts your body and you suffer one point of damage.|
@@ -3745,7 +3711,7 @@ spell Bind Demon (page 35) is very useful here. The details are
 up to the GM. Another use for this spell is creating a new Portal
 on the other side, which can lead you anywhere you want.
 
-# [6] TRAVEL
+# **[6]** TRAVEL
 
 In many YZE games, the world is a dangerous place and safe
 havens are few and far between. To survive, you need to keep
@@ -3780,8 +3746,10 @@ to pass over a river. If there are none, you need a raft or boat
 to cross a river, or you must swim across it. Read more about
 journeys on lakes and rivers below.
 
-|TERRAIN|ROAD|OPEN|WOODS|HILLS|MOUNTAINS|LAKE/RIVER|SWAMP|RUINS|
+
+|<div style="width:110px">TERRAIN TYPES|||||||||
 |---|---|---|---|---|---|---|---|---|
+|TERRAIN|ROAD|OPEN|WOODS|HILLS|MOUNTAINS|LAKE/RIVER|SWAMP|RUINS|
 |Speed*|×1|×1|×½|×½|×1∕3|×1**|×¼|×½|
 |Driving|+3|+1|−1|0|−1|+2|−1|0|
 |Foraging|As terrain|−1|+1|0|−2|—|−1|−2|
@@ -3841,10 +3809,10 @@ The GM decides the current weather when the game starts,
 and then rolls a D6 at the start of each shift (or less often if
 they prefer). On a bane, the weather changes one step toward
 rain. On a success, the weather changes one step toward fair. </br>
- ✦  HEAVY RAIN/SNOW: Limits visibility to Long in the morning and day shifts, and to Short during the evening and night. Gives a −1 modifier to all ranged attacks. Requires a Stamina roll for marching (page 42) and gives a −2 modifier to skill rolls for driving. A heavy rain will only last one shift – then the weather automatically shifts to
+- ✦  HEAVY RAIN/SNOW: Limits visibility to Long in the morning and day shifts, and to Short during the evening and night. Gives a −1 modifier to all ranged attacks. Requires a Stamina roll for marching (page 42) and gives a −2 modifier to skill rolls for driving. A heavy rain will only last one shift – then the weather automatically shifts to
 cloudy. </br>
- ✦  CLOUDY: Cloud cover reduces visibility during the evening and night shifts of the day to Medium. </br>
- ✦  FAIR WEATHER: Maximum visibility in the evening and night shifts is Long. </br>
+- ✦  CLOUDY: Cloud cover reduces visibility during the evening and night shifts of the day to Medium. </br>
+- ✦  FAIR WEATHER: Maximum visibility in the evening and night shifts is Long. </br>
 
 ## MARCHING
 
@@ -3956,7 +3924,7 @@ for a third shift, you need to make a Mobility roll. If you fail,
 your mount goes lame and becomes incapacitated. A mount
 needs at least one shift of rest per day.
 
-|DRIVING MISHAPS  |||
+||<div style="width:130px">DRIVING MISHAPS ||
 |---|---|---|
 |2D6|MISHAP|EFFECT|
 |2 | Broken Axle | The vehicle becomes inoperable, needing a shift of repairs and a successful Crafting roll before it can continue.|
@@ -4058,7 +4026,8 @@ in order to catch it. Instead, you just make another Surviv-
 al roll after having tracked the animal – if successful, the
 animal is caught.
 
-|SAMPLE HUNTING TABLE|||||
+**SAMPLE HUNTING TABLE** </br>
+||||||
 |---|---|---|---|---|
 |D6|ANIMAL|HEALTH|TRAPPING|FOOD|
 |1 |Grouse|1|No|1|
@@ -4119,7 +4088,7 @@ to sleep. Failure means you don’t sleep at all. Since you don’t
 have a fire to keep the cold away, you all also suffer the effects
 of cold (page 25).
 
-| CAMP MISHAPS |||
+||<div style="width:120px">CAMP MISHAPS||
 |---|---|---|
 |D10|MISHAP|EFFECT|
 |1|Food Spoiled|Your food has rotted or been infected by insects. Half the rations you are carrying are spoiled.|
